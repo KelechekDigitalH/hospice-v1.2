@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@700&family=Poppins:wght@500;600&family=Raleway:wght@700;800&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
+
+// Fonts
+$ff-raleway: "Raleway", sans-serif;
+$ff-roboto: "Roboto", sans-serif;
+$ff-poppins: "Poppins", sans-serif;
+$ff-opensans: "Open Sans", sans-serif;
+$ff-inter: "Inter", sans-serif;
+$ff-rubik: "Rubik", sans-serif;
+
+// Font Weights
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semiBold: 600;
+$fw-bold: 700;
+$fw-extraBold: 800;
+
+// Colors
+$color-black: #000;
+$color-yellow: #f0a500;
+$color-blue: #e3ecff;
+$color-light-blue: #cffffd;
+$color-yellow: #ffefab;
+$color-pink: #ffebf9;
+$color-violet: #775ca6;
+$color-green: #00afa9;
+$color-dark-violet: #475174;
+$color-white: #ffffff;
+$color-dark-grey: #616161;
+$color-lilac: #d5c8fc;
+$color-light-grey: rgba(97, 97, 97, 0.59);
+$color-coral: #ff7272;
+$color-text-vol: rgba(60, 60, 67, 0.85);
+$color-light-lilac: rgba(177, 153, 249, 0.5);
+$color-shadowblue: #26fff2;
+$color-grey: #949494;
+
+// Title
+@mixin title {
+  font-family: $ff-rubik;
+  font-style: normal;
+  font-weight: $fw-bold;
+  font-size: 40px;
+  line-height: 41px;
+  color: $color-black;
+}
+
+// Sub Title
+@mixin subtitle {
+  font-family: $ff-roboto;
+  font-style: normal;
+  font-weight: $fw-medium;
+  font-size: 36px;
+  line-height: 41px;
+  color: $color-black;
+}
+
+// Texts
+@mixin texts {
+  font-family: $ff-rubik;
+  font-style: normal;
+  font-weight: $fw-regular;
+  font-size: 24px;
+  color: $color-black;
+}
