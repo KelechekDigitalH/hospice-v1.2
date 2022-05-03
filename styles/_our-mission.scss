@@ -5,30 +5,35 @@ body {
    font-family: $ff-rubik;
 }
 
-.breadcrumbs-blc {
+.breadcrumbs {
     padding: 24px 0;
- 
       
-      .breadcrumb__item-link{
-        font-family: $ff-rubik;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        color: $color-dark-grey;
-        text-decoration: none;
+      &__item{
+         font-family: $ff-rubik;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 14px;
+         line-height: 17px;
+         color: $color-dark-grey;
+       
       }
+      
+      &__item-link{
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      &__item-currant{
+         font-weight: $fw-medium;
+      }
+
+
      
 }
 
 
 .title{
-  font-family: $ff-rubik;
-  font-style: normal;
-  font-weight: $fw-bold;
-  font-size: 40px;
-  line-height: 41px;
-  color: $color-black;
+  @include title;  
   margin-bottom: 40px;
 }
 
@@ -43,13 +48,10 @@ body {
 
   &__descr {
     max-width: 822px;
-    font-family: $ff-rubik;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
+    @include texts;
     line-height: 34px;
     text-align: justify;
-    color:  $color-black;
+   
  }
 
  &__descr-first-prg{
@@ -218,7 +220,7 @@ body {
 .paints-bg{
   width: 180px;
   position: absolute;
-  top: 238%;
+  top: 265%;
   left:10%;
 
  
@@ -227,7 +229,7 @@ body {
 
 
 @media (max-width: 1150px) {
-   .breadcrumbs-blc{
+   .breadcrumbs{
      padding: 20px 0 40px 0;
    }
     
@@ -392,7 +394,7 @@ body {
 
 @media(max-width:999px){
 
-   .breadcrumbs-blc {
+   .breadcrumbs {
      padding: 20px 0 30px 0;
    }
  
@@ -502,7 +504,7 @@ body {
  
 @media (max-width: 767px){
  
-   .breadcrumbs-blc {
+   .breadcrumbs {
      display:none;
    }
  
