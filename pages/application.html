@@ -40,6 +40,100 @@
                 </div>
             </div>
         </section>
+
+        <section class="form-section">
+            <div class="container">
+                <div class="form-section__inner">
+                    <div class="form-section__inner__all-form-blocks">
+                        <form class="form-section__inner__form" action="#">
+                            <div class="form-section__inner__form__block">
+                                <label class="form-section__inner__form__label" for="fio">1.ФИО пациента (полностью)</label>
+                                <br/>
+                                <input class="form-section__inner__form__input" type="text" id="fio" name="fio">
+                            </div>
+
+                            <div class="form-section__inner__form__block">
+                                <label class="form-section__inner__form__label" for="age">2.Ваш возраст</label>
+                                <br/>
+                                <input class="form-section__inner__form__input" type="text" id="age" name="age">
+                            </div>
+
+                            <div class="form-section__inner__form__block">
+                                <label class="form-section__inner__form__label" for="fio">3.Помощь, необходимая пациенту:</label>
+                                <br/>
+                                <div class="form-section__inner__form__checkbox-block">
+                                    <input class="form-section__inner__form__input-checkbox" type="radio" id="checkbox1" name="checkbox">
+                                    <label class="form-section__inner__form__label-checkbox" for="checkbox1">Обеспечение лекарствами и/или расходными материалами</label>
+                                </div>
+                                <div class="form-section__inner__form__checkbox-block">
+                                    <input class="form-section__inner__form__input-checkbox" type="radio" id="checkbox2" name="checkbox">
+                                    <label class="form-section__inner__form__label-checkbox" for="checkbox2">Оплата обследования или лечения КТ, МРТ, облучения и т.п.</label>
+                                </div>
+                                <div class="form-section__inner__form__checkbox-block">
+                                    <input class="form-section__inner__form__input-checkbox" type="radio" id="checkbox3" name="checkbox">
+                                    <label class="form-section__inner__form__label-checkbox" for="checkbox3">Оплата протезирования/ эндпротезирования</label>
+                                </div>
+                                <div class="form-section__inner__form__checkbox-block">
+                                    <input class="form-section__inner__form__input-checkbox" type="radio" id="checkbox4" name="checkbox">
+                                    <label class="form-section__inner__form__label-checkbox" for="checkbox4">Оплата другого лечения  или обследования заграницей</label>
+                                </div>
+                                <div class="form-section__inner__form__checkbox-block">
+                                    <input class="form-section__inner__form__input-checkbox" type="radio" id="checkbox5" name="checkbox">
+                                    <label class="form-section__inner__form__label-checkbox" for="checkbox5">Проживание в амбулаторной комнате</label>
+                                </div>
+                                <div class="form-section__inner__form__checkbox-block">
+                                    <input class="form-section__inner__form__input-checkbox" type="radio" id="checkbox6" name="checkbox">
+                                    <label class="form-section__inner__form__label-checkbox" for="checkbox6">Другое</label>
+                                </div>
+                            </div>
+
+                            <div class="form-section__inner__form__block">
+                                <label class="form-section__inner__form__label" for="diagnosis">4.Точный диагноз (как указано в выписке)*</label>
+                                <br/>
+                                <input class="form-section__inner__form__input" type="text" id="diagnosis" name="diagnosis">
+                            </div>
+
+                            <div class="form-section__inner__form__block">
+                                <label class="form-section__inner__form__label" for="diagnosis">5.Текст обращения в хоспис*</label>
+                                <br/>
+                                <textarea class="form-section__inner__form__input-textarea" name="text"></textarea>
+                            </div>
+
+                            <div class="form-section__inner__form__block">
+                                <label class="form-section__inner__form__label" for="fio">6.Статус обращающегося лица:</label>
+                                <br/>
+                                <div class="form-section__inner__form__checkbox-block">
+                                    <input class="form-section__inner__form__input-checkbox" type="radio" id="checkbox-stu1" name="checkbox">
+                                    <label class="form-section__inner__form__label-checkbox" for="checkbox-stu1">Мама</label>
+                                </div>
+                                <div class="form-section__inner__form__checkbox-block">
+                                    <input class="form-section__inner__form__input-checkbox" type="radio" id="checkbox-stu2" name="checkbox">
+                                    <label class="form-section__inner__form__label-checkbox" for="checkbox-stu2">Отец</label>
+                                </div>
+                                <div class="form-section__inner__form__checkbox-block">
+                                    <input class="form-section__inner__form__input-checkbox" type="radio" id="checkbox-stu3" name="checkbox">
+                                    <label class="form-section__inner__form__label-checkbox" for="checkbox-stu3">Законный опекун</label>
+                                </div>
+                            </div>
+
+                            <div class="form-section__inner__form__block">
+                                <label class="form-section__inner__form__label" for="phone">7.Контактный телефон лица, обращающегося за помощью*</label>
+                                <br/>
+                                <input class="form-section__inner__form__input" type="phone" id="phone" name="contact" placeholder="Укажите ваш контактный номер">
+                            </div>
+
+                            <div class="form-section__inner__form__block">
+                                <label class="form-section__inner__form__label" for="email">8.Адрес электронной почты обращающегося за помощью*</label>
+                                <br/>
+                                <input class="form-section__inner__form__input" type="email" id="email" name="email" placeholder="Укажите ваш email">
+                            </div>
+
+                            <button class="form-section__inner__form__btn">ОТПРАВИТЬ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
