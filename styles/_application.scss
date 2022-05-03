@@ -1,0 +1,29 @@
+@import '../styles/vars';
+
+.you-need-help {
+
+    &__inner {
+
+        &__title {
+            @include title;
+            margin-bottom: 33px;
+        }
+
+        &__all-texts-block {
+
+            &__prg {
+                font-family: $ff-rubik;
+                font-style: normal;
+                font-weight: $fw-regular;
+                font-size: 18px;
+
+                color: $color-black;
+                line-height: 28px;
+            }
+
+            &__prg + &__prg {
+                margin-top: 32px;
+            }
+        }
+    }
+}
