@@ -10,8 +10,8 @@
 .history-desc {
    @include texts;
    line-height: 34px;
+   text-align: justify;
 }
-
 
 .history-title{
    @include title;
@@ -22,6 +22,7 @@
    width: 297.35px;
    float: left;
    margin: 0 19.65px 25px 0;
+  
 }
 
 .about-wrapper{
@@ -79,6 +80,8 @@
 
   .about-img{
      margin: 0 34px 25px 0;
+     position: relative;
+     z-index: -1;
   }
 
   .yellow-palm{

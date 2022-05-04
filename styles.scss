@@ -15,11 +15,15 @@ body {
 }
 
 // Pages
-@import "./styles/vars";
-@import "./styles/header";
+
+@import "./styles/main";
+@import "./styles/employees";
 @import "./styles/about-fund";
 @import "./styles/our-mission";
-@import "./styles/employees";
 @import "./styles/need-help";
 @import "./styles/application";
+@import "./styles/call-to-action";
+@import "./styles/sidebar";
+@import "./styles/header";
+@import "./styles/vars";
 
