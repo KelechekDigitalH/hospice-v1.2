@@ -2,7 +2,7 @@
 
 
 .breadcrumbs {
-  margin-top: 22px;
+    margin-top: 19px;
   
     .breadcrumb__item-link {
       font-family: $ff-rubik;
@@ -155,7 +155,7 @@
         &__main-title {
             @include texts;
             font-weight: $fw-bold;
-            margin-left: 58px;
+            margin-left: 60px;
             margin-top: -34px;
         } 
     }
@@ -194,16 +194,15 @@
 
   @media (max-width: 1000px) {
     .breadcrumbs {
-      margin-left: 0px;
+        margin-left: 30px;
       }
     .elements-img {
         display: none;}
 
     .donate {
-      margin-bottom: 30px;
+        margin-bottom: 40px;
         &__title {
             font-size: 30px;
-            letter-spacing: 1.2px;
             }
             #title480 {
               display: none;
@@ -250,32 +249,22 @@
                 width: 213px;
                 height: 200px;
                 margin-left: 18px;
-                margin-top: 18px;
+                margin-top: 22px;
               }
               .calculation {
                 margin-bottom: -10px;
               }
-              .text-optima {     
-               margin-top: 35px;
-
+              .text-optima {
+                margin-top: 24px;
+                margin-left: 0;
               }
               .text-optimatwo {
-                margin-top: 38px;
+                margin-top: 23px;
+                margin-left: 0;
               }
-              .text-baitushum {
-                margin-top: 39px;
-                margin-left: -3px;
-            }
 
-            .text-kicb {
-              margin-top: 29px;
-              margin-left: -3px;
+      
             }
-            .text-kicbtwo {
-              margin-top: 38px;
-              margin-left: -3px;
-            }
-          }
         }
 
         .blc-rectangle {
@@ -294,9 +283,8 @@
                 &__main-title {
                     font-size: 26px;
                     font-weight: $fw-bold;
-                    margin-left: 15px;
-                    margin-top: -5px;
-                    margin-bottom: -5px;
+                    margin-left: 0px;
+                    margin-top: 6px;
                 } 
             }
         
@@ -355,9 +343,8 @@
         text-align: left;
         width: 431px;
         line-height: 32px;
-        letter-spacing: 1.2px;
+        letter-spacing: 1.3px;
         margin-top: 31px;
-        margin-left: 4px;
           }
           #title480 {
             display: none;
@@ -386,19 +373,18 @@
             &__img-cardone {
                 content: url("/assets/donate/bank_logotwo.png");
                 margin-top: 20px;
-                margin-left: 21px;
+                margin-left: 18px;
             }
             &__img-cardtwo {
               content: url("/assets/donate/bank_logotree.png");
-              margin-top: 20px;
-              margin-left: 21px;
+                margin-top: 20px;
+                margin-left: 18px;
             }
     
             &__img-cardtree {
               content: url("/assets/donate/bank_logofor.png");
-              margin-top: 20px;
-              margin-left: 21px;
-          
+                margin-top: 26px;
+                margin-left: 18px;
                 // background-image: url(../assets/donate/Rectangle.png);
             }
             &__content {
@@ -411,25 +397,16 @@
               margin-bottom: -10px;
             }
             .text-optima {
-              margin-top: 34px;
+              margin-top: 24px;
               margin-left: 0;
             }
             .text-optimatwo {
-              margin-top: 38px;
+              margin-top: 23px;
               margin-left: 0;
             }
 
-            .text-kicb {
-              margin-top: 18px;
-            }
-
-            .text-baitushum {
-              margin-top: 38px;
+    
           }
-          .text-kicbtwo {
-            margin-top: 38px;
-          }
-        }
       }
 
       .blc-rectangle {
@@ -448,14 +425,11 @@
               &__main-title {
                 font-size: 24px;
                 line-height: 26px;
-                margin-left: 17px;
-                margin-top: 0px;
               } 
           }
       
           .card-purse {
               column-gap: 10px;
-              margin-left: 6px;
               
               .title-480px {
                   display: none;
@@ -520,11 +494,11 @@
 
       .blc-bank {
           width: 450px;
+          // height: 327px;
           margin: 0 auto;
     
-          &__block{      
-            margin-left: -15px;
-
+          &__block{
+            margin-left: 0;
           }
     
           &__wrapper {
@@ -536,8 +510,9 @@
             @include litletext;
               font-size: 16px;
               line-height: 30px;
+             
               width: 450px;
-              height: 238px;
+            height: 238px;
             &__main-title {
                 display: none;
             }
@@ -555,8 +530,7 @@
               width: 154.81px;
               height: 64px;
               margin-top: 24px;
-              margin-left: 65px;
-              margin-bottom: -12px;
+                margin-left: 64.86px;
             }
     
             &__img-cardtree {
@@ -565,6 +539,7 @@
               height: 37px;
               margin-top: 26px;
                 margin-left: 64px;
+                // background-image: url(../assets/donate/Rectangle.png);
             }
             &__content {
               width: 369px;
@@ -579,8 +554,8 @@
             }
             .text-optima {
               margin-left: 0;
-              margin-top: 16px;
-              margin-bottom: -22px;
+              margin-top: 15px;
+               margin-bottom: -22px;
             }
             .text-optimatwo {
               margin-left: 0;
@@ -608,11 +583,10 @@
         margin-top: 430px;
         box-shadow:none;
           
-          .main-blc {  
-         margin-left: 57px;
-         padding-top: 23px;
-         margin-bottom: 25px;
-          }
+          .main-blc {
+            margin-left: 72px;
+            padding-top: 22px;
+            margin-bottom: 25px;
               &__img {   
               display: none;
       
@@ -621,13 +595,9 @@
                 width: 305.68px;
                 height: 30px;
                 font-size: 26px;
-                letter-spacing: 0.8px;
                 line-height: 26px;
-                margin-left: -1px;
-                margin-top: 3px;
                 
               } 
-              
           }
       
           .card-purse {
@@ -636,7 +606,6 @@
           column-gap: 24px;
           width: 450px;
           height: 286px;
-          margin-left: -15px;
               
               .title-480px {
                   display: block;
@@ -693,3 +662,6 @@
               } 
           }
         }
+  }
+
+  
