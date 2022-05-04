@@ -17,8 +17,9 @@ $fw-extraBold: 800;
 $color-black: #000;
 $color-yellow: #f0a500;
 $color-blue: #e3ecff;
-$color-light-blue: #cffffd;
-$color-white-yellow: #ffefab;
+$color-lh-blue: #cffffd;
+$color-light-blue: #515757;
+$color-yellow-light: #ffefab;
 $color-pink: #ffebf9;
 $color-violet: #775ca6;
 $color-green: #00afa9;
@@ -42,7 +43,6 @@ $color-grey: #949494;
   line-height: 41px;
   color: $color-black;
 }
-
 // Sub Title
 @mixin subtitle {
   font-family: $ff-roboto;
