@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Open+Sans:wght@700&family=Poppins:wght@500;600&family=Raleway:wght@700;800&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap");
+
 *,
 *::after,
 *::before {
@@ -15,15 +17,14 @@ body {
 }
 
 // Pages
-
 @import "./styles/main";
-@import "./styles/employees";
 @import "./styles/about-fund";
 @import "./styles/our-mission";
+@import "./styles/employees";
 @import "./styles/need-help";
 @import "./styles/application";
-@import "./styles/call-to-action";
-@import "./styles/sidebar";
+@import "./styles/volunteering";
 @import "./styles/header";
+@import "./styles/sidebar";
+@import "./styles/call-to-action";
 @import "./styles/vars";
-
