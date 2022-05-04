@@ -1,6 +1,5 @@
 @import "./vars";
 
-
 body {
    font-family: $ff-rubik;
 }
@@ -25,10 +24,7 @@ body {
 
       &__item-currant{
          font-weight: $fw-medium;
-      }
-
-
-     
+      }    
 }
 
 
@@ -88,97 +84,7 @@ body {
     }
 }
 
-.blc-sidebar{
-  max-width: 400px;
-  max-height: 282px;
-  background-color: $color-lilac;
-  border-radius: 15px;
-  position: sticky;
-  top:40px;
-}
 
-
-.side-menubar{
-  padding: 58px 49px 0 70px;
- 
-  &__link{
-    text-decoration: none;
-    font-family: $ff-rubik;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    text-transform: uppercase;
-    color: $color-black;
-   
-
-  }
-
-  &__item+&__item{
-    margin-top: 28px;
-  }
-}
-
-
-
-// call to action
-
-.blc-call-to-action{
-  background-color: $color-blue;
-  padding: 58px 0;
-  border-radius: 15px;
-  margin-bottom: 116px;
- 
-}
-
-.call-to-action-inner{
-  max-width: 1040px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
-
-      &__money__item{
-        font-family: 'Rubik';
-        font-style: normal;
-        font-weight: $fw-regular;
-        font-size: 36px;
-        line-height: 43px;
-        color: #000000;
-      }
-
-      &__money__item + &__money__item{
-        margin-left: 38px;
-      }
-
-
-      &__other-money__item{
-        font-family: 'Rubik';
-         font-style: normal;
-         font-weight: 400;
-         font-size: 30px;
-         line-height: 36px;
-         color: $color-light-grey;
-      }
-
-
-      &__btn {
-        font-family: 'Rubik';
-        
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 24px;
-        color: $color-white;
-        text-decoration: none;
-        text-transform: uppercase;
-        background-color: $color-coral;
-        padding: 24px 40px;
-        border-radius: 5px;
-        letter-spacing: 0.03em;
-      }
-}
 
 
 
@@ -187,7 +93,7 @@ body {
  width: 426px;
  position: absolute;
  top: 95%;
- left: 70%;
+ left: 60%;
  z-index: -1;
 }
 
@@ -275,29 +181,6 @@ body {
     
   }
 
-  .blc-sidebar{
-    max-width: 231px;
-    max-height: 229px;
-    
-    }
- 
-
-  .side-menubar{
-     padding-top: 38px;
-     padding-left: 56px;
-
-    &__link{
-      font-weight: 600;
-      font-size: 16px;
-      line-height: 19px;
-    }
-    
-    &__item+&__item{
-      margin-top: 20px;
-    }
-
-  }
-
   .blc-main-tasks{
     &__title{
       font-size: 30px;
@@ -307,48 +190,7 @@ body {
 
 
 
-  // call to action
-
-  .blc-call-to-action{
-    position: relative;
-    padding: 54px 0;
-    margin-bottom: 116px;
-    z-index: -1;
-  }
   
-
-
-  .call-to-action-inner{
-    max-width: 809px;
-    &__text{
-      display: none;
-    }
-
-    &__money__item{
-      font-size: 25px;
-      line-height: 30px
-    }
-
-    &__money__item + &__money__item{
-      margin-left: 32px;
-    }
-
-    
-    &__other-money__item{
-      font-size: 20px;
-      line-height: 24px;
-    }
-
-    &__btn{
-      font-size: 16px;
-      line-height: 19px;
-      letter-spacing: 0.03em;
-      padding: 12px 26px;
-    }
-
-
-  }
-
   .green-bg{
     width: 250px;
     position: absolute;
@@ -399,7 +241,7 @@ body {
  
    .wrapper{
      gap:0;
-  
+     margin-bottom: 56px;
    }
    .blc{
      max-width: 732px;
@@ -410,22 +252,18 @@ body {
    }
  
  
-   .blc-sidebar{
-     display: none;
-   }
- 
    .title{
      font-size: 36px;
      margin-bottom: 20px;
    }
  
    .blc-mission {
-     margin-bottom: 20px;
+     margin-bottom: 23px;
  
     &__img{
       width: 732px;
       height: 456px;
-      margin-bottom: 12px;
+      margin-bottom: 7px;
       z-index: -1;
     }
  
@@ -440,34 +278,7 @@ body {
       }
    }
  
-   .call-to-action-inner{
-     max-width: 676px;
- 
- 
-     &__money__item + &__money__item{
-       margin-left: 0px;
-     }
- 
-     &__money__item{
-       margin-right: 34px;
-     }
- 
-     &__btn{
-       padding: 12px 25px;
-     }
-   }
- 
-   .call-to-action-inner__money__item:first-child{
-     display: none;
-   }
- 
-   .blc-call-to-action{
- 
-     padding: 31px 26px 31px 30px;
-     margin-bottom: 116px;
-    
-   }
-
+   
    .green-bg{
       width: 218px;
       height: 197px;
@@ -503,7 +314,9 @@ body {
  
 @media (max-width: 767px){
  
-   .breadcrumbs {
+   
+  
+  .breadcrumbs {
      display:none;
    }
  
@@ -556,38 +369,7 @@ body {
      }
   }
  
-  .blc-call-to-action {
-   padding: 39px 26px 30px 30px;
-  }
-  .call-to-action-inner{
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
- 
-    &__money__item{
-     margin-right: 29px;
-   }
-  }
- 
-  .call-to-action-inner__money{
-    margin-bottom: 29px;
- 
-   &__item:nth-child(4){
-      display: none;
-   }
   
-   &__item:nth-child(5){
-     margin-right: 0px;
-     
-  }
- 
-  &__item:nth-child(3):after{
-   content: "\2026";
-   padding-left: 20px;
-   font-size: 25px;
- }
- 
-  }
   
   .finger-bg {
     display: none;
@@ -605,9 +387,6 @@ body {
      top: 125%;
      left: 70%;
   }
- 
-
- 
  
  }
  
