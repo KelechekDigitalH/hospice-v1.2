@@ -1,0 +1,157 @@
+@import "./vars";
+
+
+.blc-entity {
+    margin-bottom: 40px;
+    .blc-entity-wrapper {
+        .blc-main-title {
+            @include title;
+            margin-bottom: 36px
+        }
+            .blc-sub-title {
+                @include litletext;
+                width: 1240px;
+                line-height: 28px;
+
+            }
+        }
+    }
+
+
+    // blc-programs-toggle - SECTION
+.blc-programs-toggle {
+    width: 1440px;
+    height: 699px;
+    background-color: $color-blue;
+    padding: 29px 0 63px;
+    margin: 0 auto;
+
+    &__inner {
+
+        &__title {
+            @include texts;
+            font-weight: $fw-bold;
+            margin-bottom: 21px;
+            margin-left: 25px;
+            letter-spacing: 0px;
+        }
+
+        &__all-accordions {
+
+            &__accordion {
+                background-color: $color-white;
+                border-radius: 15px;
+                box-shadow: 0px 4px 4px $color-box;
+
+                &__header {
+                    padding: 19.8px 24px;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    position: relative;
+                    cursor: pointer;
+
+                    font-family: Inter, sans-serif;
+                    font-size: 18px;
+                    font-weight: 700;
+                    font-style: normal;
+
+                    color: $color-black;
+
+                    &::after {
+                        content: "˃";
+                        transition: 0.3s ease-in-out;
+                        font-weight: 400;
+                    }
+                }
+
+                .active {
+                    &::after {
+                        transform: rotate(90deg);
+                    }
+                }
+
+                &__body {
+                    max-height: 0;
+                    overflow: hidden;
+                    transition: max-height 0.3s ease-in-out;
+
+                    &__description {
+                        font-family: Inter, sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        font-style: normal;
+                        line-height: 140%;
+                        color: rgba(60, 60, 67, 0.85);
+                        padding: 0 24px 18px;
+                    }
+                }
+            }
+
+            &__accordion+&__accordion {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.blc-more-info {
+    margin-top: 40px;
+    line-height: 28px;
+    margin-bottom: 600px;
+    .blc-info-title {
+       .blc-info-subtitleone {
+        @include litletext;
+        margin-bottom: 40px;
+       } 
+       .blc-info-subtitletwo {
+        @include litletext;
+        font-weight: $fw-bold;
+       }
+       .blc-info-subtitletree {
+        @include litletext;
+       }
+    }
+}
+
+
+.bg-baloonone{
+    position: absolute;
+    left: 80%;
+    right: -6.2%;
+    top: 190%;
+    bottom: 41.74%;
+    z-index: -1;
+   }
+   
+   
+   .bg-legal{
+    position: absolute;
+    width: 610px;
+    height: 427px;
+    left: 415px;
+    top: 1373px;
+     z-index: -1;
+   }
+   
+   .bg-baloon{
+    position: absolute;
+    left: 7.15%;
+    right: 80.12%;
+    top: 220%;
+    bottom: 29.86%;
+    z-index: -1;
+   }
+   
+   .bg-finger{
+    position: absolute;
+    left: 80%;
+    right: -1.36%;
+    top: 250%;
+    bottom: 33.5%;
+
+      z-index: -1;
+   }
+   
