@@ -1,4 +1,29 @@
-@import '../styles/vars';
+@import './vars';
+
+// BREADCRUMBS
+.breadcrumbs-application {
+    padding: 24px 0 40px 0;
+
+    &__item {
+        font-family: $ff-rubik;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: $color-dark-grey;
+    }
+
+    &__item-link {
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    &__item-currant {
+        font-weight: $fw-medium;
+    }
+}
+
+// END BREADCRUMBS
 
 // YOU NEED HELP
 .you-need-help {
@@ -35,6 +60,7 @@
 .form-section {
     background-color: $color-blue;
     margin-top: 80px;
+    margin-bottom: 90px;
 
     &__inner {
         padding: 35px 0 75px 0;
@@ -145,7 +171,7 @@
                 width: 20px;
                 height: 20px;
             }
-            
+
             &__btn {
                 font-family: $ff-raleway;
                 font-style: normal;

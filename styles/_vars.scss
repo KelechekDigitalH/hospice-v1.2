@@ -1,5 +1,4 @@
 
-
 // Fonts
 $ff-raleway: "Raleway", sans-serif;
 $ff-roboto: "Roboto", sans-serif;
@@ -26,7 +25,7 @@ $color-pink: #ffebf9;
 $color-violet: #775ca6;
 $color-green: #00afa9;
 $color-dark-violet: #475174;
-$color-white: #ffffff;
+$color-white: #fff;
 $color-dark-grey: #616161;
 $color-lilac: #d5c8fc;
 $color-light-grey: rgba(97, 97, 97, 0.59);
@@ -36,8 +35,6 @@ $color-light-lilac: rgba(177, 153, 249, 0.5);
 $color-shadowblue: #26fff2;
 $color-grey: #949494;
 $color-box: rgba(0, 0, 0, 0.25);
-
-
 
 // Title
 @mixin title {
