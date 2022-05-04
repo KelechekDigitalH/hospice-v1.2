@@ -18,13 +18,14 @@ $fw-extraBold: 800;
 $color-black: #000;
 $color-yellow: #f0a500;
 $color-blue: #e3ecff;
-$color-light-blue: #cffffd;
-$color-yellow: #ffefab;
+$color-lh-blue: #cffffd;
+$color-light-blue: #515757;
+$color-yellow-light: #ffefab;
 $color-pink: #ffebf9;
 $color-violet: #775ca6;
 $color-green: #00afa9;
 $color-dark-violet: #475174;
-$color-white: #ffffff;
+$color-white: #fff;
 $color-dark-grey: #616161;
 $color-lilac: #d5c8fc;
 $color-light-grey: rgba(97, 97, 97, 0.59);
@@ -33,8 +34,7 @@ $color-text-vol: rgba(60, 60, 67, 0.85);
 $color-light-lilac: rgba(177, 153, 249, 0.5);
 $color-shadowblue: #26fff2;
 $color-grey: #949494;
-
-
+$color-box: rgba(0, 0, 0, 0.25);
 
 // Title
 @mixin title {
@@ -49,9 +49,8 @@ $color-grey: #949494;
 @mixin subtitle {
   font-family: $ff-roboto;
   font-style: normal;
-  font-weight: $fw-medium;
+  font-weight: $fw-bold;
   font-size: 36px;
-  line-height: 41px;
   color: $color-black;
 }
 
@@ -61,5 +60,13 @@ $color-grey: #949494;
   font-style: normal;
   font-weight: $fw-regular;
   font-size: 24px;
+  color: $color-black;
+}
+
+@mixin litletext {
+  font-family: $ff-rubik;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: $fw-regular;
   color: $color-black;
 }
