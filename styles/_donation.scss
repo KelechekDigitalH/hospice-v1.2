@@ -1,20 +1,6 @@
 @import "./vars";
 
 
-.breadcrumbs {
-    margin-top: 19px;
-  
-    .breadcrumb__item-link {
-      font-family: $ff-rubik;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 17px;
-      color: $color-dark-grey;
-      text-decoration: none;
-    }
-  }
-
   .elements-img {
     position: absolute;
     z-index: -1;
@@ -129,7 +115,7 @@
         background-color: $color-blue;
       }
       .bank-card-two {
-        background-color: $color-light-blue;  
+        background-color: $color-lh-blue;  
       }
       .bank-card-tree {
           background-color: $color-pink;
@@ -171,7 +157,7 @@
         &__elc-purse {
             width: 190px;
             height: 177px;
-            background-color: $color-light-blue;
+            background-color: $color-lh-blue;
             border-radius: 5px;
             box-shadow: 0px 4px 4px $color-box;
             &__img {
