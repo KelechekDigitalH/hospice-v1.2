@@ -1,0 +1,653 @@
+@import "./vars";
+
+
+  .elements-img {
+    position: absolute;
+    z-index: -1;
+    margin-left: 1242px;
+    padding-top: 8px;
+  }
+  
+
+
+  .donate {
+    margin-bottom: 40px;
+    &__title {
+      @include subtitle;
+      text-align: center;
+      line-height: 42px;
+      margin-top: 39px;
+      
+    }
+    #title480 {
+      display: none;
+    }
+  }
+
+  .blc-bank {
+      margin-bottom: 90px;
+      margin-left: 28px;
+
+      &__block{
+          max-width: 100%;
+          margin-left: -15px;
+      }
+
+      &__wrapper {
+        display: flex;
+        column-gap: 20px;
+      }
+      &__card {
+        width: 400px;
+        height: 381px;
+        box-shadow: 6px 6px 6px $color-box;
+        border-radius: 15px;
+        &__main-title {
+            @include litletext;
+        }
+        .bitushum {
+            margin-left: 184px;
+            margin-top: -52px;
+        }
+        .kicb {
+            margin-left: 178px;
+            margin-top: -64px;
+            line-height: 17px;
+            letter-spacing: -1px;
+        }
+        .optima {
+            margin-left: 192px;
+            margin-top: -43px;
+            letter-spacing: -1px;
+            
+        }
+        &__img-cardone {
+            margin-top: 31px;
+            margin-left: 21px;
+        }
+        &__img-cardtwo {
+            margin-top: 22px;
+            margin-left: 13px;
+        }
+
+        &__img-cardtree {
+            margin-top: 31px;
+            margin-left: 24px;
+            // background-image: url(../assets/donate/Rectangle.png);
+        }
+        &__content {
+            width: 382px;
+            height: 140px;
+            margin-left: 18px;
+            margin-top: 45px;
+        }
+        .calculation {
+            margin-bottom: 29px;
+        }
+        &__text, &__text-inside, &__text-inside2 {
+            @include litletext; 
+            line-height: 28px; 
+        }
+        .text-optima {
+            margin-top: 58px;
+            margin-left: -5px;
+        }
+        .text-optimatwo {
+            margin-top: 29px;
+            margin-left: -5px; 
+        }
+
+        .text-kicb {
+            margin-top: -6px;
+        }
+
+        .text-kicbtwo {
+            margin-top: 28px;
+        }
+
+        .text-baitushum {
+            margin-top: 30px;
+        }
+
+      }
+
+      .bank-card-one {
+        background-color: $color-blue;
+      }
+      .bank-card-two {
+        background-color: $color-lh-blue;  
+      }
+      .bank-card-tree {
+          background-color: $color-pink;
+      }
+  }
+
+  .blc-rectangle {
+    width: 1240px;
+    height: 381px;
+    background-color: $color-yellow-light;
+    box-shadow: 6px 6px 6px $color-box;
+    border-radius: 15px;
+    padding-bottom: 90px;
+    margin: 0 auto;
+    .main-blc {
+        margin-left: 430px;
+        padding-top: 83px;
+        margin-bottom: 41px;
+        &__img {   
+        margin-top: 3px;
+
+        } 
+        &__main-title {
+            @include texts;
+            font-weight: $fw-bold;
+            margin-left: 60px;
+            margin-top: -34px;
+        } 
+    }
+
+    .card-purse {
+        display: flex;
+        column-gap: 20px;
+        justify-content: center;
+        
+        .title-480px {
+            display: none;
+        } 
+        &__elc-purse {
+            width: 190px;
+            height: 177px;
+            background-color: $color-lh-blue;
+            border-radius: 5px;
+            box-shadow: 0px 4px 4px $color-box;
+            &__img {
+            margin-left: 66px;
+            margin-top: 18px;
+          }  
+          &__title {
+            @include litletext;
+            font-weight: $fw-bold;
+            line-height: 28px;
+            margin-left: 37px;
+            margin-top: 43px;
+            
+
+          }
+        } 
+    }
+  }
+  
+
+  @media (max-width: 1000px) {
+    .breadcrumbs {
+        margin-left: 30px;
+      }
+    .elements-img {
+        display: none;}
+
+    .donate {
+        margin-bottom: 40px;
+        &__title {
+            font-size: 30px;
+            }
+            #title480 {
+              display: none;
+            }
+          }
+
+        .blc-bank {
+          width: 1000px;
+            height: 327px;
+            margin: 0 auto;
+      
+            &__block{
+              margin-left: 0;
+            }
+      
+            &__wrapper {
+              column-gap: 30px;
+            }
+            &__card {
+            width: 303px;
+            height: 327px;
+              &__main-title {
+                  display: none;
+              }
+              
+              &__img-cardone {
+                  content: url("/assets/donate/bank_logotwo.png");
+                  margin-top: 20px;
+                  margin-left: 15px;
+              }
+              &__img-cardtwo {
+                content: url("/assets/donate/bank_logotree.png");
+                  margin-top: 20px;
+                  margin-left: 15px;
+              }
+      
+              &__img-cardtree {
+                content: url("/assets/donate/bank_logofor.png");
+                  margin-top: 26px;
+                  margin-left: 15px;
+                  // background-image: url(../assets/donate/Rectangle.png);
+              }
+              &__content {
+                width: 213px;
+                height: 200px;
+                margin-left: 18px;
+                margin-top: 22px;
+              }
+              .calculation {
+                margin-bottom: -10px;
+              }
+              .text-optima {
+                margin-top: 24px;
+                margin-left: 0;
+              }
+              .text-optimatwo {
+                margin-top: 23px;
+                margin-left: 0;
+              }
+
+      
+            }
+        }
+
+        .blc-rectangle {
+            width: 1000px;
+            height: 300px;
+            margin-top: 30px;
+            
+            .main-blc {
+              margin-left: 313px;
+              padding-top: 40px;
+              margin-bottom: 40px;
+                &__img {   
+                display: none;
+        
+                } 
+                &__main-title {
+                    font-size: 26px;
+                    font-weight: $fw-bold;
+                    margin-left: 0px;
+                    margin-top: 6px;
+                } 
+            }
+        
+            .card-purse {
+                column-gap: 30px;
+                
+                .title-480px {
+                    display: none;
+                } 
+                &__elc-purse {
+                    width: 146px;
+                    height: 136px;
+                    &__img {
+                    width: 44.51px;
+                    height: 37.83px;
+                    margin-left: 51px;
+                    margin-top: 25px;
+                  }  
+                  &__title {
+                    font-size: 14px;
+                    margin-left: 30px;
+                    margin-top: 17px;
+                    
+        
+                  }
+
+                  .img1000 {
+                    width: 47px;
+                    height: 38px;
+                  }
+
+                  .img1001 {
+                    content: url("/assets/donate/megaPay-icon-one.png");
+                    width: 36px;
+                    height: 39px;
+                  }
+                } 
+            }
+          }
+  }
+
+
+  @media (max-width: 768px)  {
+    .breadcrumbs {
+      text-align: left;
+      margin-left: 0;
+      font-size: 14px;
+    }
+  .elements-img {
+      display: none;}
+
+  .donate {
+    margin-bottom: 20px;
+      &__title {
+        font-size: 30px;
+        text-align: left;
+        width: 431px;
+        line-height: 32px;
+        letter-spacing: 1.3px;
+        margin-top: 31px;
+          }
+          #title480 {
+            display: none;
+          }
+        }
+
+      .blc-bank {
+        width: 768px;
+          height: 327px;
+          margin: 0 auto;
+    
+          &__block{
+            margin-left: 0;
+          }
+    
+          &__wrapper {
+            column-gap: 15px;
+          }
+          &__card {
+            width: 234px;
+            height: 327px;
+            &__main-title {
+                display: none;
+            }
+            
+            &__img-cardone {
+                content: url("/assets/donate/bank_logotwo.png");
+                margin-top: 20px;
+                margin-left: 18px;
+            }
+            &__img-cardtwo {
+              content: url("/assets/donate/bank_logotree.png");
+                margin-top: 20px;
+                margin-left: 18px;
+            }
+    
+            &__img-cardtree {
+              content: url("/assets/donate/bank_logofor.png");
+                margin-top: 26px;
+                margin-left: 18px;
+                // background-image: url(../assets/donate/Rectangle.png);
+            }
+            &__content {
+              width: 206px;
+              height: 200px;
+              margin-left: 14px;
+              margin-top: 18px;
+            }
+            .calculation {
+              margin-bottom: -10px;
+            }
+            .text-optima {
+              margin-top: 24px;
+              margin-left: 0;
+            }
+            .text-optimatwo {
+              margin-top: 23px;
+              margin-left: 0;
+            }
+
+    
+          }
+      }
+
+      .blc-rectangle {
+        width: 768px;
+        height: 216px;
+          margin-top: 30px;
+          
+          .main-blc {
+            margin-left: 211px;
+            padding-top: 20px;
+            margin-bottom: 30px;
+              &__img {   
+              display: none;
+      
+              } 
+              &__main-title {
+                font-size: 24px;
+                line-height: 26px;
+              } 
+          }
+      
+          .card-purse {
+              column-gap: 10px;
+              
+              .title-480px {
+                  display: none;
+              } 
+
+              
+              &__elc-purse {
+                width: 134px;
+                height: 120px;
+                  &__img {
+                    width: 44px;
+                    height: 38px;
+                  margin-left: 45px;
+                  margin-top: 25px;
+                }  
+                &__title {
+                  font-weight: 600;
+                  font-size: 11px;
+                  margin-left: 32px;
+                  
+      
+                }
+
+                .img1000 {
+                  content: url("/assets/donate/balcnceKG-icon.png");
+                  width: 44px;
+                  height: 38px;
+                }
+
+                .img1001 {
+                  content: url("/assets/donate/balcnceKG-icon.png");
+                  width: 44px;
+                  height: 38px;
+                }
+
+              } 
+          }
+        }
+  }
+
+  @media (max-width: 480px)  {
+    .breadcrumbs {
+      display: none;
+    }
+  .elements-img {
+      display: none;}
+
+  .donate {
+    margin-bottom: 20px;
+      &__title {
+        display: none;
+          }
+          #title480 {
+            display: block;
+            @include texts;
+            font-size: 26px;
+            font-weight: $fw-bold;
+            margin-top: 20px;
+            
+          } 
+        }
+
+      .blc-bank {
+          width: 450px;
+          // height: 327px;
+          margin: 0 auto;
+    
+          &__block{
+            margin-left: 0;
+          }
+    
+          &__wrapper {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+          }
+          &__card {
+            @include litletext;
+              font-size: 16px;
+              line-height: 30px;
+             
+              width: 450px;
+            height: 238px;
+            &__main-title {
+                display: none;
+            }
+            
+            &__img-cardone {
+                content: url("/assets/donate/bank_logotwo.png");
+                width: 170px;
+                height: 46px;
+                margin-top: 24px;
+                margin-left: 65px;
+                margin-bottom: 4px;
+            }
+            &__img-cardtwo {
+              content: url("/assets/donate/bank_logotree.png");
+              width: 154.81px;
+              height: 64px;
+              margin-top: 24px;
+                margin-left: 64.86px;
+            }
+    
+            &__img-cardtree {
+              content: url("/assets/donate/bank_logofor.png");
+              width: 196px;
+              height: 37px;
+              margin-top: 26px;
+                margin-left: 64px;
+                // background-image: url(../assets/donate/Rectangle.png);
+            }
+            &__content {
+              width: 369px;
+              height: 115px;
+              margin-left: 64px;
+              margin-top: 11px;
+        
+            }
+            .calculation {         
+              margin-bottom: -32px;
+
+            }
+            .text-optima {
+              margin-left: 0;
+              margin-top: 15px;
+               margin-bottom: -22px;
+            }
+            .text-optimatwo {
+              margin-left: 0;
+              margin-top: 23px;
+            }
+           .text-kicbtwo {
+              margin-top: 34px;
+          }
+            &__text-inside {
+              margin-left: 199px;
+              margin-top: -27px;
+            }
+
+            .text-baitushum {
+              margin-top: 37px;
+            }
+    
+          }
+      }
+
+      .blc-rectangle {
+        width: 450px;
+        height: 321px;
+        background-color: $color-white;
+        margin-top: 430px;
+        box-shadow:none;
+          
+          .main-blc {
+            margin-left: 72px;
+            padding-top: 22px;
+            margin-bottom: 25px;
+              &__img {   
+              display: none;
+      
+              } 
+              &__main-title {
+                width: 305.68px;
+                height: 30px;
+                font-size: 26px;
+                line-height: 26px;
+                
+              } 
+          }
+      
+          .card-purse {
+          display: flex;
+          flex-wrap: wrap;
+          column-gap: 24px;
+          width: 450px;
+          height: 286px;
+              
+              .title-480px {
+                  display: block;
+                  font-family: $ff-rubik;
+                  font-style: normal;
+                  font-weight: $fw-regular;
+                  font-size: 10px;
+                  line-height: 15px;
+                  text-align: center;
+                  margin-top: -3px;
+              } 
+              &__elc-purse {
+                width: 134px;
+                height: 121px;
+                  &__img {
+                    width: 44.51px;
+                    height: 37.83px;
+                  margin-left: 44px;
+                  margin-top: 25px;
+                }  
+                &__title {
+                  font-weight: 600;
+                  font-size: 11px;
+                  margin-left: 33px;
+                  margin-top: 4px;
+                  
+      
+                }
+
+                .balanc-img {
+                  content: url("/assets/donate/balcnceKG-icon.png");
+                }
+
+                .m-bank {
+                  content: url("/assets/donate/M-bank-icon.png");
+                }
+
+                .o-dengi {
+                  content: url("/assets/donate/O-dengi-icon.png"); 
+                }
+
+                .img1000 {
+                  content: url("/assets/donate/M-bank-icon.png");
+                  width: 44px;
+                  height: 38px;
+                }
+
+                .img1001 {
+                  content: url("/assets/donate/O-dengi-icon480.png");
+                  width: 44px;
+                  height: 38px;
+                }
+
+              } 
+          }
+        }
+  }
+
+  

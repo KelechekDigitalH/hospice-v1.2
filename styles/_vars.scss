@@ -1,3 +1,4 @@
+
 // Fonts
 $ff-raleway: "Raleway", sans-serif;
 $ff-roboto: "Roboto", sans-serif;
@@ -33,6 +34,7 @@ $color-text-vol: rgba(60, 60, 67, 0.85);
 $color-light-lilac: rgba(177, 153, 249, 0.5);
 $color-shadowblue: #26fff2;
 $color-grey: #949494;
+$color-box: rgba(0, 0, 0, 0.25);
 
 // Title
 @mixin title {
@@ -47,9 +49,8 @@ $color-grey: #949494;
 @mixin subtitle {
   font-family: $ff-roboto;
   font-style: normal;
-  font-weight: $fw-medium;
+  font-weight: $fw-bold;
   font-size: 36px;
-  line-height: 41px;
   color: $color-black;
 }
 
@@ -59,5 +60,13 @@ $color-grey: #949494;
   font-style: normal;
   font-weight: $fw-regular;
   font-size: 24px;
+  color: $color-black;
+}
+
+@mixin litletext {
+  font-family: $ff-rubik;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: $fw-regular;
   color: $color-black;
 }
