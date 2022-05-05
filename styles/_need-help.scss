@@ -74,34 +74,26 @@
 
 //  SHAR HEED HELP
 .arrow-need-help {
+    width: 106px;
     position: absolute;
-
-    transform: translate(893%, 177%);
-
-    img {
-        width: 106px;
-    }
+    top: 96.5%;
+    left: 71.7%;
+    z-index: -1;
 }
 
 .paint-need-help {
+    width: 97px;
     position: absolute;
-
-    transform: translate(-78%, -13%);
-
-    img {
-        width: 97px;
-    }
+    top: 68%;
+    left: 3.7%;
 }
 
 .ballon-need-help {
+    width: 165px;
     position: absolute;
-
-    transform: translate(688%, -48%);
+    top: 50%;
+    left: 84.4%;
     z-index: -1;
-
-    img {
-        width: 165px;
-    }
 }
 
 // HOW HELP SECTION
