@@ -22,8 +22,34 @@
         font-weight: $fw-medium;
     }
 }
-
 // END BREADCRUMBS
+
+
+//  SHAR HEED HELP
+.arrow-need-help {
+    width: 106px;
+    position: absolute;
+    top: 96.5%;
+    left: 71.7%;
+    z-index: -1;
+}
+
+.paint-need-help {
+    width: 97px;
+    position: absolute;
+    top: 68%;
+    left: 3.7%;
+}
+
+.ballon-need-help {
+    width: 165px;
+    position: absolute;
+    top: 50%;
+    left: 84.4%;
+    z-index: -1;
+}
+// END SHAR HEED HELP
+
 
 // REQUESET HELP SECTION
 .request-help {
@@ -71,30 +97,8 @@
         }
     }
 }
+// END REQUESET HELP SECTION
 
-//  SHAR HEED HELP
-.arrow-need-help {
-    width: 106px;
-    position: absolute;
-    top: 96.5%;
-    left: 71.7%;
-    z-index: -1;
-}
-
-.paint-need-help {
-    width: 97px;
-    position: absolute;
-    top: 68%;
-    left: 3.7%;
-}
-
-.ballon-need-help {
-    width: 165px;
-    position: absolute;
-    top: 50%;
-    left: 84.4%;
-    z-index: -1;
-}
 
 // HOW HELP SECTION
 .programs-hospice {
@@ -138,6 +142,8 @@
         }
     }
 }
+// END HOW HELP SECTION
+
 
 // MEDICAL PROGRAMS - SECTION
 .programs-first-kids-hospice {
@@ -219,11 +225,17 @@
         }
     }
 }
+// END MEDICAL PROGRAMS - SECTION
+
 
 // IMPORTANT KNOW - SECTION
 .important-khow-need-help {
     margin-top: 40px;
     margin-bottom: 82px;
+
+    position: relative;
+    top: 0;
+    left: 0;
 
     .bg-img-need-help {
         width: 100%;
@@ -232,8 +244,8 @@
 
     &__inner {
         position: absolute;
-
-        transform: translate(726px, -590px);
+        top: 10%;
+        left: 60%;
 
         max-width: 513px;
 
@@ -259,7 +271,7 @@
 
             margin-top: 24px;
 
-            width: 513px;
+            width: 100%;
 
             &__title {
                 font-family: "Rubik", sans-serif;
@@ -346,122 +358,10 @@
         }
     }
 }
+// END IMPORTANT KNOW - SECTION
 
-// MEDIA 1240
-@media screen and (max-width: 1240.98px) {
 
-    .important-khow-need-help {
-
-        .bg-img-need-help {
-            height: auto;
-            position: relative;
-        }
-
-        &__inner {
-            position: absolute;
-
-            transform: translate(690px, -520px);
-
-            max-width: 460px;
-
-            &__title {
-                font-size: 26px;
-            }
-
-            &__subtitle1 {
-                line-height: 26px;
-                font-weight: 400;
-                width: 100%;
-                font-size: 18px;
-            }
-
-            &__subtitle2 {
-                line-height: 26px;
-                font-weight: 400;
-                width: 100%;
-                font-size: 18px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 1170.98px) {
-
-    .important-khow-need-help {
-
-        .bg-img-need-help {
-            height: auto;
-            position: relative;
-        }
-
-        &__inner {
-            position: absolute;
-
-            transform: translate(610px, -500px);
-
-            max-width: 460px;
-
-            &__title {
-                font-size: 26px;
-            }
-
-            &__subtitle1 {
-                line-height: 26px;
-                font-weight: 400;
-                width: 100%;
-                font-size: 18px;
-            }
-
-            &__subtitle2 {
-                line-height: 26px;
-                font-weight: 400;
-                width: 100%;
-                font-size: 18px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 1170.98px) {
-
-    .important-khow-need-help {
-
-        .bg-img-need-help {
-            height: auto;
-            position: relative;
-        }
-
-        &__inner {
-            position: absolute;
-
-            transform: translate(640px, -500px);
-
-            max-width: 410px;
-
-            &__title {
-                font-size: 26px;
-            }
-
-            &__subtitle1 {
-                line-height: 26px;
-                font-weight: 400;
-                width: 100%;
-                font-size: 18px;
-            }
-
-            &__subtitle2 {
-                line-height: 26px;
-                font-weight: 400;
-                width: 100%;
-                font-size: 18px;
-            }
-        }
-    }
-}
-
-// END MEDIA 1240
-
-// MEDIA - 1000
+// MEDIA - 1000PX -----------------------------
 @media screen and (max-width: 1000.98px) {
 
     .finger-need-help {
@@ -630,8 +530,8 @@
 
         &__inner {
             position: absolute;
-
-            transform: translate(560px, -450px);
+            top: 5%;
+            left: 58%;
 
             max-width: 410px;
 
@@ -644,6 +544,7 @@
                 font-weight: 400;
                 width: 100%;
                 font-size: 18px;
+                margin-top: 10px;
             }
 
             &__subtitle2 {
@@ -651,56 +552,15 @@
                 font-weight: 400;
                 width: 100%;
                 font-size: 18px;
-            }
-        }
-    }
-
-    @media screen and (max-width: 959.98px) {
-
-        .important-khow-need-help {
-
-            &__inner {
-                position: absolute;
-
-                transform: translate(490px, -420px);
-
-                max-width: 410px;
-            }
-        }
-    }
-
-    @media screen and (max-width: 898.98px) {
-
-        .important-khow-need-help {
-
-            &__inner {
-                position: absolute;
-
-                transform: translate(460px, -400px);
-
-                max-width: 410px;
-            }
-        }
-    }
-
-    @media screen and (max-width: 775.98px) {
-
-        .important-khow-need-help {
-
-            &__inner {
-                position: absolute;
-
-                transform: translate(330px, -380px);
-
-                max-width: 410px;
+                margin: 7px 0 45px 0;
             }
         }
     }
 }
-// END MEDIA - 1000
+// END MEDIA - 1000PX -----------------------
 
 
-// MEDIA - 768
+// MEDIA - 768PX -----------------------------
 @media screen and (max-width: 768.98px) {
 
     .request-help {
@@ -797,66 +657,10 @@
         }
     }
 }
+// END MEDIA - 768PX ------------------------
 
-@media screen and (max-width: 714.98px) {
 
-    .important-khow-need-help {
-
-        &__inner {
-            position: absolute;
-
-            transform: translate(390px, -330px);
-
-            max-width: 306px;
-        }
-    }
-}
-
-@media screen and (max-width: 639.98px) {
-
-    .important-khow-need-help {
-
-        &__inner {
-            position: absolute;
-
-            transform: translate(310px, -315px);
-
-            max-width: 306px;
-        }
-    }
-}
-
-@media screen and (max-width: 580.98px) {
-
-    .important-khow-need-help {
-
-        &__inner {
-            position: absolute;
-
-            transform: translate(240px, -300px);
-
-            max-width: 306px;
-        }
-    }
-}
-
-@media screen and (max-width: 495.98px) {
-
-    .important-khow-need-help {
-
-        &__inner {
-            position: absolute;
-
-            transform: translate(140px, -270px);
-
-            max-width: 306px;
-        }
-    }
-}
-
-// END MEDIA - 768
-
-// MEDIA - 480
+// MEDIA - 480PX -----------------------------
 @media screen and (max-width: 480.98px) {
 
     .breadcrumbs {
@@ -964,33 +768,4 @@
         }
     }
 }
-
-@media screen and (max-width: 414.98px) {
-
-    .important-khow-need-help {
-
-        &__inner {
-            position: absolute;
-
-            transform: translate(5px, -420px);
-
-            max-width: 370px;
-            text-align: justify;
-        }
-    }
-}
-
-@media screen and (max-width: 400.98px) {
-
-    .important-khow-need-help {
-
-        &__inner {
-            position: absolute;
-
-            transform: translate(5px, -420px);
-
-            max-width: 340px;
-            text-align: justify;
-        }
-    }
-}
+// END MEDIA - 480PX ------------------------
