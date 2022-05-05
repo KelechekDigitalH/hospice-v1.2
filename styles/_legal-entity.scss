@@ -351,24 +351,26 @@
 
 @media (max-width: 768px) {
     .blc-entity {
-        width: 970px;
-        height: 155px;
-        margin-bottom: 40px;
+        width: 732px;
+        margin-bottom: 5px;
         margin-left: 0px;
         margin-top: -16px;
         .blc-entity-wrapper {
             .blc-main-title {
                 @include title;
+                font-size: 36px;
                 margin-bottom: 30px;
                 margin-top: 14px;
             }
                 .blc-sub-title {
                     @include litletext;
-                    font-size: 20px;
-                    width: 970px;
+                    font-size: 18px;
+                    width: 742px;
+                    height: 79px;
                     line-height: 30px;
-                    margin-left: 0px;
+                    margin-left: 3px;
                     letter-spacing: 0.1px;
+                    margin-top: -10px;
     
                 }
             }
@@ -377,9 +379,8 @@
     
         // blc-programs-toggle - SECTION
     .blc-programs-toggle {
-        width: 1000px;
-        height: 567px;
-        background-color: $color-blue;
+        width: 768px;
+        height: 549px;
         padding: 36px 0 63px;
         margin: 0 auto;
     
@@ -388,16 +389,18 @@
             &__title {
                 @include texts;
                 font-weight: $fw-bold;
-                font-size: 30px;
-                margin-bottom: 21px;
-                margin-left: 0px;
-                letter-spacing: -1.4px;
-                margin-top: -14px;            
+                font-size: 24px;
+                font-size: 24px;
+                margin-bottom: 23px;
+                margin-left: 2px;
+                letter-spacing: -1.1px;
+                margin-top: -22px;           
             }
     
             &__all-accordions {
-                width: 970px;
-                height: 462px;
+                width: 732px;
+                height: 151px;
+                margin-left: 3px;
     
                 &__accordion {
                     background-color: $color-white;
@@ -443,13 +446,14 @@
     
                         &__description {
                             font-family: Inter, sans-serif;
-                            font-size: 16px;
+                            font-size: 18px;
                             font-weight: 400;
                             font-style: normal;
                             line-height: 140%;
                             color: rgba(60, 60, 67, 0.85);
                             padding: 0 24px 18px;
-                            letter-spacing: 1.1px;
+                            letter-spacing: 0px;
+
                         }
                     }
                 }
@@ -462,11 +466,14 @@
     }
     
     .blc-more-info {
-        width: 996px;
-        height: 571px;
-        margin-top: 33px;
+        width: 732px;
+        height: 249px;
+        font-size: 18px;
+        margin-top: 29px;
         line-height: 28px;
         margin-bottom: 78px;
+        font-size: 18px;
+        margin-left: 3px;
         .blc-info-title {
            .blc-info-subtitleone {
             @include litletext;
@@ -484,46 +491,28 @@
     }
     
     .blc-bg {
-        width: 970px;
-        margin-bottom: -11px;
+        width: 768px;
+        height: 549px;
+        margin-bottom: -42px;
     
         .blc-bg-img {
             .bg-baloonone{
-                position: absolute;
-                width: 107.44px;
-                height: 209.93px;
-                left: 784px;
-                right: 0.16%;
-                top: 1146px;
-                z-index: -1;
+                display: none;
                }
                
                .bg-legal{
-                position: absolute;
-                width: 500px;
-                height: 350px;
-                left: 250px;
-                top: 1222px;
+                width: 732px;
+                height: 492px;
+                left: 18px;
+                top: 1207px;
                }
                
                .bg-baloon{
-                position: absolute;
-               width: 115px;
-               height: 221px;
-                left: 103px;
-                right: 10.3%;
-                top: 1329px;
-                z-index: -1;
+                display: none;
                }
                
                .bg-finger {
-                position: absolute;
-                width: 92px;
-                height: 93px;
-                left: 786px;
-                right: 4.53%;
-                top: 1393px;
-                z-index: -1;
+                display: none;
                }
         }
     
