@@ -1,27 +1,22 @@
 @import './vars';
 
 // BALLON ELEMENTS
-.application-element-ballon-red {
+.application-element-ballon-red__img {
+    width: 183.31px;
     position: absolute;
-    transform: translate(464%, -136%);
-
+    top: 115.4%;
+    left: 65.3%;
     z-index: -1;
-
-    &__img {
-        width: 183.31px;
-    }
 }
 
-.application-element-ballon-yellow {
+.application-element-ballon-yellow__img {
+    width: 172px;
     position: absolute;
-    transform: translate(627%, -147%);
-
+    top: 100.5%;
+    left: 81.5%;
     z-index: -1;
-
-    &__img {
-        width: 172px;
-    }
 }
+
 // END BALLON ELEMENTS
 
 // BREADCRUMBS
@@ -219,3 +214,186 @@
 }
 
 // END FORM SECTION
+
+// MEDIA 1000PX ------------------------------------
+@media screen and (max-width: 1000.98px) {
+
+    .application-element-ballon-red__img {
+        width: 151.59px;
+        position: absolute;
+        top: 96%;
+        left: 60%;
+        z-index: -1;
+    }
+
+    .application-element-ballon-yellow__img {
+        width: 142.4px;
+        position: absolute;
+        top: 86%;
+        left: 80%;
+        z-index: -1;
+    }
+
+    .you-need-help {
+
+        &__inner {
+
+            &__all-texts-block {
+
+                &__prg {
+                    text-align: justify;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+
+    .form-section {
+        background-color: $color-white;
+
+        &__inner {
+            padding: 0 35px 70px 35px;
+        }
+    }
+}
+
+// END MEDIA 1000PX ------------------------------
+
+// MEDIA 768PX ------------------------------------
+@media screen and (max-width: 768.98px) {
+
+    .application-element-ballon-red__img {
+        width: 84.82px;
+        position: absolute;
+        top: 96%;
+        left: 70%;
+        z-index: -1;
+    }
+
+    .application-element-ballon-yellow__img {
+        width: 79.68px;
+        position: absolute;
+        top: 89%;
+        left: 85%;
+        z-index: -1;
+    }
+
+    .you-need-help {
+
+        &__inner {
+
+            &__title {
+                font-size: 36px;
+                margin-bottom: 20px;
+            }
+
+            &__all-texts-block {
+
+                &__prg {
+                    font-size: 18px;
+                }
+
+                &__prg+&__prg {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+
+    .form-section {
+        background-color: $color-blue;
+        margin-top: 30px;
+
+        &__inner {
+            padding: 30px 53px 63px 53px;
+
+            &__form {
+
+                &__block+&__block {
+
+                    &:nth-child(8) {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// END MEDIA 768PX ------------------------------
+
+// MEDIA 480PX ------------------------------------
+@media screen and (max-width: 480.98px) {
+
+    .application-element-ballon-red__img {
+        width: 66.55px;
+        position: absolute;
+        top: 120%;
+        left: 58%;
+        z-index: -1;
+    }
+
+    .application-element-ballon-yellow__img {
+        width: 61.51px;
+        position: absolute;
+        top: 116%;
+        left: 77%;
+        z-index: -1;
+    }
+
+    .you-need-help {
+
+        &__inner {
+
+            &__title {
+                font-size: 26px;
+            }
+
+            &__all-texts-block {
+
+                &__prg {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+
+                &__prg+&__prg {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+
+    .form-section {
+        background-color: $color-blue;
+        margin-top: 20px;
+
+        &__inner {
+            padding: 20px 34px 59px 34px;
+
+            &__form {
+
+                &__block {
+                    padding-left: 13px;
+                    padding-right: 13px;
+                }
+
+                &__block+&__block {
+
+                    &:nth-child(8) {
+                        margin-bottom: 25px;
+                    }
+                }
+
+                &__label {
+                    font-size: 16px;
+                }
+
+                &__label-checkbox {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+// END MEDIA 480PX ------------------------------
