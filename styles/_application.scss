@@ -1,5 +1,29 @@
 @import './vars';
 
+// BALLON ELEMENTS
+.application-element-ballon-red {
+    position: absolute;
+    transform: translate(464%, -136%);
+
+    z-index: -1;
+
+    &__img {
+        width: 183.31px;
+    }
+}
+
+.application-element-ballon-yellow {
+    position: absolute;
+    transform: translate(627%, -147%);
+
+    z-index: -1;
+
+    &__img {
+        width: 172px;
+    }
+}
+// END BALLON ELEMENTS
+
 // BREADCRUMBS
 .breadcrumbs-application {
     padding: 24px 0 40px 0;
@@ -48,7 +72,7 @@
             }
 
             &__prg+&__prg {
-                margin-top: 32px;
+                margin-top: 17px;
             }
         }
     }
@@ -63,13 +87,13 @@
     margin-bottom: 90px;
 
     &__inner {
-        padding: 35px 0 75px 0;
+        padding: 35px 0 112px 0;
 
         &__form {
 
             &__block {
                 background-color: $color-white;
-                padding: 16px 41px 16px 38px;
+                padding: 16px 41px 26px 38px;
 
                 border-radius: 15px;
                 box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
@@ -95,7 +119,7 @@
 
                 color: $color-black;
                 display: inline-block;
-                margin-bottom: 6px;
+                margin-bottom: 12.5px;
             }
 
             &__input {
@@ -115,7 +139,7 @@
 
                 &-textarea {
                     width: 100%;
-                    height: 166px;
+                    height: 160px;
 
                     border-radius: 8px;
                     outline: none;
@@ -186,8 +210,9 @@
                 background-color: $color-violet;
 
                 border: 0;
-                padding: 10px 50px;
+                padding: 9px 51px;
                 float: right;
+                letter-spacing: 1.5px;
             }
         }
     }
