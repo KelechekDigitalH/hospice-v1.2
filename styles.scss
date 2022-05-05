@@ -19,18 +19,19 @@ body {
 }
 
 // Pages
-@import "./styles/main";
-@import "./styles/about-fund";
-@import "./styles/our-mission";
-@import "./styles/employees";
-@import "./styles/reports";
-@import "./styles/official-docs";
-@import "./styles/need-help";
-@import "./styles/application";
-@import "./styles/volunteering";
-@import "./styles/donation";
 
-@import "./styles/header";
-@import "./styles/sidebar";
+@import "./styles/about-fund";
+@import "./styles/application";
 @import "./styles/call-to-action";
+@import "./styles/donation";
+@import "./styles/employees";
+@import "./styles/header";
+@import "./styles/legal-entity";
+@import "./styles/main";
+@import "./styles/need-help";
+@import "./styles/official-docs";
+@import "./styles/our-mission";
+@import "./styles/reports";
+@import "./styles/sidebar";
 @import "./styles/vars";
+@import "./styles/volunteering";

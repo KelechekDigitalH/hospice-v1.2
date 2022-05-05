@@ -1,6 +1,21 @@
 @import "./vars";
 
 
+
+
+.breadcrumbs-donation {
+  margin-top: 22px;
+  
+    .breadcrumbs-donation__item-link {
+      font-family: $ff-rubik;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: $color-dark-grey;
+      text-decoration: none;
+    }
+  }
   .elements-img {
     position: absolute;
     z-index: -1;
@@ -179,8 +194,9 @@
   
 
   @media (max-width: 1000px) {
-    .breadcrumbs {
-        margin-left: 30px;
+    .breadcrumbs-donation {
+        margin-left: 0px;
+        margin-top: 18px;
       }
     .elements-img {
         display: none;}
@@ -189,6 +205,11 @@
         margin-bottom: 40px;
         &__title {
             font-size: 30px;
+            margin-top: 40px;
+            margin-left: 2px;
+            letter-spacing: 1.3px;
+            margin-bottom: -11px;
+
             }
             #title480 {
               display: none;
@@ -234,22 +255,30 @@
               &__content {
                 width: 213px;
                 height: 200px;
-                margin-left: 18px;
-                margin-top: 22px;
+                margin-left: 15px;
+                margin-top: 18px;
               }
               .calculation {
                 margin-bottom: -10px;
               }
               .text-optima {
-                margin-top: 24px;
+                margin-top: 34px;
                 margin-left: 0;
               }
               .text-optimatwo {
-                margin-top: 23px;
+                margin-top: 39px;
                 margin-left: 0;
               }
 
-      
+              .text-baitushum {
+                margin-top: 38px;
+              }
+               .text-kicb {
+                margin-top: 29px;
+            }
+            .text-kicbtwo {
+              margin-top: 38px;
+            }
             }
         }
 
@@ -269,8 +298,10 @@
                 &__main-title {
                     font-size: 26px;
                     font-weight: $fw-bold;
-                    margin-left: 0px;
-                    margin-top: 6px;
+                    margin-left: 15px;
+                    margin-top: -5px;
+                    margin-bottom: -5px;
+                
                 } 
             }
         
@@ -291,10 +322,9 @@
                   }  
                   &__title {
                     font-size: 14px;
-                    margin-left: 30px;
-                    margin-top: 17px;
-                    
-        
+                    margin-left: 26px;
+                    margin-top: 16px;
+                    letter-spacing: 0.7px;
                   }
 
                   .img1000 {
@@ -314,10 +344,11 @@
 
 
   @media (max-width: 768px)  {
-    .breadcrumbs {
+    .breadcrumbs-donation {
       text-align: left;
-      margin-left: 0;
+      margin-left: 3px;
       font-size: 14px;
+      margin-top: 20px;
     }
   .elements-img {
       display: none;}
@@ -327,10 +358,12 @@
       &__title {
         font-size: 30px;
         text-align: left;
-        width: 431px;
+         width: 431px;
         line-height: 32px;
         letter-spacing: 1.3px;
         margin-top: 31px;
+        margin-left: 3px;
+        margin-bottom: -1px;
           }
           #title480 {
             display: none;
@@ -343,7 +376,7 @@
           margin: 0 auto;
     
           &__block{
-            margin-left: 0;
+            margin-left: 3px;
           }
     
           &__wrapper {
@@ -369,7 +402,7 @@
     
             &__img-cardtree {
               content: url("/assets/donate/bank_logofor.png");
-                margin-top: 26px;
+              margin-top: 20px;
                 margin-left: 18px;
                 // background-image: url(../assets/donate/Rectangle.png);
             }
@@ -383,14 +416,17 @@
               margin-bottom: -10px;
             }
             .text-optima {
-              margin-top: 24px;
+              margin-top: 34px;
               margin-left: 0;
             }
             .text-optimatwo {
-              margin-top: 23px;
+              margin-top: 38px;
               margin-left: 0;
             }
-
+            .text-kicb {
+              margin-top: 18px;
+            }
+          
     
           }
       }
@@ -401,9 +437,9 @@
           margin-top: 30px;
           
           .main-blc {
-            margin-left: 211px;
-            padding-top: 20px;
-            margin-bottom: 30px;
+            margin-left: 213px;
+            padding-top: 25px;
+            margin-bottom: 34px;
               &__img {   
               display: none;
       
@@ -416,6 +452,7 @@
       
           .card-purse {
               column-gap: 10px;
+              margin-left: 5px;
               
               .title-480px {
                   display: none;
@@ -435,8 +472,7 @@
                   font-weight: 600;
                   font-size: 11px;
                   margin-left: 32px;
-                  
-      
+                  letter-spacing: 0.2px;
                 }
 
                 .img1000 {
@@ -457,14 +493,14 @@
   }
 
   @media (max-width: 480px)  {
-    .breadcrumbs {
+    .breadcrumbs-donation {
       display: none;
     }
   .elements-img {
       display: none;}
 
   .donate {
-    margin-bottom: 20px;
+    margin-bottom: 19px;
       &__title {
         display: none;
           }
@@ -484,7 +520,7 @@
           margin: 0 auto;
     
           &__block{
-            margin-left: 0;
+            margin-left: -17px;
           }
     
           &__wrapper {
@@ -558,6 +594,10 @@
             .text-baitushum {
               margin-top: 37px;
             }
+
+            .text-kicb {
+              margin-top: -6px;
+            }
     
           }
       }
@@ -582,6 +622,8 @@
                 height: 30px;
                 font-size: 26px;
                 line-height: 26px;
+                margin-left: -15px;
+                margin-top: 8px;
                 
               } 
           }
@@ -592,6 +634,8 @@
           column-gap: 24px;
           width: 450px;
           height: 286px;
+          margin-left: -15px;
+          margin-top: 29px;
               
               .title-480px {
                   display: block;
