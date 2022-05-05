@@ -1,0 +1,66 @@
+@import "./vars";
+
+.blc-sidebar{
+   max-width: 400px;
+   max-height: 282px;
+   background-color: $color-lilac;
+   border-radius: 15px;
+   position: sticky;
+   top:40px;
+ }
+
+.side-menubar{
+   padding: 58px 49px 0 70px;
+  
+   &__link{
+     text-decoration: none;
+     font-family: $ff-rubik;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 21px;
+     text-transform: uppercase;
+     color: $color-black;
+    
+ 
+   }
+ 
+   &__item+&__item{
+     margin-top: 28px;
+   }
+ }
+
+
+ @media (max-width: 1150px){
+    
+  .blc-sidebar{
+   max-width: 231px;
+   max-height: 229px;
+   
+   }
+
+
+ .side-menubar{
+    padding-top: 38px;
+    padding-left: 56px;
+
+   &__link{
+     font-weight: 600;
+     font-size: 16px;
+     line-height: 19px;
+   }
+   
+   &__item+&__item{
+     margin-top: 20px;
+   }
+
+ }
+
+ }
+
+
+ @media(max-width:999px){
+   .blc-sidebar{
+      display: none;
+    }
+ }

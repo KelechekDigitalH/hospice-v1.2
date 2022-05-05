@@ -1,0 +1,280 @@
+@import "./vars";
+
+.empl-wrapper{
+   display: flex;
+   gap:20px;
+   padding-bottom: 107px;
+}
+
+.empl-title{
+   @include title;
+   padding: 14px 0px 24px 0px;
+}
+
+.empl-desc{
+   @include texts;
+   line-height: 34px;
+   text-align: justify;
+   padding-bottom: 153px;
+}
+
+.empl-card{
+   max-width: 820px;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 400px 400px;
+   gap: 156px 20px;
+   text-align: center;
+
+
+   &__item{
+      position: relative;
+      z-index: -1;
+      max-height: 357px;
+      background: $color-coral;
+      border-radius: 20px;
+   }
+
+   &__item-inner{
+      position: relative;
+      top: -77px;
+   }
+
+   &__img{
+      width: 301px;
+   }
+
+   &__name {
+      font-family: $ff-poppins;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 34px;
+      color: $color-white;
+      padding: 23px 0 9px 0;
+   }
+
+   &__position{
+      font-family: $ff-rubik;
+      font-style: italic;
+      font-weight: $fw-medium;
+      font-size: 24px;
+      line-height: 28px;
+      color: $color-white;
+   }
+}
+
+.yellow-design{
+   position: absolute;
+   top:16%;
+   left:38.5%;
+   z-index: -1;
+}
+.ballon-design{
+   position: absolute;
+   top:120%;
+   left:70%;
+   z-index: -1;
+}
+.violet-design{
+   position: absolute;
+   top:161%;
+   left:63%;
+   z-index: -1;
+}
+.pink-design{
+   position: absolute;
+   top:178%;
+   left:78%;
+   z-index: -1;
+}
+
+
+@media (max-width:1150px) {
+   .empl-wrapper{
+      gap:30px;
+      padding-bottom: 60px;
+   }
+
+   .empl-title{
+      padding: 0px 0px 28px 0px;
+   }
+
+   .empl-desc{
+      font-size: 20px;
+      line-height: 30px;
+      padding-bottom: 92px;
+   }
+
+
+   .empl-card{
+      grid-template-columns: 303px 303px;
+      gap: 80px 30px;
+
+      &__item-inner{
+         position: relative;
+         top: -57px;
+      }
+
+      &__item{
+         max-height: 257.36px;
+      }
+
+      &__img{
+         width: 228px;
+      }
+
+    &__name {
+       font-size: 22px;
+       line-height: 30px;
+       padding: 7px 0 0px 0;
+    }
+
+    &__position {
+      font-size: 16px;
+      line-height: 19px; 
+    }
+   
+   }
+
+   .yellow-design{
+      width: 72px;
+      top:18%;
+      left:62%;
+      z-index: -2;
+   }
+   
+   .ballon-design{
+      width: 163px;
+      top:75%;
+      left:70%;
+      transform: rotate(-30deg);
+      z-index: -2;
+   }
+
+   .violet-design{
+      width: 106.74px;
+      top:120%;
+      left:83%;
+      z-index: -2;
+   }
+
+   .pink-design{
+      display: none;
+   }
+}
+
+
+@media (max-width:999px){
+   .empl-wrapper{
+      padding-bottom: 73px;
+   }
+
+   .empl-title{
+      font-weight: $fw-semiBold;
+      font-size: 36px;
+      line-height: 40px;
+      padding: 0px 0px 12px 0px;
+   }
+
+   
+   .empl-desc{
+      padding-bottom: 83px;
+   }
+
+   .empl-card{
+      grid-template-columns: 351px 351px;
+      gap: 122px 30px;
+
+      &__item-inner{
+         position: relative;
+         top: -67px;
+      }
+
+      &__item{
+         max-height: 300px;
+      }
+      
+      &__img{
+         width: 264.13px;
+      }
+       
+      &__name {
+         font-size: 24px;
+         line-height: 34px;
+         padding: 10px 0 3px 0;
+      }
+
+      &__position{
+         font-size: 16px;
+         line-height: 19px;
+      }
+   }
+
+   .ballon-design{
+      width: 97.2px;
+      top:32%;
+      left:55%;
+      transform: rotate(25deg);
+      z-index: -2;
+   }
+
+   .violet-design{
+      display: none;
+   }
+
+}
+
+
+
+@media (max-width:767px) {
+   .empl-wrapper{
+      padding-bottom: 40px;
+   }
+
+   .empl-title{
+      font-weight: $fw-bold;
+      font-size: 26px;
+      line-height: 30px;
+      padding: 17px 0px 12px 0px;
+   }
+
+   .empl-desc{
+      font-size: 16px;
+      line-height: 22px;  
+      padding-bottom: 95px;
+   }
+
+   .empl-card{
+      grid-template-columns: 450px;
+      gap: 99px;
+
+      &__item{
+         max-height:288px;
+      }
+
+      &__img{
+         width: 255.85px;
+      }
+
+      &__name {
+         padding: 17px 0 3px 0;
+      }
+      
+   }
+
+   .yellow-design{
+      width: 53px;
+      top:10%;
+      left:58%;
+      z-index: -2;
+   }
+
+   .ballon-design{
+      width: 67.43px;
+      top:28%;
+      left:75%;
+      transform: rotate(30deg);
+      z-index: -2;
+   }
+ 
+}
