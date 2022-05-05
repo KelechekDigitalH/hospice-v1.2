@@ -3,15 +3,18 @@
 
 .blc-entity {
     margin-bottom: 40px;
+    margin-left: -2px;
     .blc-entity-wrapper {
         .blc-main-title {
             @include title;
-            margin-bottom: 36px
+            margin-bottom: 38px;
+            margin-top: 14px;
         }
             .blc-sub-title {
                 @include litletext;
                 width: 1240px;
                 line-height: 28px;
+                margin-left: 2px;
 
             }
         }
@@ -23,17 +26,17 @@
     width: 1440px;
     height: 699px;
     background-color: $color-blue;
-    padding: 29px 0 63px;
-    margin: 0 auto;
+    padding: 36px 0 63px;
+    margin-left: -45px;
 
     &__inner {
 
         &__title {
             @include texts;
             font-weight: $fw-bold;
-            margin-bottom: 21px;
+            margin-bottom: 29px;
             margin-left: 25px;
-            letter-spacing: 0px;
+            letter-spacing: -1.1px;
         }
 
         &__all-accordions {
@@ -42,6 +45,8 @@
                 background-color: $color-white;
                 border-radius: 15px;
                 box-shadow: 0px 4px 4px $color-box;
+                margin-bottom: 26px;
+
 
                 &__header {
                     padding: 19.8px 24px;
@@ -86,6 +91,7 @@
                         line-height: 140%;
                         color: rgba(60, 60, 67, 0.85);
                         padding: 0 24px 18px;
+                        letter-spacing: 1.1px;
                     }
                 }
             }
@@ -100,15 +106,16 @@
 .blc-more-info {
     margin-top: 40px;
     line-height: 28px;
-    margin-bottom: 600px;
+    margin-bottom: 578px;
     .blc-info-title {
        .blc-info-subtitleone {
         @include litletext;
-        margin-bottom: 40px;
+        margin-bottom: 28px;
        } 
        .blc-info-subtitletwo {
         @include litletext;
         font-weight: $fw-bold;
+        letter-spacing: -0.3px;
        }
        .blc-info-subtitletree {
         @include litletext;
@@ -119,10 +126,10 @@
 
 .bg-baloonone{
     position: absolute;
-    left: 80%;
+    left: 84.6%;
     right: -6.2%;
-    top: 190%;
-    bottom: 41.74%;
+    top: 1181px;
+    
     
    }
    
@@ -131,26 +138,26 @@
     position: absolute;
     width: 610px;
     height: 427px;
-    left: 415px;
+    left: 370px;
     top: 1373px;
     
    }
    
    .bg-baloon{
     position: absolute;
-    left: 7.15%;
+    left: 4.3%;
     right: 80.12%;
-    top: 220%;
-    bottom: 29.86%;
+    top: 1473px;
+   
     
    }
    
    .bg-finger{
     position: absolute;
-    left: 80%;
+    left: 84.8%;
     right: -1.36%;
-    top: 250%;
-    bottom: 33.5%;
+    top: 1576px;
+    
 
    }
    
