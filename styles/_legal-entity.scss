@@ -27,10 +27,10 @@
     height: 699px;
     background-color: $color-blue;
     padding: 36px 0 63px;
-    margin-left: -45px;
+    margin: 0 auto;
 
     &__inner {
-
+        margin-left: -45px;
         &__title {
             @include texts;
             font-weight: $fw-bold;
@@ -40,6 +40,8 @@
         }
 
         &__all-accordions {
+            width: 1240px;
+            height: 126px;
 
             &__accordion {
                 background-color: $color-white;
@@ -123,41 +125,44 @@
     }
 }
 
+.blc-bg {
+    margin: 0 auto;
 
-.bg-baloonone{
-    position: absolute;
-    left: 84.6%;
-    right: -6.2%;
-    top: 1181px;
-    
-    
-   }
-   
-   
-   .bg-legal{
-    position: absolute;
-    width: 610px;
-    height: 427px;
-    left: 370px;
-    top: 1373px;
-    
-   }
-   
-   .bg-baloon{
-    position: absolute;
-    left: 4.3%;
-    right: 80.12%;
-    top: 1473px;
-   
-    
-   }
-   
-   .bg-finger{
-    position: absolute;
-    left: 84.8%;
-    right: -1.36%;
-    top: 1576px;
-    
+    .blc-bg-img {
+        .bg-baloonone{
+            position: absolute;
+            left: 84.6%;
+            right: -6.2%;
+            top: 1181px;
+            z-index: -1;
+           }
+           
+           .bg-legal{
+            position: absolute;
+            width: 610px;
+            height: 427px;
+            left: 370px;
+            top: 1373px;
+           }
+           
+           .bg-baloon{
+            position: absolute;
+            left: 4.3%;
+            right: 80.12%;
+            top: 1473px;
+            z-index: -1;
+           }
+           
+           .bg-finger {
+            position: absolute;
+            left: 84.8%;
+            right: -1.36%;
+            top: 1576px;
+            z-index: -1;
+           }
+    }
 
-   }
+    
+}
+
    
