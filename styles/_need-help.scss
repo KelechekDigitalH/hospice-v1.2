@@ -3,6 +3,8 @@
 // BREADCRUMBS
 .breadcrumbs-need-help {
     padding: 24px 0 33px 0;
+    position: relative;
+    z-index: -1;
 
     &__item {
         font-family: $ff-rubik;
@@ -93,6 +95,8 @@
                 border-radius: 5px;
 
                 letter-spacing: 2px;
+                position: relative;
+                z-index: -1;
             }
         }
     }
@@ -150,6 +154,8 @@
     background-color: $color-yellow-light;
     padding: 35px 0 63px;
     margin: 48px 0 0;
+    position: relative;
+    z-index: -1;
 
     &__inner {
 
