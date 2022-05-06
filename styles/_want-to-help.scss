@@ -74,7 +74,6 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin-top: 80px;
-        margin-bottom: 80px;
     }
 
     &__btn-bg1 {
@@ -166,12 +165,18 @@
         }
 
         &__blc-bg1 {
+
+            z-index: -2;
+            position: relative;
             margin-top: 40px;
             background-image: url('/assets/want-to-help/физ-лица_img-1000.png');
             height: 494px;
         }
 
         &__blc-bg2 {
+
+            z-index: -2;
+            position: relative;
             margin-top: 30px;
             background-image: url('/assets/want-to-help/юр-лица_img-1000.png');
             height: 494px;
@@ -181,6 +186,10 @@
             margin-top: 30px;
             background-image: url('/assets/want-to-help/volunteer_img-1000.png');
             height: 494px;
+            margin-bottom: 70px;
+
+            z-index: -2;
+            position: relative;
         }
 
         &__title {
@@ -232,8 +241,12 @@
 @media (max-width: 768px) {
 
     .wantToHelp-blc {
-        width: 722px;
+        width: 728px;
+        height: 365px;
         margin: 0 auto;
+
+        z-index: -2;
+        position: relative;
 
         &__road {
             width: 732px;
@@ -241,9 +254,10 @@
         }
 
         &__blc-bg1 {
+            z-index: -2;
+            position: relative;
             margin-top: 29px;
             background-image: url('/assets/want-to-help/физ-лица_img-768.png');
-            height: 368px;
         }
 
         &__blc-bg2 {
@@ -257,6 +271,7 @@
             background-image: url('/assets/want-to-help/volunteer_img-768.png');
             height: 368px;
             margin-bottom: 60px;
+            padding-bottom: 40px;
         }
 
         &__title {
@@ -309,6 +324,7 @@
 
 @media (max-width: 480px) {
 
+
     .wantToHelp-blc {
         width: 450px;
         margin: 0 auto;
@@ -321,7 +337,9 @@
         }
 
         &__blc-bg1 {
-            margin-top: 26px;
+            z-index: -2;
+            position: relative;
+            padding-top: 16px;
             background-image: url('/assets/want-to-help/физ-лица_img-480.png');
         }
 
@@ -333,7 +351,7 @@
         &__blc-bg3 {
             margin-top: 20px;
             background-image: url('/assets/want-to-help/volunteer_img-480.png');
-            margin-bottom: 40px;
+            margin-bottom: 70px;
         }
 
         &__title {
