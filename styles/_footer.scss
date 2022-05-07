@@ -290,10 +290,8 @@
 
         &:after {
             z-index: -1;
-            width: 768px;
-            -webkit-transform: translateY(65px);
-            -ms-transform: translateY(65px);
-            transform: translateY(78px);
+            width: 700px;
+            transform: translateY(60px);
         }
 
         &__inner-rightside {
