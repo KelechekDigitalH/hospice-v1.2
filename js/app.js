@@ -61,7 +61,7 @@ accordionEntity.forEach(accordionEntity => {
 // window.forEach(window => {
 window.addEventListener("load", function () {
     const btn = document.querySelector(".individuals_link");
-    const window = document.querySelector(".btn-window");
+    const window = document.querySelector(".btn-modal");
     const windowClose = document.querySelector(".off");
   
     btn.addEventListener("click", function () {
