@@ -55,3 +55,22 @@ accordionEntity.forEach(accordionEntity => {
 	});
 });
 // END LEGAL-ENTITY SCRIPTS
+
+
+// INDIVIDUALS PAGE SCRIPTS
+// window.forEach(window => {
+window.addEventListener("load", function () {
+    const btn = document.querySelector(".individuals_link");
+    const window = document.querySelector(".btn-window");
+    const windowClose = document.querySelector(".off");
+  
+    btn.addEventListener("click", function () {
+      window.classList.add("active");
+    });
+  
+    windowClose.addEventListener("click", function () {
+      window.classList.remove("active");
+
+    });
+  });
+// });
