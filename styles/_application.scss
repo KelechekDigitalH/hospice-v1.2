@@ -19,33 +19,6 @@
 
 // END BALLON ELEMENTS
 
-// BREADCRUMBS
-.breadcrumbs-application {
-    padding: 24px 0 40px 0;
-    position: relative;
-    z-index: -1;
-
-    &__item {
-        font-family: $ff-rubik;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        color: $color-dark-grey;
-    }
-
-    &__item-link {
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    &__item-currant {
-        font-weight: $fw-medium;
-    }
-}
-
-// END BREADCRUMBS
-
 // YOU NEED HELP
 .you-need-help {
 
