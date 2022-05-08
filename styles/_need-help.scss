@@ -3,6 +3,8 @@
 // BREADCRUMBS
 .breadcrumbs-need-help {
     padding: 24px 0 33px 0;
+    position: relative;
+    z-index: -1;
 
     &__item {
         font-family: $ff-rubik;
@@ -93,6 +95,8 @@
                 border-radius: 5px;
 
                 letter-spacing: 2px;
+                position: relative;
+                z-index: -1;
             }
         }
     }
@@ -150,6 +154,8 @@
     background-color: $color-yellow-light;
     padding: 35px 0 63px;
     margin: 48px 0 0;
+    position: relative;
+    z-index: -1;
 
     &__inner {
 
@@ -232,7 +238,7 @@
 .important-khow-need-help {
     margin-top: 40px;
     margin-bottom: 82px;
-
+    z-index: -1;
     position: relative;
     top: 0;
     left: 0;
@@ -364,6 +370,10 @@
 // MEDIA - 1000PX -----------------------------
 @media screen and (max-width: 1000.98px) {
 
+    .breadcrumbs-need-help {
+        padding: 20px 0 36px 0;
+    }
+
     .finger-need-help {
         display: none;
     }
@@ -381,7 +391,7 @@
     }
 
     .request-help {
-        margin-bottom: 40px;
+        margin-bottom: 53px;
 
         &__inner {
 
@@ -389,99 +399,14 @@
 
                 &__sub-title {
                     font-size: 20px;
-                    margin: 30px 0 24px;
+                    margin: 26px 0 24px;
+                    line-height: 30px;
                 }
 
                 &__link {
                     text-transform: uppercase;
-
-                    .request-help {
-                        margin-bottom: 40px;
-                        margin-top: 40px;
-
-                        &__inner {
-
-                            &__all-elements {
-
-                                &__sub-title {
-                                    font-size: 20px;
-                                    margin: 30px 0 24px;
-
-                                    text-align: justify;
-                                }
-
-                                &__link {
-                                    text-transform: uppercase;
-                                }
-                            }
-                        }
-                    }
-
-                    .programs-hospice {
-
-                        &__inner {
-
-                            &__title {
-                                font-size: 30px;
-                            }
-
-                            &__sub-title1 {
-                                font-size: 20px;
-                                text-align: justify;
-                                margin-top: 30px;
-                            }
-                        }
-                    }
-
-                    .programs-first-kids-hospice {
-                        margin-top: 30px;
-                        padding-top: 20px;
-
-                        &__inner {
-                            padding: 0 55px;
-
-                            &__title {
-                                margin-left: 0;
-                                margin-bottom: 30px;
-                            }
-                        }
-                    }
-
-                    .important-khow-need-help {
-
-                        .bg-img-need-help {
-                            height: auto;
-                        }
-
-                        &__inner {
-                            position: absolute;
-
-                            transform: translate(560px, -450px);
-
-                            // max-width: 410px;
-
-                            &__title {
-                                font-size: 26px;
-                            }
-
-                            &__subtitle1 {
-                                line-height: 26px;
-                                font-weight: 400;
-                                font-size: 18px;
-
-                                margin-top: 14px;
-                            }
-
-                            &__subtitle2 {
-                                line-height: 26px;
-                                font-weight: 400;
-                                font-size: 18px;
-
-                                margin-top: 10px;
-                                margin-bottom: 30px;
-                            }
-                        }
-                    }
+                    padding: 10px 17px;
+                    letter-spacing: 1.5px;
                 }
             }
         }
@@ -498,6 +423,8 @@
             &__sub-title1 {
                 font-size: 20px;
                 text-align: justify;
+                margin-top: 33px;
+                line-height: 32px;
             }
 
             &__sub-title2 {
@@ -517,14 +444,17 @@
             &__title {
                 margin-left: 0;
                 margin-bottom: 30px;
+                letter-spacing: 1.1px;
             }
         }
     }
 
     .important-khow-need-help {
+        margin-top: 50px;
+        margin-bottom: -36px;
 
         .bg-img-need-help {
-            height: 480px;
+            height: 460px;
             object-fit: cover;
             position: relative;
         }
@@ -532,7 +462,7 @@
         &__inner {
             position: absolute;
             top: 4%;
-            left: 57%;
+            left: 57.6%;
 
             max-width: 410px;
             padding: 0 20px 0 0;
@@ -542,7 +472,7 @@
             }
 
             &__subtitle1 {
-                line-height: 26px;
+                line-height: 23.8px;
                 font-weight: 400;
                 width: 100%;
                 font-size: 18px;
@@ -554,7 +484,12 @@
                 font-weight: 400;
                 width: 100%;
                 font-size: 18px;
-                margin: 7px 0 25px 0;
+                margin: 7px 0 55px 0;
+            }
+
+            &__link-btn {
+                padding: 10px 54px;
+                letter-spacing: 0.8px;
             }
         }
     }
@@ -566,24 +501,27 @@
 @media screen and (max-width: 768.98px) {
 
     .request-help {
-        margin-bottom: 30px;
-        margin-top: 40px;
+        margin-bottom: 44px;
+        margin-top: -8px;
 
         &__inner {
 
             &__all-elements {
 
-                &__tile {
+                &__title {
                     font-size: 36px;
+                    letter-spacing: -0.2px;
                 }
 
                 &__sub-title {
                     font-size: 18px;
-                    margin: 20px 0 52px;
+                    margin: 11px 0 45px;
                 }
 
                 &__link {
                     text-transform: uppercase;
+                    padding: 12px 23px;
+                    letter-spacing: 1.0px;
                 }
             }
         }
@@ -595,12 +533,14 @@
 
             &__title {
                 font-size: 30px;
+                letter-spacing: 0.6px;
             }
 
             &__sub-title1 {
                 font-size: 18px;
                 text-align: justify;
-                margin-top: 30px;
+                margin-top: 27px;
+                line-height: 24px;
             }
         }
     }
@@ -620,17 +560,20 @@
     }
 
     .important-khow-need-help {
+        margin-top: 39px;
+        margin-bottom: -28px;
 
         .bg-img-need-help {
-            height: 450px;
+            height: 344px;
             object-fit: cover;
             position: relative;
         }
 
         &__inner {
             position: absolute;
-            top: 4%;
-            left: 55%;
+            top: -0.4%;
+            left: 58%;
+            padding: 0;
 
             max-width: 306px;
 
@@ -651,8 +594,8 @@
                 font-weight: 400;
                 font-size: 14px;
 
-                margin-top: 7px;
-                margin-bottom: 30px;
+                margin-top: 11px;
+                margin-bottom: 32px;
             }
 
             &__link-btn {
@@ -673,7 +616,7 @@
 
     .request-help {
         margin-bottom: 30px;
-        margin-top: 20px;
+        margin-top: 19px;
 
         &__inner {
 
@@ -681,11 +624,13 @@
 
                 &__title {
                     font-size: 26px;
+                    letter-spacing: -0.1px
                 }
 
                 &__sub-title {
                     font-size: 16px;
                     margin: 20px 0 30px;
+                    line-height: 22.6px;
                 }
 
                 &__link {
@@ -707,7 +652,7 @@
             &__sub-title1 {
                 font-size: 16px;
                 text-align: justify;
-                margin-top: 20px;
+                margin-top: 17px;
                 line-height: 22px;
             }
         }
@@ -729,6 +674,8 @@
     }
 
     .important-khow-need-help {
+        margin-top: 16px;
+        margin-bottom: -51px;
 
         .bg-img-need-help {
             height: 439px;
@@ -738,10 +685,10 @@
 
         &__inner {
             position: absolute;
-            top: 5%;
-            left: 5%;
+            top: 6.3%;
+            left: 8.5%;
 
-            max-width: 396px;
+            max-width: 399px;
             text-align: justify;
 
             &__title {
@@ -749,20 +696,20 @@
             }
 
             &__subtitle1 {
-                line-height: 20px;
+                line-height: 25px;
                 font-weight: 400;
                 font-size: 18px;
 
-                margin-top: 20px;
+                margin-top: 18px;
             }
 
             &__subtitle2 {
-                line-height: 20px;
+                line-height: 25px;
                 font-weight: 400;
                 font-size: 18px;
 
-                margin-top: 20px;
-                margin-bottom: 45px;
+                margin-top: 17px;
+                margin-bottom: 40px;
             }
 
             &__link-btn {

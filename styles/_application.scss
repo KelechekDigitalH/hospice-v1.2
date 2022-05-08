@@ -22,6 +22,8 @@
 // BREADCRUMBS
 .breadcrumbs-application {
     padding: 24px 0 40px 0;
+    position: relative;
+    z-index: -1;
 
     &__item {
         font-family: $ff-rubik;
@@ -80,6 +82,8 @@
     background-color: $color-blue;
     margin-top: 80px;
     margin-bottom: 90px;
+    position: relative;
+    z-index: -1;
 
     &__inner {
         padding: 35px 0 112px 0;
