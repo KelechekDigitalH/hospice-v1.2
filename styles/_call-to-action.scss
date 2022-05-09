@@ -5,7 +5,6 @@
    padding: 58px 0;
    border-radius: 15px;
    margin-bottom: 116px;
-   
    margin-top: 90px;
   
  }
@@ -66,6 +65,7 @@
   .blc-call-to-action{
    position: relative;
    padding: 54px 0;
+   margin-top: 60px;
    margin-bottom: 116px;
    z-index: -1;
  }
@@ -130,9 +130,8 @@
     }
   
     .blc-call-to-action{
-  
-      padding: 31px 26px 31px 30px;
-      margin-bottom: 116px;
+     padding: 27px 26px 34px 30px;
+     margin-bottom: 116px;
      
     }
  
@@ -143,19 +142,23 @@
  @media (max-width: 767px){
    .blc-call-to-action {
       padding: 39px 26px 30px 30px;
+      margin-top: 40px;
      }
      .call-to-action-inner{
        flex-wrap: wrap;
        justify-content: center;
        align-items: center;
+       row-gap: 29px;
     
        &__money__item{
         margin-right: 29px;
       }
+
+     
      }
     
      .call-to-action-inner__money{
-       margin-bottom: 29px;
+  
     
       &__item:nth-child(4){
          display: none;

@@ -1,9 +1,9 @@
+
+
 @import "./vars";
 
 
 .breadcrumbs {
-    margin-left: 135px;
-    margin-top: 24px;
     font-family: "Rubik";
 
     &_item {
@@ -151,10 +151,7 @@
 
 
 @media(max-width: 1000px) {
-    .breadcrumbs {
-        margin-left: 20px;
-    }
-
+  
     .wantToHelp-blc {
         width: 970px;
         margin: 0 auto;
