@@ -215,11 +215,19 @@
 
         &__inner {
 
+            &__title {
+                margin-bottom: 29px;
+            }
+
             &__all-texts-block {
 
                 &__prg {
                     text-align: justify;
                     line-height: 30px;
+                }
+
+                &__prg + &__prg {
+                    margin-top: 10px;
                 }
             }
         }
@@ -227,9 +235,56 @@
 
     .form-section {
         background-color: $color-white;
+        margin-top: 54px;
+        margin-bottom: -62px;
 
         &__inner {
             padding: 0 35px 70px 35px;
+
+            &__form {
+
+                &__block {
+                    padding: 9px 28px 26px 28px;
+                    
+                    &:first-child {
+                        margin-bottom: 39px;
+                    }
+                }
+
+                &__block + &__block {
+                    margin-bottom: 33px;
+
+                    &:nth-child(8) {
+                        margin-bottom: 40px;
+                    }
+                }
+
+                &__label {
+                    margin-bottom: 17.5px;
+                }
+
+                &__checkbox-block + &__checkbox-block {
+                    margin-top: 8px;
+                }
+
+                &__input {
+                    padding: 0 7px;
+
+                    &::placeholder {
+                        letter-spacing: 0.8px;
+                    }
+                }
+
+                &__input-textarea {
+                    height: 124px;
+                }
+
+                &__btn {
+                    padding: 9px 36px;
+                    border-radius: 3px;
+                    letter-spacing: 1.1px;
+                }
+            }
         }
     }
 }
@@ -240,9 +295,9 @@
 @media screen and (max-width: 768.98px) {
 
     .application-element-ballon-red__img {
-        width: 84.82px;
+        width: 84.80px;
         position: absolute;
-        top: 96%;
+        top: 155.1%;
         left: 70%;
         z-index: -1;
     }
@@ -250,7 +305,7 @@
     .application-element-ballon-yellow__img {
         width: 79.68px;
         position: absolute;
-        top: 89%;
+        top: 146%;
         left: 85%;
         z-index: -1;
     }
@@ -268,10 +323,11 @@
 
                 &__prg {
                     font-size: 18px;
+                    letter-spacing: 0.1px;
                 }
 
                 &__prg+&__prg {
-                    margin-top: 5px;
+                    margin-top: 0px;
                 }
             }
         }
@@ -279,18 +335,43 @@
 
     .form-section {
         background-color: $color-blue;
-        margin-top: 30px;
+        margin-top: 35px;
 
         &__inner {
-            padding: 30px 53px 63px 53px;
+            padding: 30px 38px 63px 38px;
 
             &__form {
 
+                &__block {
+                    padding: 15px 22px 26px 22px;
+
+                    &:first-child {
+                        margin-bottom: 25px;
+                    }
+                }
+
                 &__block+&__block {
+                    margin-bottom: 23px;
 
                     &:nth-child(8) {
                         margin-bottom: 30px;
                     }
+                }
+
+                &__label {
+                    margin-bottom: 21.5px;
+                }
+
+                &__input {
+                    height: 62px;
+                }
+
+                &__checkbox-block + &__checkbox-block {
+                    margin-top: 10px;
+                }
+
+                &__input-textarea {
+                    height: 164px;
                 }
             }
         }
@@ -303,9 +384,9 @@
 @media screen and (max-width: 480.98px) {
 
     .application-element-ballon-red__img {
-        width: 66.55px;
+        width: 67px;
         position: absolute;
-        top: 120%;
+        top: 191.6%;
         left: 58%;
         z-index: -1;
     }
@@ -313,7 +394,7 @@
     .application-element-ballon-yellow__img {
         width: 61.51px;
         position: absolute;
-        top: 116%;
+        top: 185%;
         left: 77%;
         z-index: -1;
     }
@@ -324,6 +405,8 @@
 
             &__title {
                 font-size: 26px;
+                margin-top: 12px;
+                margin-bottom: 14px;
             }
 
             &__all-texts-block {
@@ -342,16 +425,19 @@
 
     .form-section {
         background-color: $color-blue;
-        margin-top: 20px;
+        margin-top: 18px;
 
         &__inner {
-            padding: 20px 34px 59px 34px;
+            padding: 20px 20px 59px 20px;
 
             &__form {
 
                 &__block {
-                    padding-left: 13px;
-                    padding-right: 13px;
+                    padding: 30px 12px 30px 12px;
+
+                    &:first-child {
+                        margin-bottom: 21px;
+                    }
                 }
 
                 &__block+&__block {
@@ -361,12 +447,21 @@
                     }
                 }
 
+                &__input {
+                    height: 44px;
+                }
+
                 &__label {
                     font-size: 16px;
+                    margin-bottom: 15.5px;
                 }
 
                 &__label-checkbox {
                     font-size: 14px;
+                }
+
+                &__btn {
+                    padding: 10px 32px;
                 }
             }
         }

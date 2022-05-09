@@ -223,8 +223,8 @@
 
     &__inner {
         position: absolute;
-        top: 10%;
-        left: 60%;
+        top: 12%;
+        left: 57%;
 
         max-width: 513px;
 
@@ -342,10 +342,6 @@
 
 // MEDIA - 1000PX -----------------------------
 @media screen and (max-width: 1000.98px) {
-
-    .breadcrumbs-need-help {
-        padding: 20px 0 36px 0;
-    }
 
     .finger-need-help {
         display: none;
@@ -582,10 +578,6 @@
 
 // MEDIA - 480PX -----------------------------
 @media screen and (max-width: 480.98px) {
-
-    .breadcrumbs-need-help {
-        display: none;
-    }
 
     .request-help {
         margin-bottom: 30px;
