@@ -222,10 +222,9 @@
         }
 
         &_list {
-
             grid-column-gap: 30px;
             grid-row-gap: 30px;
-
+            transform: translateY(39px);
         }
 
         &_item {
@@ -235,14 +234,17 @@
         }
 
         &_title {
-            padding-top: 35px;
+            padding-top: 44px;
             font-weight: $fw-semiBold;
             font-size: 26px;
+            transform: translateY(-12px);
+            margin-left: 5px;
+            margin-bottom: -19px;
         }
 
         &_descr {
             padding-top: 15px;
-            padding-left: 35px;
+            padding-left: 32px;
             margin-bottom: 50px;
             width: 454.67px;
             height: 112px;
@@ -410,7 +412,7 @@
             &_list {
                 margin-top: 30px;
                 margin-bottom: 30px;
-                margin-left: 149px;
+                margin-left: 134px;
                 display: block;
 
 
@@ -525,6 +527,7 @@
             // margin-left: 15px;
             display: block;
 
+            margin-left: 150px;
 
 
         }
@@ -532,11 +535,12 @@
         &_item {
             width: 450px;
             height: 260px;
-            transform: translateX(-150px)
+            transform: translateX(-150px);
+            margin-bottom: 20px;
         }
 
         &_title {
-            padding-top: 31px;
+            padding-top: 43px;
             font-size: 20px;
             line-height: 30px;
             font-family: $ff-rubik;

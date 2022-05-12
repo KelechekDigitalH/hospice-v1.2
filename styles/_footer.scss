@@ -16,15 +16,15 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
-        right: 79px;
-        top: calc(50% - 17.5rem);
+        right: 50px;
+        top: calc(52% - 17.5rem);
     }
 
 
     &__logo img {
         width: 255px;
-        height: 86px;
-        margin-bottom: 17px;
+        height: 90px;
+        margin-bottom: 14px;
     }
 
     &__social {
@@ -37,8 +37,8 @@
         margin-left: 20.5px;
     }
 
-    &__item-facebook {
-        margin-left: 11.5px !important;
+    &__social-item-facebook {
+        margin-left: 10.5px !important;
     }
 
     &__text {
@@ -75,11 +75,11 @@
     display: flex;
     justify-content: space-between;
     padding: 65px 0;
-
+    transform: translateY(-30px);
 
     &-rightside {
         display: flex;
-
+        transform: translateX(-17px);
     }
 
 
@@ -101,6 +101,7 @@
     &__rightside-list {
         list-style: none;
         padding-left: 0;
+        transform: translateY(-11px);
     }
 
     &__rightside-item {
@@ -138,15 +139,16 @@
 
 .requisites__item {
     margin-bottom: 5px;
+    line-height: 15px;
 }
 
 .contacts {
-    margin-left: 82px;
+    margin-left: 86px;
+    margin-right: -9px;
 }
 
 .info {
-    margin-left: 20px;
-
+    margin-left: 25px;
 }
 
 .info-item {
@@ -155,6 +157,8 @@
 
 .contact-info {
     margin-bottom: 10px;
+
+    transform: translateY(-15px);
 }
 
 .contact-phone a {
@@ -164,13 +168,25 @@
 .footer-geo,
 .footer-gmail,
 .footer-phone {
-    margin-right: 12px;
+    margin-right: 13px;
     margin-top: 5px;
+}
+
+.footer-phone {
+    margin-left: -5px;
+}
+
+.phone-number {
+    margin-top: -1px;
+    margin-left: -1px;
 }
 
 .footer-gmail {
     position: relative;
-    top: 5px
+    top: 8px;
+    left: 4px;
+    margin-top: -7px;
+    margin-left: -7px;
 }
 
 
@@ -198,24 +214,34 @@
             background-repeat: no-repeat;
             background-size: cover;
             position: absolute;
-            right: 69px;
-            top: calc(50% - 17.5rem);
+            right: 53px;
+            top: calc(68% - 17.5rem);
         }
 
         &__logo img {
             width: 177px;
             height: 65px;
-            margin-left: 56px;
+            margin-top: -20px;
+            margin-left: 45px;
         }
 
         &__social {
-            margin-left: 40px;
+            margin-left: 39px;
+            margin-top: -3px;
+        }
+
+        &__social-item-facebook {
+            margin-left: 7.5px !important;
         }
 
 
         &__item img {
             width: 27px;
             height: 26px;
+        }
+
+        &__social-item+&__social-item {
+            margin-left: 12.1px;
         }
 
 
@@ -229,18 +255,29 @@
 
         &__text {
             width: 220px;
-            font-size: 14px;
+            font-size: 12px;
             line-height: 16px;
-            margin-bottom: 21px;
-            margin-left: 40px;
+            margin-bottom: 19px;
+            margin-top: 13px;
+            margin-left: 25px;
         }
 
         &__social-title {
-            font-size: 11px;
+            font-size: 12px;
             line-height: 14px;
             margin-bottom: 12px;
-            margin-left: 40px;
+            margin-left: 25px;
         }
+    }
+
+    .footer__social_img1,
+    .footer__social_img2,
+    .footer__social_img3,
+    .footer__social_img4,
+    .footer__social_img5,
+    .footer__social_img6 {
+        width: 28px;
+        transform: translateX(-12px);
     }
 
     .footer__inner-rightside {
@@ -258,7 +295,8 @@
     }
 
     .requisites {
-        width: 231px;
+        width: 234px;
+        margin-top: -31px;
         margin-left: 40px;
         font-size: 12px;
         line-height: 13px;
@@ -267,31 +305,93 @@
 
 
     .contacts {
-        width: 300px;
-        margin-left: 66px;
-        align-items: center;
-
+        width: 179px;
+        margin-top: -28px;
+        transform: translateX(-78px);
     }
 
+    .contact-info {
+        padding-top: 8px;
+        margin-bottom: 7px;
+    }
+
+    .phone-number {
+        margin-top: -11px;
+        margin-left: -3px;
+        font-size: 12px;
+        line-height: 15px;
+        transform: translateX(-9px);
+    }
+
+    .footer {
+        &__rightside-title {
+            font-size: 14px;
+            line-height: 16px;
+            margin-bottom: 25px;
+            margin-right: 141px;
+            transform: translateX(-80px);
+        }
+
+        &__rightside-list {
+            width: 256px;
+            margin-top: -12px;
+            transform: translateX(-80px);
+        }
+
+        &__rightside-link {
+            margin-top: 10px;
+
+            font-size: 12px;
+        }
+
+        &__rightside-item {
+            font-size: 11px;
+            line-height: 16px;
+            margin-top: -5px;
+        }
+
+        &-phone {
+            margin-top: -6px;
+            margin-left: -1px;
+        }
+
+        &-geo {
+            transform: translateY(7px);
+        }
+    }
+
+    .info {
+        margin-left: 25px;
+        margin-top: -29px;
+    }
 }
 
 
 @media (max-width: 768px) {
+
+
     .footer-rightside {
         width: 100px;
     }
+
+
 
     .footer {
 
         &__inner {
             transform: translateY(-30px);
-
         }
 
         &:after {
-            z-index: -1;
-            width: 700px;
-            transform: translateY(60px);
+            content: '';
+            width: 103%;
+            height: 10%;
+            background-image: url("/assets/main/beforefooter.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            right: 0px;
+            top: calc(76% - 17.6rem);
         }
 
         &__inner-rightside {
@@ -306,17 +406,19 @@
         }
 
         &__rightside-item {
-            width: 290px;
+            width: 256px;
+
+            font-size: 12px;
         }
     }
 
     .footer {
 
         &__logo img {
-            margin-top: -2px;
+            margin-top: -20px;
             width: 186px;
             height: 68px;
-            margin-left: 60px;
+            margin-left: 15px;
         }
 
         &__text {
@@ -324,21 +426,25 @@
             font-size: 12px;
             font-weight: $fw-medium;
             line-height: 16px;
-            margin-bottom: 21px;
-            margin-left: 20px;
+            margin-bottom: 19px;
+            margin-left: -11px;
+            margin-top: 6px;
         }
 
         &__social-title {
             font-size: 12px;
             line-height: 14px;
             margin-bottom: 13px;
-            margin-left: 20px;
+            margin-left: -10px;
         }
 
         &__social {
-            margin-left: 20px;
+            margin-left: 5px;
         }
 
+        &__social-item-facebook {
+            margin-left: 13.7px !important;
+        }
 
         &__btn {
             display: block;
@@ -346,13 +452,16 @@
             font-family: $ff-rubik;
             font-weight: $fw-semiBold;
             line-height: 16px;
-            padding: 14px 28px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            width: 221px;
             border: 1px solid #BAB2B2;
             border-radius: 5px;
             color: $color-white;
             text-align: center;
             text-decoration: none;
-            // margin-left: 170px;
+            margin-top: 9px;
+            transform: translateX(89px);
 
         }
     }
@@ -375,9 +484,15 @@
 
         }
 
-        &__list,
-        &__title {
+        &-list {
+
+            transform: translateX(90px);
+        }
+
+        &-title {
             width: 300px;
+            margin-top: -1px;
+            transform: translateX(92px);
         }
     }
 }
@@ -397,45 +512,67 @@
         &__logo img {
             width: 373px;
             height: 130px;
-            margin-top: -30px;
-            transform: translateX(-22px);
+            margin-top: -13px;
+            transform: translateX(-2px);
         }
 
         &__text {
             font-size: 18px;
             width: 332px;
             line-height: 24px;
-            margin-left: 47px;
+            margin-top: 17px;
+            margin-left: 21px;
         }
 
         &__social-title {
+            width: 252px;
             font-size: 18px;
             font-weight: 700;
             text-transform: uppercase;
-            margin-top: 40px;
-            margin-left: 47px;
+            margin-top: 44px;
+            margin-left: 21px;
         }
 
         &__social {
-            // width: 193px
-
-            margin-left: 47px;
+            width: 190px;
+            margin-left: 36px;
             margin-bottom: 40px;
         }
 
         &__btn {
             width: 358px;
+            margin-top: 17px;
+            transform: translateX(65px);
+        }
+
+        &__inner-leftside {
+            width: 392px;
         }
     }
 
     .footer__rightside-title {
         font-size: 18px;
-        margin-top: 20px;
+        margin-top: 12px;
+        margin-left: -21px;
     }
 
     .footer__rightside-item {
         width: 350px;
         font-size: 16px;
+        margin-left: -23px;
+        margin-top: 5px;
+    }
+
+    .footer-phone {
+        margin-top: -19px;
+        margin-left: -1px;
+        padding-right: 2px;
+    }
+
+    .phone-number {
+        font-size: 16px;
+        margin-top: -16px;
+        line-height: 18px;
     }
 
     .footer__rightside-link {
@@ -443,11 +580,15 @@
     }
 
     .footer::after {
-        width: 479px;
-        -webkit-transform: translateY(-90px);
-        -ms-transform: translateY(-90px);
-        transform: translateY(-88px);
-        left: 0px;
+        content: '';
+        width: 98%;
+        height: 10%;
+        background-image: url("/assets/main/beforefooter.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        right: 1px;
+        top: calc(38% - 17.4rem);
         z-index: -1;
     }
 
