@@ -28,25 +28,24 @@
 .about-wrapper{
    display: flex;
    gap:20px;
-   padding-bottom: 90px;
 }
 .yellow-palm {
   position: absolute;
-  top: 25%;
+  top: 23%;
   left: 45%;
   z-index: -1;
 }
 
 .drop-design{
    position: absolute;
-   top:61%;
+   top:57%;
    left: 57.5%;
    z-index: -1;
 }
 
 .green-palm{
    position: absolute;
-   top: 110%;
+   top: 103%;
    left: 74%;
    z-index: -1;
 }
@@ -55,7 +54,6 @@
 @media (max-width:1150px) {
    .about-wrapper{
       gap:30px;
-      padding-bottom: 59px;
    }
 
    .about-title{
@@ -104,7 +102,7 @@
 
 @media(max-width:999px) {
    .about-wrapper{
-      padding-bottom: 84px;
+      padding-bottom: 27px;
    }
 
     .about-title{
@@ -120,7 +118,7 @@
   }
 
     .about-img{
-      width: 280px;
+      max-width: 100%;
       margin:0 20px 0px 0;
   }
 
@@ -138,14 +136,11 @@
 
 @media(max-width:767px){
    .about-wrapper{
-      max-width: 450px;
-      padding-bottom: 31px;
+   
+      padding-bottom: unset;
    }
 
-   // .blc {
-   //    max-width: 450px;
-   // }
-
+  
    .about-title{
       font-weight: 700;
       font-size: 26px;
@@ -169,12 +164,11 @@
    }
 
    .history-desc{
-      padding-top: 15px;
+      padding-top: 5px;
    }
 
    .about-img{
       width: 450px;
-      height: 309px;
       float: unset;
   }
 
