@@ -96,6 +96,40 @@ var swiper = new Swiper(".mySwiper", {
 	   nextEl: ".swiper-button-next",
 	   prevEl: ".swiper-button-prev",
 	},
+	breakpoints: {
+		300: {
+			slidesPerView: 'auto',
+			spaceBetween: 30
+		},
+		500: {
+			slidesPerView: 1,
+			spaceBetween: 70
+		},
+		672: {
+			slidesPerView: 2,
+			spaceBetween: 30
+		},
+		700: {
+			slidesPerView: 2,
+			spaceBetween: 30
+		},
+		768: {
+			slidesPerView: 2,
+			spaceBetween: 50
+		},
+		885: {
+			slidesPerView: 3,
+			spaceBetween: 8
+		},
+		991: {
+			slidesPerView: 3,
+			spaceBetween: 30
+		},
+		1192: {
+			slidesPerView: 3,
+			spaceBetween: 30
+		}
+	}
  });
 
 
@@ -117,7 +151,7 @@ $(document).ready(function () {
 		{
 			breakpoint: 550,
 			settings: {
-				slidesToShow: 1
+				slidesToShow: 2
 			}
 		}
 		]
