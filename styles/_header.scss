@@ -131,6 +131,10 @@ header::before {
 
 @media (max-width:1150px){
     
+   header {
+      position: sticky;
+      z-index: 2;
+   }
  
 
    .header-inner {
@@ -158,6 +162,7 @@ header::before {
        width: 350px;
        height: 100%;
        background: #fff;
+       box-shadow: -10px 5px 40px 1px rgba(204, 204, 204, 0.4);
        padding: 160px 0 0 50px;
        position: fixed;
        overflow: hidden;

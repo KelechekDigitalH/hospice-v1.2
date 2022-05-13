@@ -1,44 +1,5 @@
 @import "./vars";
 
-
-.breadcrumbs {
-    margin-left: 135px;
-    font-family: "Rubik";
-
-    &_item {
-        display: inline-block;
-
-    }
-
-    &_link {
-        text-decoration: none;
-        color: #000000;
-        transition: 0.5s;
-    }
-
-    &_link::after {
-        content: " > ";
-        color: #000000;
-        font-weight: 400;
-    }
-
-    &_link:hover {
-        color: #fd6262;
-    }
-
-    &_active {
-        font-weight: 500;
-        text-decoration: none;
-        color: #000;
-        transition: 0.5s;
-
-        &:hover {
-            color: #fd6262;
-            transition: 0.5s;
-        }
-    }
-}
-
 .wantToHelp-blc {
     width: 1240px;
     height: 629px;
@@ -150,10 +111,7 @@
 
 
 @media(max-width: 1000px) {
-    .breadcrumbs {
-        margin-left: 20px;
-    }
-
+  
     .wantToHelp-blc {
         width: 970px;
         margin: 0 auto;

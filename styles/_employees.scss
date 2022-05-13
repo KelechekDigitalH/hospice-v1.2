@@ -3,7 +3,7 @@
 .empl-wrapper{
    display: flex;
    gap:20px;
-   padding-bottom: 107px;
+   padding-bottom: 14px;
 }
 
 .empl-title{
@@ -71,19 +71,19 @@
 }
 .ballon-design{
    position: absolute;
-   top:120%;
+   top:110%;
    left:70%;
    z-index: -1;
 }
 .violet-design{
    position: absolute;
-   top:161%;
+   top:150%;
    left:63%;
    z-index: -1;
 }
 .pink-design{
    position: absolute;
-   top:178%;
+   top:165%;
    left:78%;
    z-index: -1;
 }
@@ -92,7 +92,7 @@
 @media (max-width:1150px) {
    .empl-wrapper{
       gap:30px;
-      padding-bottom: 60px;
+      padding-bottom: unset;
    }
 
    .empl-title{
@@ -145,7 +145,7 @@
    
    .ballon-design{
       width: 163px;
-      top:75%;
+      top:70%;
       left:70%;
       transform: rotate(-30deg);
       z-index: -2;
@@ -153,7 +153,7 @@
 
    .violet-design{
       width: 106.74px;
-      top:120%;
+      top:110%;
       left:83%;
       z-index: -2;
    }
@@ -166,7 +166,7 @@
 
 @media (max-width:999px){
    .empl-wrapper{
-      padding-bottom: 73px;
+      padding-bottom: 15px;
    }
 
    .empl-title{
@@ -228,7 +228,7 @@
 
 @media (max-width:767px) {
    .empl-wrapper{
-      padding-bottom: 40px;
+      padding-bottom: unset;
    }
 
    .empl-title{
@@ -247,6 +247,8 @@
    .empl-card{
       grid-template-columns: 450px;
       gap: 99px;
+      max-width: 480px;
+      margin: 0 auto;
 
       &__item{
          max-height:288px;
