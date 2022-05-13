@@ -256,10 +256,26 @@
       right: 93px;
    }
 
+   @media (max-width: 1253px) {
+      &_img1 {
+         width: 55px;
+         height: 106px;
+         top: -40px;
+         left: 268px;
+      }
+
+      &_img2 {
+         width: 86px;
+         top: -32px;
+         right: 182px;
+      }
+   }
+
    .wrapper {
       margin-top: 65px;
       display: flex;
       justify-content: space-between;
+      gap: 20px;
 
       &_item1 {
          background: #FFEBF9;
@@ -270,7 +286,18 @@
          text-align: center;
 
          &_img {
+            display: block;
+            margin: 0 auto;
             margin-bottom: 42px;
+         }
+
+         @media (max-width: 1166px) {
+            &_img {
+            margin-bottom: 27px;
+               img {
+                  width: 200px;
+               }
+            }
          }
 
          &_btn {
@@ -287,21 +314,24 @@
          text-align: center;
          font-family: $ff-raleway;
 
-         &_list{
+         &_list {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
 
-            &_header{
+            &_header {
                margin-bottom: 144px;
             }
-            &_header2{
+
+            &_header2 {
                margin-right: 21px;
             }
          }
-         &_img{
+
+         &_img {
             margin-right: 25px;
          }
+
          &_link {
             display: flex;
             align-items: center;
@@ -314,6 +344,55 @@
                color: $color-white;
             }
          }
+
+         @media (max-width: 1166px) {
+            &_img {
+               width: 62px;
+            }
+         }
       }
+
+      @media (max-width: 1233px) {
+         &_item1 {
+            padding: 24px 55px 24px;
+         }
+
+         &_item2 {
+            padding: 57px 40px 55px 44px;
+         }
+      }
+
+      @media (max-width: 1166px) {
+         &_item1 {
+            padding: 24px 55px 24px 55px;
+         }
+
+         &_item2 {
+            padding: 57px 40px 55px 44px;
+         }
+      }
+   }
+   @media (max-width: 1166px) {
+      .wrapper {
+         margin-top: 28px;
+      }
+      
+   }
+}
+
+
+.blc-news {
+   margin-top: 116px;
+
+   &_img1 {
+      position: absolute;
+      top: -62px;
+      left: -84px;
+   }
+
+   &_img2 {
+      position: absolute;
+      top: -8px;
+      right: 254px;
    }
 }
