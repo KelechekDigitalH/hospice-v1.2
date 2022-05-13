@@ -1,4 +1,319 @@
-.bakai{
-   font-size: 50px;
-   color: aquamarine;
+@import "./vars";
+
+.main_btn {
+   padding: 0.7rem 3.9rem;
+   border-radius: 5px;
+   background-color: $color-violet;
+   color: $color-white;
+   font-family: $ff-raleway;
+   font-weight: $fw-bold;
+   font-size: 1.08rem;
+   letter-spacing: 0.03em;
+   text-decoration: none;
+   box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+   transition: 0.2s ease box-shadow;
+
+   &:hover {
+      box-shadow: 0px 0px 0px rgba(50, 108, 255, 1);
+   }
+}
+
+.blc-topscr {
+   min-height: 825px;
+   padding: 93px 0 119px 0;
+   position: relative;
+
+   &_info {
+      color: $color-black;
+      width: 583px;
+      font-family: $ff-rubik;
+   }
+
+
+   &_title {
+      margin-top: 11px;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 41px;
+   }
+
+   &_text {
+      margin-top: 27px;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+      margin-bottom: 53px;
+   }
+
+   &_btn {
+      padding: 0.7rem 3.9rem;
+      border-radius: 5px;
+      background-color: $color-violet;
+      color: $color-white;
+      font-family: $ff-raleway;
+      font-weight: $fw-bold;
+      font-size: 1.08rem;
+      letter-spacing: 0.03em;
+      text-decoration: none;
+      box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+      transition: 0.2s ease box-shadow;
+
+      &:hover {
+         box-shadow: 0px 0px 0px rgba(50, 108, 255, 1);
+      }
+   }
+
+   .images {
+      position: relative;
+
+      &_img {
+         position: absolute;
+         top: -336px;
+         right: 20px;
+      }
+
+      &_bgimg {
+         position: absolute;
+         top: -488px;
+         right: -100px;
+      }
+
+      &_finger1 {
+         position: absolute;
+         top: 94px;
+         left: 22px;
+      }
+
+      &_finger2 {
+         position: absolute;
+         top: 20px;
+         left: 193px;
+      }
+
+      @media (max-width: 1150px) {
+         &_img {
+            width: 537px;
+         }
+
+         &_bgimg {
+            display: none;
+         }
+      }
+
+      @media (max-width: 1103px) {
+         &_img {
+            right: -74px;
+         }
+
+         &_finger1 {
+            width: 115px;
+            top: 35px;
+            left: 143px;
+         }
+
+         &_finger2 {
+            width: 115px;
+            top: -38px;
+            left: 320px;
+         }
+      }
+   }
+}
+
+@media (max-width: 1103px) {
+   .blc-topscr {
+      min-height: 555px;
+      padding: 55px 0 57px 0;
+   }
+}
+
+.head {
+   position: relative;
+   font-family: $ff-rubik;
+
+   &-title {
+      text-align: center;
+      font-weight: $fw-bold;
+      font-size: 40px;
+   }
+
+   &_img1 {
+      position: absolute;
+      top: -81px;
+      left: 312px;
+   }
+
+   &_img2 {
+      position: absolute;
+      top: -76px;
+      right: 345px;
+   }
+
+   @media (max-width: 1103px) {
+      &_img1 {
+         display: none;
+      }
+
+      &_img2 {
+         width: 129px;
+         top: -55px;
+         right: 233px;
+      }
+   }
+}
+
+
+.blc-ourkids {
+   min-height: 658px;
+
+   .wrapper {
+      margin-top: 139px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &_item {
+         text-align: center;
+         padding: 177px 51px 42px;
+         color: $color-black;
+         position: relative;
+         border-radius: 20px;
+         font-family: $ff-poppins;
+      }
+
+      &_img {
+         position: absolute;
+         top: -84px;
+         left: 80px;
+      }
+
+      &_title {
+         font-weight: $fw-bold;
+         font-size: 24px;
+      }
+
+      &_descr {
+         margin-top: 8px;
+         font-weight: $fw-medium;
+         font-size: 14px;
+
+         strong {
+            font-weight: $fw-bold;
+         }
+      }
+
+      .status {
+         margin-top: 29px;
+         margin-bottom: 44px;
+
+         &_progres {
+            font-weight: $fw-bold;
+            font-size: 16.8px;
+         }
+
+         &_img {
+            display: block;
+            margin: 0 auto;
+         }
+
+         &_info {
+            margin-top: 14px;
+            display: flex;
+            justify-content: space-between;
+         }
+
+         &_text {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+
+            strong {
+               font-weight: 700;
+            }
+         }
+
+      }
+
+      &_btn {
+         padding: 10px 41px;
+      }
+   }
+
+}
+
+.blc-how_help {
+   margin-top: 120px;
+
+   &_img1 {
+      position: absolute;
+      top: -66px;
+      left: 401px;
+   }
+
+   &_img2 {
+      position: absolute;
+      top: -48px;
+      right: 93px;
+   }
+
+   .wrapper {
+      margin-top: 65px;
+      display: flex;
+      justify-content: space-between;
+
+      &_item1 {
+         background: #FFEBF9;
+         padding: 39px 72px 45px;
+         position: relative;
+         border-radius: 20px;
+         align-items: center;
+         text-align: center;
+
+         &_img {
+            margin-bottom: 42px;
+         }
+
+         &_btn {
+            padding: 10px 41px;
+         }
+      }
+
+      &_item2 {
+         background: #FF7272;
+         padding: 75px 61px 72px 86px;
+         position: relative;
+         border-radius: 20px;
+         align-items: center;
+         text-align: center;
+         font-family: $ff-raleway;
+
+         &_list{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            &_header{
+               margin-bottom: 144px;
+            }
+            &_header2{
+               margin-right: 21px;
+            }
+         }
+         &_img{
+            margin-right: 25px;
+         }
+         &_link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+
+            &_text {
+               font-weight: $fw-bold;
+               font-size: 18px;
+               text-transform: uppercase;
+               color: $color-white;
+            }
+         }
+      }
+   }
 }
