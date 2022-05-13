@@ -1,15 +1,16 @@
 /*******Burger******/
 
 
+
 document.querySelector('.burger').addEventListener('click', function(){
 
 	document.querySelector('.burger','.menu').classList.toggle('active');
 	document.querySelector('.menu').classList.toggle("open");
  });
- // END BURGER SCRIPTS
+// END BURGER SCRIPTS
 
 
- // NEED HELP PAGE SCRIPTS
+// NEED HELP PAGE SCRIPTS
 const accordionHeader = document.querySelectorAll('.programs-first-kids-hospice__inner__all-accordions__accordion__header');
 
 accordionHeader.forEach(accordionHeader => {
@@ -75,3 +76,85 @@ accordionEntity.forEach(accordionEntitys => {
 	});
 });
 // END LEGAL-ENTITY SCRIPTS
+
+
+
+
+//Main ourkids slider
+var swiper = new Swiper(".mySwiper", {
+	slidesPerView: 3,
+	spaceBetween: 30,
+	slidesPerGroup: 1,
+	speed: 500,
+	slidesToScroll: 1,
+	loop: true,
+	loopFillGroupWithBlank: true,
+	pagination: {
+	   el: ".swiper-pagination",
+	   clickable: true,
+	},
+	navigation: {
+	   nextEl: ".swiper-button-next",
+	   prevEl: ".swiper-button-prev",
+	},
+	breakpoints: {
+		300: {
+			slidesPerView: 'auto',
+			spaceBetween: 30
+		},
+		500: {
+			slidesPerView: 1,
+			spaceBetween: 70
+		},
+		672: {
+			slidesPerView: 2,
+			spaceBetween: 30
+		},
+		700: {
+			slidesPerView: 2,
+			spaceBetween: 30
+		},
+		768: {
+			slidesPerView: 2,
+			spaceBetween: 50
+		},
+		885: {
+			slidesPerView: 3,
+			spaceBetween: 8
+		},
+		991: {
+			slidesPerView: 3,
+			spaceBetween: 30
+		},
+		1192: {
+			slidesPerView: 3,
+			spaceBetween: 30
+		}
+	}
+ });
+
+
+//slider mainpage our-sponsors
+$(document).ready(function () {
+	$('.blc-sponsor_slider').slick({
+		arrows: true,
+		dots: true,
+		slidesToShow: 4,
+		autoplay: true,
+		speed: 2000,
+		autoplaySpeed: 900,
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2
+			}
+		},
+		{
+			breakpoint: 550,
+			settings: {
+				slidesToShow: 2
+			}
+		}
+		]
+	});
+});
