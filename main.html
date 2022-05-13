@@ -6,7 +6,11 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Первый Детский Хоспис</title>
-   <link rel="stylesheet" href="./css/styles.min.css">
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="libs/slick/slick-theme.css">
+   <link rel="stylesheet" href="libs/slick/slick.css">
+   <link rel="stylesheet" href="css/styles.min.css">
 </head>
 
 <body>
@@ -82,63 +86,117 @@
             <img src="./assets/main/icons/fingers/kids2.svg" class="head_img2">
          </div>
 
-         <div class="wrapper">
-            <div class="wrapper_item" style="background: #E3ECFF;">
-               <img src="./assets/main/img/kid1.svg" class="wrapper_img">
-               <h3 class="wrapper_title">William William</h3>
-               <div class="wrapper_descr"><strong>Диагноз:</strong> Билатеральная ретинобластома.</div>
-               <div class="status">
-                  <div class="status_progres">60%</div>
-                  <img src="./assets/main/img/filled.png" class="status_img">
-                  <div class="status_info">
-                     <div class="status_text">Собрано: <br>
-                        <strong>60 000 сом</strong></div>
-                     <div class="status_text">Сумма к сбору:<br>
-                        <strong>100 000 сом</strong></div>
-                  </div>
-               </div>
-               <a class="main_btn wrapper_btn " href="#">хочу помочь</a>
-            </div>
+         <div class="swiper mySwiper blc-ourkids_slider">
+            <div class="swiper-wrapper slider-wrapper ">
 
-            <div class="wrapper_item" style="background: #A1EB7C;">
-               <img src="./assets/main/img/kid1.svg" class="wrapper_img">
-               <h3 class="wrapper_title">William William</h3>
-               <div class="wrapper_descr"><strong>Диагноз:</strong> Билатеральная ретинобластома.</div>
-               <div class="status">
-                  <div class="status_progres">60%</div>
-                  <img src="./assets/main/img/filled.png" class="status_img">
-                  <div class="status_info">
-                     <div class="status_text">Собрано: <br>
-                        <strong>60 000 сом</strong></div>
-                     <div class="status_text">Сумма к сбору:<br>
-                        <strong>100 000 сом</strong></div>
+               <div class="swiper-slide slider-wrapper_item" style="background: #E3ECFF;">
+                  <img src="./assets/main/img/kid1.svg" class="slider-wrapper_img">
+                  <h3 class="slider-wrapper_title">William William</h3>
+                  <div class="slider-wrapper_descr"><strong>Диагноз:</strong> Билатеральная ретинобластома.</div>
+                  <div class="status">
+                     <div class="status_progres">60%</div>
+                     <img src="./assets/main/img/filled.png" class="status_img">
+                     <div class="status_info">
+                        <div class="status_text">Собрано: <br>
+                           <strong>60 000 сом</strong></div>
+                        <div class="status_text">Сумма к сбору:<br>
+                           <strong>100 000 сом</strong></div>
+                     </div>
                   </div>
+                  <a class="main_btn slider-wrapper_btn " href="#">хочу помочь</a>
                </div>
-               <a class="main_btn wrapper_btn " href="#">хочу помочь</a>
-            </div>
 
-            <div class="wrapper_item" style="background: #FFEBF9;">
-               <img src="./assets/main/img/kid1.svg" class="wrapper_img">
-               <h3 class="wrapper_title">William William</h3>
-               <div class="wrapper_descr"><strong>Диагноз:</strong> Билатеральная ретинобластома.</div>
-               <div class="status">
-                  <div class="status_progres">60%</div>
-                  <img src="./assets/main/img/filled.png" class="status_img">
-                  <div class="status_info">
-                     <div class="status_text">Собрано: <br>
-                        <strong>60 000 сом</strong></div>
-                     <div class="status_text">Сумма к сбору:<br>
-                        <strong>100 000 сом</strong></div>
+               <div class="swiper-slide slider-wrapper_item" style="background: #A1EB7C;">
+                  <img src="./assets/main/img/kid1.svg" class="slider-wrapper_img">
+                  <h3 class="slider-wrapper_title">William William</h3>
+                  <div class="slider-wrapper_descr"><strong>Диагноз:</strong> Билатеральная ретинобластома.</div>
+                  <div class="status">
+                     <div class="status_progres">60%</div>
+                     <img src="./assets/main/img/filled.png" class="status_img">
+                     <div class="status_info">
+                        <div class="status_text">Собрано: <br>
+                           <strong>60 000 сом</strong></div>
+                        <div class="status_text">Сумма к сбору:<br>
+                           <strong>100 000 сом</strong></div>
+                     </div>
                   </div>
+                  <a class="main_btn slider-wrapper_btn " href="#">хочу помочь</a>
                </div>
-               <a class="main_btn wrapper_btn " href="#">хочу помочь</a>
-            </div>
 
+               <div class="swiper-slide slider-wrapper_item" style="background: #FFEBF9;">
+                  <img src="./assets/main/img/kid1.svg" class="slider-wrapper_img">
+                  <h3 class="slider-wrapper_title">William William</h3>
+                  <div class="slider-wrapper_descr"><strong>Диагноз:</strong> Билатеральная ретинобластома.</div>
+                  <div class="status">
+                     <div class="status_progres">60%</div>
+                     <img src="./assets/main/img/filled.png" class="status_img">
+                     <div class="status_info">
+                        <div class="status_text">Собрано: <br>
+                           <strong>60 000 сом</strong></div>
+                        <div class="status_text">Сумма к сбору:<br>
+                           <strong>100 000 сом</strong></div>
+                     </div>
+                  </div>
+                  <a class="main_btn slider-wrapper_btn " href="#">хочу помочь</a>
+               </div>
+
+               <div class="swiper-slide slider-wrapper_item" style="background: #FFEBF9;">
+                  <img src="./assets/main/img/kid1.svg" class="slider-wrapper_img">
+                  <h3 class="slider-wrapper_title">William William</h3>
+                  <div class="slider-wrapper_descr"><strong>Диагноз:</strong> Билатеральная ретинобластома.</div>
+                  <div class="status">
+                     <div class="status_progres">60%</div>
+                     <img src="./assets/main/img/filled.png" class="status_img">
+                     <div class="status_info">
+                        <div class="status_text">Собрано: <br>
+                           <strong>60 000 сом</strong></div>
+                        <div class="status_text">Сумма к сбору:<br>
+                           <strong>100 000 сом</strong></div>
+                     </div>
+                  </div>
+                  <a class="main_btn slider-wrapper_btn " href="#">хочу помочь</a>
+               </div>
+               <div class="swiper-slide slider-wrapper_item" style="background: #FFEBF9;">
+                  <img src="./assets/main/img/kid1.svg" class="slider-wrapper_img">
+                  <h3 class="slider-wrapper_title">William William</h3>
+                  <div class="slider-wrapper_descr"><strong>Диагноз:</strong> Билатеральная ретинобластома.</div>
+                  <div class="status">
+                     <div class="status_progres">60%</div>
+                     <img src="./assets/main/img/filled.png" class="status_img">
+                     <div class="status_info">
+                        <div class="status_text">Собрано: <br>
+                           <strong>60 000 сом</strong></div>
+                        <div class="status_text">Сумма к сбору:<br>
+                           <strong>100 000 сом</strong></div>
+                     </div>
+                  </div>
+                  <a class="main_btn slider-wrapper_btn " href="#">хочу помочь</a>
+               </div>
+               <div class="swiper-slide slider-wrapper_item" style="background: #FFEBF9;">
+                  <img src="./assets/main/img/kid1.svg" class="slider-wrapper_img">
+                  <h3 class="slider-wrapper_title">William William</h3>
+                  <div class="slider-wrapper_descr"><strong>Диагноз:</strong> Билатеральная ретинобластома.</div>
+                  <div class="status">
+                     <div class="status_progres">60%</div>
+                     <img src="./assets/main/img/filled.png" class="status_img">
+                     <div class="status_info">
+                        <div class="status_text">Собрано: <br>
+                           <strong>60 000 сом</strong></div>
+                        <div class="status_text">Сумма к сбору:<br>
+                           <strong>100 000 сом</strong></div>
+                     </div>
+                  </div>
+                  <a class="main_btn slider-wrapper_btn " href="#">хочу помочь</a>
+               </div>
+               
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- <div class="swiper-pagination"></div> -->
          </div>
 
       </div>
    </section>
-
 
    <section class="blc-how_help">
       <div class="container">
@@ -158,22 +216,24 @@
             <div class="wrapper_item2">
                <div class="wrapper_item2_list">
                   <a class="wrapper_item2_link wrapper_item2_link_text  wrapper_item2_list_header" href="#">
-                  <img class="wrapper_item2_img" src="./assets/main/img/helpheart.svg">
-                  Волонтерство</a>
-                  <a class="wrapper_item2_link wrapper_item2_link_text wrapper_item2_list_header wrapper_item2_list_header2" href="#">
-                  <img class="wrapper_item2_img" src="./assets/main/img/helpsocial.svg">
-                  Социальная помощь</a>
+                     <img class="wrapper_item2_img" src="./assets/main/img/helpheart.svg">
+                     Волонтерство</a>
+                  <a class="wrapper_item2_link wrapper_item2_link_text wrapper_item2_list_header wrapper_item2_list_header2"
+                     href="#">
+                     <img class="wrapper_item2_img" src="./assets/main/img/helpsocial.svg">
+                     Социальная помощь</a>
                   <a class="wrapper_item2_link wrapper_item2_link_text" href="#">
-                  <img class="wrapper_item2_img" src="./assets/main/img/helptransport.svg">
-                  Транспорт</a>
+                     <img class="wrapper_item2_img" src="./assets/main/img/helptransport.svg">
+                     Транспорт</a>
                   <a class="wrapper_item2_link wrapper_item2_link_text" href="#">
-                  <img class="wrapper_item2_img" src="./assets/main/img/helpmaterial.svg">
-                  Материальная помощь</a>
+                     <img class="wrapper_item2_img" src="./assets/main/img/helpmaterial.svg">
+                     Материальная помощь</a>
                </div>
             </div>
          </div>
       </div>
    </section>
+
 
    <section class="blc-news">
       <div class="container">
@@ -183,9 +243,171 @@
             <img src="./assets/main/icons/fingers/news2.svg" class="blc-news_img2">
          </div>
 
+         <div class="blc-news_control">
+            <a class="main_btn blc-news_control_all" href="">все новости</a>
+            <a class="main_btn blc-news_control_news" href="">новости хосписа</a>
+            <a class="main_btn blc-news_control_about" href="">СМИ о нас</a>
+         </div>
+
+         <div class="list-container">
+            <div class="vid-list">
+               <a class="hover" href="#"><img src="./assets/main/img/newsimg1.svg" class="thumbnail"></a>
+               <div class="flex-div">
+                  <div class="vid-info">
+                     <a href="#">News Title Lorem Ipsum Dolor Sit Amet</a>
+                     <p>14 декабря 2021</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="vid-list">
+               <a class="hover" href="cartoon.html"><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
+               <div class="flex-div">
+                  <div class="vid-info">
+                     <a href="cartoon.html">News Title Lorem Ipsum Dolor Sit Amet</a>
+                     <p>14 декабря 2021</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="vid-list">
+               <a class="hover" href=""><img src="./assets/main/img/newsimg3.svg" class="thumbnail"></a>
+               <div class="flex-div">
+                  <div class="vid-info">
+                     <a href="">News Title Lorem Ipsum Dolor Sit Amet</a>
+                     <p>14 декабря 2021</p>
+                  </div>
+               </div>
+            </div>
+            <div class="vid-list">
+               <a class="hover" href=""><img src="./assets/main/img/newsimg4.svg" class="thumbnail"></a>
+               <div class="flex-div">
+                  <div class="vid-info">
+                     <a href="">News Title Lorem Ipsum Dolor Sit Amet </a>
+                     <p>14 декабря 2021</p>
+                  </div>
+               </div>
+            </div>
+            <div class="vid-list">
+               <a class="hover" href=""><img src="./assets/main/img/newsimg1.svg" class="thumbnail"></a>
+               <div class="flex-div">
+                  <div class="vid-info">
+                     <a href="">News Title Lorem Ipsum Dolor Sit Amet</a>
+                     <p>14 декабря 2021</p>
+                  </div>
+               </div>
+            </div>
+            <div class="vid-list">
+               <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
+               <div class="flex-div">
+                  <div class="vid-info">
+                     <a href="">News Title Lorem Ipsum Dolor Sit Amet</a>
+                     <p>14 декабря 2021</p>
+                  </div>
+               </div>
+            </div>
+            <div class="vid-list">
+               <a class="hover" href=""><img src="./assets/main/img/newsimg3.svg" class="thumbnail"></a>
+               <div class="flex-div">
+                  <div class="vid-info">
+                     <a href="">News Title Lorem Ipsum Dolor Sit Amet</a>
+                     <p>14 декабря 2021</p>
+                  </div>
+               </div>
+            </div>
+            <div class="vid-list">
+               <a class="hover" href=""><img src="./assets/main/img/newsimg4.svg" class="thumbnail"></a>
+               <div class="flex-div">
+                  <div class="vid-info">
+                     <a href="">News Title Lorem Ipsum Dolor Sit Amet </a>
+                     <p>14 декабря 2021</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </section>
+
+   <section class="blc_sponsor">
+      <div class="container">
+         <div class="head">
+            <h2 class="head-title">Наши спонсоры</h2>
+            <img src="./assets/main/icons/fingers/sponsoor1.svg" class="blc_sponsor_img1">
+            <img src="./assets/main/icons/fingers/sponsoor2.svg" class="blc_sponsor_img2">
+         </div>
+
+         <div class="blc-sponsor_slider">
+            <div class="slider__item filter">
+               <img src="./assets/main/img/slider/sl1.svg">
+            </div>
+            <div class="slider__item">
+               <img src="./assets/main/img/slider/sl2.svg">
+            </div>
+            <div class="slider__item filter">
+               <img src="./assets/main/img/slider/sl3.svg">
+            </div>
+            <div class="slider__item">
+               <img src="./assets/main/img/slider/sl4.svg">
+            </div>
+            <div class="slider__item filter">
+               <img src="./assets/main/img/slider/sl5.svg">
+            </div>
+            <div class="slider__item">
+               <img src="./assets/main/img/slider/sl6.svg">
+            </div>
+            <div class="slider__item filter">
+               <img src="./assets/main/img/slider/sl7.svg">
+            </div>
+            <div class="slider__item">
+               <img src="./assets/main/img/slider/sl8.svg">
+            </div>
+            <div class="slider__item">
+               <img src="./assets/main/img/slider/sl9.svg">
+            </div>
+         </div>
+
+
       </div>
    </section>
 
+
+   <section class="blc_contactmain">
+      <div class="container">
+         <div class="contact-box">
+            <div class="contact-box_left"><iframe id="map_42436785" frameborder="0" "
+               sandbox=" allow-modals allow-forms allow-scripts allow-same-origin allow-popups
+                  allow-top-navigation-by-user-activation"></iframe>
+               <script type="text/javascript">
+                  (function (e, t) {
+                     var r = document.getElementById(e);
+                     r.contentWindow.document.open(), r.contentWindow.document.write(atob(t)), r.contentWindow
+                        .document
+                        .close()
+                  })("map_42436785",
+                     "PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUsdCl7dmFyIHI9SlNPTi5wYXJzZShlKSxuPUpTT04ucGFyc2UodCk7ZnVuY3Rpb24gYShlKXtyZXR1cm4gZGVjb2RlVVJJQ29tcG9uZW50KGF0b2IoZSkuc3BsaXQoIiIpLm1hcChmdW5jdGlvbihlKXtyZXR1cm4iJSIrKCIwMCIrZS5jaGFyQ29kZUF0KDApLnRvU3RyaW5nKDE2KSkuc2xpY2UoLTIpfSkuam9pbigiIikpfURHLnRoZW4oZnVuY3Rpb24oKXt2YXIgZT1ERy5tYXAoIm1hcCIse2NlbnRlcjpbbi5sYXQsbi5sb25dLHpvb206bi56b29tfSk7REcuZ2VvSlNPTihyLHtzdHlsZTpmdW5jdGlvbihlKXt2YXIgdCxyLG4sYSxvO3JldHVybntmaWxsQ29sb3I6bnVsbD09PSh0PWUpfHx2b2lkIDA9PT10P3ZvaWQgMDp0LnByb3BlcnRpZXMuZmlsbENvbG9yLGZpbGxPcGFjaXR5Om51bGw9PT0ocj1lKXx8dm9pZCAwPT09cj92b2lkIDA6ci5wcm9wZXJ0aWVzLmZpbGxPcGFjaXR5LGNvbG9yOm51bGw9PT0obj1lKXx8dm9pZCAwPT09bj92b2lkIDA6bi5wcm9wZXJ0aWVzLnN0cm9rZUNvbG9yLHdlaWdodDpudWxsPT09KGE9ZSl8fHZvaWQgMD09PWE/dm9pZCAwOmEucHJvcGVydGllcy5zdHJva2VXaWR0aCxvcGFjaXR5Om51bGw9PT0obz1lKXx8dm9pZCAwPT09bz92b2lkIDA6by5wcm9wZXJ0aWVzLnN0cm9rZU9wYWNpdHl9fSxwb2ludFRvTGF5ZXI6ZnVuY3Rpb24oZSx0KXtyZXR1cm4icmFkaXVzImluIGUucHJvcGVydGllcz9ERy5jaXJjbGUodCxlLnByb3BlcnRpZXMucmFkaXVzKTpERy5tYXJrZXIodCx7aWNvbjpmdW5jdGlvbihlKXtyZXR1cm4gREcuZGl2SWNvbih7aHRtbDoiPGRpdiBjbGFzcz0nYnVsbGV0LW1hcmtlcicgc3R5bGU9J2JvcmRlci1jb2xvcjogIitlKyI7Jz48L2Rpdj4iLGNsYXNzTmFtZToib3ZlcnJpZGUtZGVmYXVsdCIsaWNvblNpemU6WzIwLDIwXSxpY29uQW5jaG9yOlsxMCwxMF19KX0oZS5wcm9wZXJ0aWVzLmNvbG9yKX0pfSxvbkVhY2hGZWF0dXJlOmZ1bmN0aW9uKGUsdCl7ZS5wcm9wZXJ0aWVzLmRlc2NyaXB0aW9uJiZ0LmJpbmRQb3B1cChhKGUucHJvcGVydGllcy5kZXNjcmlwdGlvbikse2Nsb3NlQnV0dG9uOiEwLGNsb3NlT25Fc2NhcGVLZXk6ITB9KSxlLnByb3BlcnRpZXMudGl0bGUmJnQuYmluZFRvb2x0aXAoYShlLnByb3BlcnRpZXMudGl0bGUpLHtwZXJtYW5lbnQ6ITAsb3BhY2l0eToxLGNsYXNzTmFtZToicGVybWFuZW50LXRvb2x0aXAifSl9fSkuYWRkVG8oZSl9KX0pKCdbeyJ0eXBlIjoiRmVhdHVyZSIsInByb3BlcnRpZXMiOnsidGl0bGUiOiIwSlRRdGRHQzBZSFF1dEM0MExrZzBLWFF2dEdCMEwvUXVOR0IiLCJkZXNjcmlwdGlvbiI6IlBIQSswSi9RdnRDOTBMWFF0TkMxMEx2UmpOQzkwTGpRdWpvZ1l5QXdPVG93TUNEUXROQytJREl3T2pBd0lEeGljajRLMEpMUmd0QyswWURRdmRDNDBMbzZJR01nTURrNk1EQWcwTFRRdmlBeU1Eb3dNRHhpY2o0SzBLSFJnTkMxMExUUXNEb2dZeUF3T1Rvd01DRFF0TkMrSURJd09qQXdQR0p5UGdyUXA5QzEwWUxRc3RDMTBZRFFzem9nWXlBd09Ub3dNQ0RRdE5DK0lESXdPakF3UEdKeVBnclFuOUdQMFlMUXZkQzQwWWJRc0RvZ1l5QXdPVG93TUNEUXROQytJREl3T2pBd1BHSnlQZ3JRb2RHRDBMSFFzZEMrMFlMUXNEb2dZeUF3T1Rvd01DRFF0TkMrSURJd09qQXdQR0p5UGdyUWt0QyswWUhRdXRHQTBMWFJnZEMxMEwzUmpOQzFPaUJqSURBNU9qQXdJTkMwMEw0Z01qQTZNREE4WW5JK1BDOXdQZz09IiwiY29sb3IiOiIjZmYwMDAzIiwiekluZGV4IjoxMDAwMDAwMDAwfSwiZ2VvbWV0cnkiOnsidHlwZSI6IlBvaW50IiwiY29vcmRpbmF0ZXMiOls3NC41NzcyOTMsNDIuODgwOTZdfSwiaWQiOjY5NH1dJywneyJsYXQiOjQyLjg3OTY0MzU5Mzg5ODc2LCJsb24iOjc0LjU3NzQwNTQ1MjcyODI5LCJ6b29tIjoxNX0nKTwvc2NyaXB0PjxzY3JpcHQgYXN5bmM9IiIgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Imh0dHBzOi8vd3d3Lmdvb2dsZXRhZ21hbmFnZXIuY29tL2d0YWcvanM/aWQ9VUEtMTU4ODY2MTY4LTEiPjwvc2NyaXB0PjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4oZnVuY3Rpb24oZSl7ZnVuY3Rpb24gdCgpe2RhdGFMYXllci5wdXNoKGFyZ3VtZW50cyl9d2luZG93LmRhdGFMYXllcj13aW5kb3cuZGF0YUxheWVyfHxbXSx0KCJqcyIsbmV3IERhdGUpLHQoImNvbmZpZyIsZSksd2luZG93Lmd0YWc9dH0pKCdVQS0xNTg4NjYxNjgtMScpPC9zY3JpcHQ+PC9ib2R5Pg=="
+                  )
+               </script>
+            </div>
+            <div class="contact-box_right">
+               <input type="text" class="field" placeholder="ФИО">
+               <input type="text" class="field" placeholder="Email">
+               <textarea placeholder="Сообщение" class="field"></textarea>
+               <button class="main_btn btn">отправить</button>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+
+
+
+   <!-- Swiper JS -->
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="./js/slick.min.js"></script>
+   <script src="./js/app.js"></script>
 
 </body>
 
