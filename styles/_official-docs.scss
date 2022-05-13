@@ -1,39 +1,7 @@
 @import "./vars";
-@import "./header";
-@import "./sidebar";
-@import "./call-to-action";
 
 .documents {
   margin-bottom: 90px;
-}
-
-.blc_breadscrumbs {
-  margin-top: 24px;
-  margin-bottom: 40px;
-  font-family: $ff-rubik;
-}
-
-.breadscrumb_link {
-  font-family: $ff-rubik;
-  font-style: normal;
-  font-weight: $fw-regular;
-  font-size: 14px;
-  line-height: 17px;
-  color: #616161;
-  text-decoration: none;
-}
-
-.breadscrumb_link+.breadscrumb_link {
-  margin-left: 5px;
-}
-
-.breadscrumb_link:last-child {
-  font-family: $ff-rubik;
-  font-style: normal;
-  font-weight: $fw-medium;
-  font-size: 14px;
-  line-height: 17px;
-  color: #616161;
 }
 
 .official-docs_title {
@@ -42,12 +10,14 @@
 }
 
 .blc_documents {
+  position: relative;
+  z-index: -1;
   display: flex;
 }
 
 .documents_cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns:  1fr 1fr 1fr;
 }
 
 .document-cards_item {
@@ -212,34 +182,7 @@
 
 @media (max-width: 1000px) {
 
-  .blc_breadscrumbs {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    font-family: $ff-rubik;
-  }
 
-  .breadscrumb_link {
-    font-family: $ff-rubik;
-    font-style: normal;
-    font-weight: $fw-regular;
-    font-size: 14px;
-    line-height: 17px;
-    color: #616161;
-    text-decoration: none;
-  }
-
-  .breadscrumb_link+.breadscrumb_link {
-    margin-left: 5px;
-  }
-
-  .breadscrumb_link:last-child {
-    font-family: $ff-rubik;
-    font-style: normal;
-    font-weight: $fw-medium;
-    font-size: 14px;
-    line-height: 17px;
-    color: #616161;
-  }
 
   .official-docs_title {
     margin-bottom: 30px;
@@ -315,11 +258,7 @@
 }
 
 @media (max-width: 768px) {
-  .blc_breadscrumbs {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-family: $ff-rubik;
-  }
+  
 
   .official-docs_title {
     font-family: $ff-rubik;
@@ -374,9 +313,7 @@
 }
 
 @media (max-width: 480px) {
-  .blc_breadscrumbs {
-    display: none;
-  }
+ 
 
   .official-docs_title {
     font-family: $ff-rubik;
@@ -385,7 +322,7 @@
     font-size: 28px;
     line-height: 30px;
     color: #000000;
-    margin-top: 20px;
+    padding-top: 20px;
   }
 
   .blc_documents {
@@ -395,7 +332,7 @@
   }
 
   .documents_cards {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns:  1fr 1fr;
   }
 
   .document-cards_item {
