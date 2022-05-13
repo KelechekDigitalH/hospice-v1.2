@@ -1,15 +1,9 @@
 /*******Burger******/
 
 
-<<<<<<< HEAD
-document.querySelector('.burger').addEventListener('click', function(){
-
-	document.querySelector('.burger','.menu').classList.toggle('active');
-=======
 document.querySelector('.burger').addEventListener('click', function () {
 	mainBg.classList.toggle("main-bg");
 	document.querySelector('.burger', '.menu').classList.toggle('active');
->>>>>>> 77e2c5a (slider)
 	document.querySelector('.menu').classList.toggle("open");
 });
 // END BURGER SCRIPTS
