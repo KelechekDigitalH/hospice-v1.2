@@ -1,8 +1,5 @@
 /*******Burger******/
-const mainBg = document.querySelector(".main");
-
 document.querySelector('.burger').addEventListener('click', function(){
-	mainBg.classList.toggle("main-bg");
 	document.querySelector('.burger','.menu').classList.toggle('active');
 	document.querySelector('.menu').classList.toggle("open");
  });
@@ -65,11 +62,58 @@ window.addEventListener("load", function () {
     const windowClose = document.querySelector(".off");
   
     btn.addEventListener("click", function () {
-      window.classList.add("active");
+      window.classList.toggle("active");
     });
   
     windowClose.addEventListener("click", function () {
       window.classList.remove("active");
+
+    });
+  });
+
+
+  window.addEventListener("load", function () {
+    const btn2 = document.querySelector(".individuals_link2");
+    const window2 = document.querySelector(".btn-modal2");
+    const windowClose2 = document.querySelector(".off2");
+  
+    btn2.addEventListener("click", function () {
+      window2.classList.toggle("active");
+    });
+  
+    windowClose2.addEventListener("click", function () {
+      window2.classList.remove("active");
+
+    });
+  });
+
+
+  window.addEventListener("load", function () {
+    const btn3 = document.querySelector(".individuals_link3");
+    const window3 = document.querySelector(".btn-modal3");
+    const windowClose3 = document.querySelector(".off3");
+  
+    btn3.addEventListener("click", function () {
+      window3.classList.toggle("active");
+    });
+  
+    windowClose3.addEventListener("click", function () {
+      window3.classList.remove("active");
+
+    });
+  });
+
+  window.addEventListener("load", function () {
+    const btn4 = document.querySelector(".individuals_link4");
+    const window4 = document.querySelector(".btn-modal4");
+    const windowClose4 = document.querySelector(".off4");
+  
+    btn4.addEventListener("click", function () {
+      window4.classList.toggle("active");
+    });
+  
+    windowClose4.addEventListener("click", function () {
+      window4.classList.remove("active");
 
     });
   });
