@@ -1,0 +1,461 @@
+@import "../styles/vars";
+
+.report-title {
+   @include title;
+   padding: 15px 0 30px 0;
+}
+
+.reports-wrapper{
+   display: flex;
+   gap:20px;
+   padding-bottom: 90px;
+   position: relative;
+   z-index: -1;
+}
+
+.reports{
+  
+
+   &__subtitle{
+      max-width: 190px;
+      background-color: $color-violet;
+      border-radius: 5px;
+      margin-bottom: 30px;
+   }
+
+   &__year{
+      font-family: $ff-rubik;
+      font-weight: $fw-bold;
+      font-size: 60px;
+      color: $color-white;
+      text-align: center;
+      padding: 7px 0 2px 0;
+   }
+
+   &__section-one{
+      padding-bottom: 114px;
+   }
+
+   &__second-subtitle{
+      margin-bottom: 40px;
+   }
+
+}
+
+.report-cards{
+   display: grid;
+   grid-template-columns: 190px  190px 190px  190px;
+   gap:30px 20px;
+ 
+
+   &__item {
+      position: relative;
+      height: 215px;
+      background-image: url('../assets/report/report-pdf.png');
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: cover;
+   }
+
+   &__item-inner {
+      position: absolute;
+      top: 48%;
+      left:8%;
+      border: 1px solid #ffffff;
+      border-radius: 5px;
+      width: 160.69px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+   }
+
+   &__link{
+      text-decoration: none;
+      font-family: $ff-rubik;
+      font-weight: $fw-regular;
+      font-size: 20px;
+      color: $color-black;
+      display: block;
+      margin: 22px 0 10px 0;
+      padding-left: 9.75px;
+   }
+  
+}
+
+
+.download-btn{
+   text-align: center;
+   background-color: $color-dark-violet;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 30px;
+}
+
+.annual-report{
+   text-decoration: none;
+   font-family: $ff-rubik;
+   font-weight: $fw-regular;
+   font-size: 20px;
+   color: $color-white;
+   display: block;
+   padding: 29px 0;
+   margin-left: 15.38px;
+}
+
+.pagination{
+   display: none;
+}
+
+.report-arrow{
+   position: absolute;
+   top:30%;
+   left: 36%;
+   z-index: -1;
+}
+
+.report-pink-palm{
+   position: absolute;
+   top:20.5%;
+   left: 54%;
+   z-index: -1;
+  }
+
+.report-yellow-baloon {
+   position: absolute;
+   top:89.5%;
+   left: 66.5%;
+   z-index: -1;
+}
+
+.report-green-finger{
+   position: absolute;
+   top:150%;
+   left: 62%;
+   z-index: -1;
+}
+
+
+.report-pink-baloon{
+   position: absolute;
+   top:192%;
+   left: 68%;
+   z-index: -1;
+}
+
+
+.report-violet-palm{
+   position: absolute;
+   top:255%;
+   left: 73.2%;
+   z-index: -1;
+}
+
+
+
+
+@media(max-width: 1150px){
+   .reports-wrapper{
+      padding-bottom: 60px;
+      gap:30px;
+   }
+   .report-title {
+      padding: 0px 0 30px 0;
+   }
+
+   .reports {
+
+      &__subtitle{
+         max-width: 167.8px;
+         margin-bottom: 30px;
+      }
+
+      &__year{
+         font-size: 30px;
+         padding: 4px 0 4px 0
+      }
+
+      &__section-one{
+         padding-bottom: 40.08px;
+      }
+   }
+
+   .report-cards{
+      grid-template-columns: 145px  145px 145px  145px;
+      gap:20.1px 43px;
+      
+      &__item{
+         height: 163.9px;
+      }
+
+      &__link{
+         font-size: 16px;
+         margin: 10px 0 10px 0;
+      }
+
+      &__icon{
+         width: 15.89px;
+         height: 17.88px;
+      }
+
+      &__item-inner{
+         width: 122.63px;
+      }
+   }
+   
+   .annual-report{
+      font-size: 16px;
+      margin-left: 10px;
+      padding: 26px 0;
+   }
+
+   .report-arrow{
+      width: 135.7px;
+      position: absolute;
+      top:30%;
+      left: 39%;
+      z-index: -1;
+   }
+
+   .report-pink-palm{
+      width: 61px;
+      position: absolute;
+      top:20.5%;
+      left: 61%;
+      z-index: -1;
+     }
+
+     .report-yellow-baloon {
+      width: 135.51px;
+      position: absolute;
+      top:77%;
+      left: 79.5%;
+      z-index: -1;
+   }
+
+
+   .report-green-finger{
+      width: 95.03px;
+      position: absolute;
+      top:193%;
+      left: 81%;
+      z-index: -1;
+      transform: rotate(90deg);
+   }
+
+   .report-pink-baloon{
+      width: 145.16px;
+      position: absolute;
+      top:137%;
+      left: 80%;
+      z-index: -1;
+      transform: rotate(10deg);
+   }
+
+   .report-violet-palm{
+      display: none;
+   }
+}
+
+
+@media(max-width:999px){
+   .report-title {
+      font-size: 36px;
+      padding: 0px 0 19px 0;
+   }
+
+   .reports{
+      &__subtitle{
+         max-width: 160px;
+         margin-bottom: 20px;
+      }
+
+      &__year{
+         padding: 4px 0 6px 0;
+      }
+
+      
+      &__section-one{
+         padding-bottom: 33px;
+      }
+   }
+
+   .report-cards{
+      grid-template-columns: 153px  153px 153px  153px;
+      gap:20px 40px;
+
+      &__item{
+         height: 174px;
+      }
+
+      &__icon{
+         width: 16.77px;
+         height: 18.98px;
+      }
+
+      &__item-inner{
+         width: 129.39px;
+      }
+
+      &__link{
+         margin: 14px 0 13px 0;
+         padding-left: 6.37px;
+      }
+   }
+
+   .download-btn {
+      margin-bottom: 18px;
+   }
+
+   .report-arrow{
+      position: absolute;
+      top:27%;
+      left: 36%;
+   }
+
+   .report-pink-palm{
+      top:27%;
+      left: 70%;
+      z-index: -1;
+     }
+
+     .report-yellow-baloon{
+        display: none;
+     } 
+     
+     .report-green-finger{
+        display: none;
+     }
+     .report-pink-baloon{
+      display: none;
+     }
+
+}
+
+
+@media(max-width:767px){
+   .report-title {
+      font-size: 26px;
+      padding: 15px 0 23px 0;
+   }
+
+   .reports-wrapper{
+      padding-bottom: 31px;
+   }
+
+   .reports{
+      &__subtitle{
+         max-width: 112px;
+      }
+
+      &__year{
+         font-size: 24px;
+      }
+      
+      &__section-one{
+         padding-bottom: 27px;
+      }
+   }
+
+   .report-cards{
+      grid-template-columns: 140px  140px 140px;
+      gap:20px 15px;
+
+
+      &__item{
+         height: 160px;
+      }
+
+
+      &__link{
+         font-size: 16px;
+         margin: 10px 0 10px 0;
+      }
+
+      &__icon{
+         width: 15.5px;
+         height: 18px;
+      }
+
+      &__item-inner{
+         width: 118px;
+      }
+
+      &__item:nth-child(7),
+      &__item:nth-child(8),
+      &__item:nth-child(9){
+         display: none;
+      }
+
+      &__item-second-section{
+         display: none;
+      }
+   }
+
+   .download-btn {
+      margin-bottom: 21px;
+   }
+
+
+   .annual-report{
+      font-size: 14px;
+      margin-left: 14px;
+      padding: 11px 0;
+   }
+
+
+    .report-pink-baloon{
+       display: none;
+    }
+
+    .report-arrow{
+       display: none;
+    }
+
+    .report-pink-palm{
+      position: absolute;
+      top:13%;
+      left: 43%;
+     }
+
+
+     .pagination{
+        display: block;
+        margin-bottom: 40px;
+
+         &__list{
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+             max-width: 232px;
+             margin: 0 auto;
+         }
+
+         &__item{
+            font-family: $ff-rubik;
+            font-weight: $fw-medium;
+            border: 1px solid $color-pale-grey;
+            border-radius: 4px;
+            padding: 5px 10.5px;
+         }
+
+         &__item +&__item{
+            margin-left: 8px;
+         }
+
+
+         &__item-active{
+            color: $color-dark-violet;
+            border: 1px solid $color-dark-violet;
+         }
+     }
+
+     .disabled{
+        background-color: $color-light-grey;
+        color: $color-light-grey;
+     }
+}

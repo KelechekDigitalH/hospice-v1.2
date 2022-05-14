@@ -1,26 +1,11 @@
 @import "./vars";
 
 
-
-
-.breadcrumbs-donation {
-  margin-top: 22px;
-  
-    .breadcrumbs-donation__item-link {
-      font-family: $ff-rubik;
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 17px;
-      color: $color-dark-grey;
-      text-decoration: none;
-    }
-  }
   .elements-img {
     position: absolute;
     z-index: -1;
     margin-left: 1242px;
-    padding-top: 8px;
+    margin-top: -18px;
   }
   
 
@@ -31,17 +16,19 @@
       @include subtitle;
       text-align: center;
       line-height: 42px;
-      margin-top: 39px;
+      margin-top: 14px;
       
     }
-    #title480 {
+    #title-mobile {
       display: none;
     }
   }
 
   .blc-bank {
+    position: relative;
       margin-bottom: 90px;
       margin-left: 28px;
+      z-index: -1;
 
       &__block{
           max-width: 100%;
@@ -138,6 +125,8 @@
   }
 
   .blc-rectangle {
+    position: relative;
+    z-index: -1;
     width: 1240px;
     height: 381px;
     background-color: $color-yellow-light;
@@ -166,7 +155,7 @@
         column-gap: 20px;
         justify-content: center;
         
-        .title-480px {
+        .title-mobile {
             display: none;
         } 
         &__elc-purse {
@@ -196,7 +185,7 @@
   @media (max-width: 1000px) {
     .breadcrumbs-donation {
         margin-left: 0px;
-        margin-top: 18px;
+        padding-top: 18px;
       }
     .elements-img {
         display: none;}
@@ -211,7 +200,7 @@
             margin-bottom: -11px;
 
             }
-            #title480 {
+            #title-mobile {
               display: none;
             }
           }
@@ -308,7 +297,7 @@
             .card-purse {
                 column-gap: 30px;
                 
-                .title-480px {
+                .title-mobile {
                     display: none;
                 } 
                 &__elc-purse {
@@ -348,7 +337,7 @@
       text-align: left;
       margin-left: 3px;
       font-size: 14px;
-      margin-top: 20px;
+      padding-top: 20px;
     }
   .elements-img {
       display: none;}
@@ -365,7 +354,7 @@
         margin-left: 3px;
         margin-bottom: -1px;
           }
-          #title480 {
+          #title-mobile {
             display: none;
           }
         }
@@ -454,7 +443,7 @@
               column-gap: 10px;
               margin-left: 5px;
               
-              .title-480px {
+              .title-mobile {
                   display: none;
               } 
 
@@ -504,12 +493,12 @@
       &__title {
         display: none;
           }
-          #title480 {
+          #title-mobile {
             display: block;
             @include texts;
             font-size: 26px;
             font-weight: $fw-bold;
-            margin-top: 20px;
+            padding-top: 20px;
             
           } 
         }
@@ -637,7 +626,7 @@
           margin-left: -15px;
           margin-top: 29px;
               
-              .title-480px {
+              .title-mobile {
                   display: block;
                   font-family: $ff-rubik;
                   font-style: normal;
