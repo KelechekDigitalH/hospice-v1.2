@@ -25,7 +25,7 @@
     // blc-programs-toggle - SECTION
 .blc-programs-toggle {
     background-color: $color-blue;
-    padding: 36px 0 63px;
+    padding: 36px 0 403px 63px;
     margin: 0 auto;
 
     &__inner {
@@ -276,7 +276,7 @@
         height: 571px;
         margin-top: 33px;
         line-height: 28px;
-        margin-bottom: -23px;
+        margin-bottom: 67px;
         .blc-info-title {
            .blc-info-subtitleone {
             @include litletext;
@@ -530,7 +530,7 @@
     .blc-programs-toggle {
         width: 480px;
         height: 580px;
-        padding: 36px 0 63px;
+        
         margin: 0 auto;
     
         &__inner {
