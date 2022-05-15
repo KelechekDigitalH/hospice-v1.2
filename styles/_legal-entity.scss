@@ -13,7 +13,7 @@
         }
             .blc-sub-title {
                 @include litletext;
-                width: 1240px;
+                width: 100%;
                 line-height: 28px;
                 margin-left: 2px;
 
@@ -39,7 +39,7 @@
         }
 
         &__all-accordions {
-            width: 1240px;
+            width: 100%;
             height: 126px;
 
             &__accordion {
@@ -158,7 +158,7 @@
 
 @media (max-width: 1000px) {
     .blc-entity {
-        width: 970px;
+        width: 100%;
         height: 155px;
         margin-bottom: 40px;
         margin-left: 0px;
@@ -171,7 +171,7 @@
                 .blc-sub-title {
                     @include litletext;
                     font-size: 20px;
-                    width: 970px;
+                   width: 100%;
                     line-height: 30px;
                     margin-left: 0px;
                     letter-spacing: 0.1px;
@@ -184,7 +184,7 @@
         // blc-programs-toggle - SECTION
     .blc-programs-toggle {
         
-        width: 1000px;
+        width: 100%;
         height: 567px;
         background-color: $color-blue;
         padding: 36px 0 63px;
@@ -204,7 +204,7 @@
             }
     
             &__all-accordions {
-                width: 970px;
+                width: 100%;
                 height: 462px;
     
                 &__accordion {
@@ -272,7 +272,7 @@
     .blc-more-info {
         position: relative;
         z-index: -1;
-        width: 996px;
+       width: 100%;
         height: 571px;
         margin-top: 33px;
         line-height: 28px;
@@ -294,9 +294,8 @@
             position: absolute;
             width: 107.44px;
             height: 209.93px;
-            left: 784px;
-            right: 0.16%;
-            top: 146px;
+            left: 78.5%;
+            top: 26.5%;
             z-index: -1;
            }
            
@@ -306,16 +305,15 @@
             height: 350px;
             left: 250px;
             top: 167px;
-            z-index: -1;
+            
            }
            
            .bg-baloon-pink{
             position: absolute;
            width: 115px;
            height: 221px;
-            left: 103px;
-            right: 10.3%;
-            top: 329px;
+           left: 10.3%;
+            top: 58.6%;
             z-index: -1;
            }
            
@@ -323,9 +321,8 @@
             position: absolute;
             width: 92px;
             height: 93px;
-            left: 786px;
-            right: 4.53%;
-            top: 393px;
+            left: 78.6%;
+            top: 70%;
             z-index: -1;
            }
         }
@@ -336,7 +333,7 @@
 
 @media (max-width: 768px) {
     .blc-entity {
-        width: 732px;
+        width: 100%;
         margin-bottom: 5px;
         margin-left: 1px;
         .blc-entity-wrapper {
@@ -349,7 +346,7 @@
                 .blc-sub-title {
                     @include litletext;
                     font-size: 18px;
-                    width: 742px;
+                    width: 100%;
                     height: 79px;
                     line-height: 30px;
                     margin-left: 3px;
@@ -364,7 +361,7 @@
     
         // blc-programs-toggle - SECTION
     .blc-programs-toggle {
-        width: 768px;
+        width: 100%;
         height: 549px;
         padding: 36px 0 63px;
         margin: 0 auto;
@@ -382,7 +379,7 @@
             }
     
             &__all-accordions {
-                width: 732px;
+                width: 100%;
                 height: 151px;
                 margin-left: 3px;
     
@@ -452,7 +449,7 @@
     .blc-more-info {
         position: relative;
         z-index: -1;
-        width: 732px;
+        width: 100%;
         height: 249px;
         font-size: 18px;
         margin-top: 29px;
@@ -499,7 +496,7 @@
 
 @media (max-width: 480px) {
     .blc-entity {
-        width: 450px;
+        width: 100%;
         height: 167px;
         margin-bottom: 35px;
         margin-left: 0px;
@@ -514,7 +511,7 @@
                     @include litletext;
                     font-size: 16px;
                     line-height: 24px;
-                    width: 450px;
+                   width: 100%;
                     height: 117px;
                     margin-left: 0px;
                     letter-spacing: 0.1px;
@@ -528,7 +525,7 @@
     
         // blc-programs-toggle - SECTION
     .blc-programs-toggle {
-        width: 480px;
+        width: 100%;
         height: 580px;
         
         margin: 0 auto;
@@ -546,7 +543,7 @@
             }
     
             &__all-accordions {
-                width: 450px;
+                width: 100%;
                 height: 193px;
                 margin-left: 0px;
     
@@ -617,7 +614,7 @@
     .blc-more-info {
         position: relative;
         z-index: -1;
-        width: 450px;
+        width: 100%;
         font-size: 16px;
         line-height: 24px;
         margin-top: 19px;
