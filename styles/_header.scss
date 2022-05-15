@@ -166,7 +166,7 @@ header::before {
        padding: 160px 0 0 50px;
        position: fixed;
        overflow: hidden;
-       right: -350px;
+       right: -390px;
        top:0;
        transition: 0.5s; 
        flex-direction: column;
@@ -175,13 +175,13 @@ header::before {
        z-index: 1;
     
        &__link{
-          color: $color-violet;
-
-          &:hover {
-             color: $color-coral;
-             transition: all 3s ease 3s;
-          }
+          color: $color-violet; 
        }
+
+       .currant-active {
+         color: $color-coral;
+      }
+       
 
        &__item+&__item {
          margin-left: unset;
@@ -197,7 +197,11 @@ header::before {
 
        &__item-about{
           text-align: justify;
+
        }
+
+       
+
    }
 
    .nav{
@@ -398,4 +402,11 @@ header::before {
      }
 
   
+}
+
+
+@media(max-width:479px){
+   .burger{
+      margin: 0 0px 0 28px;
+   }
 }
