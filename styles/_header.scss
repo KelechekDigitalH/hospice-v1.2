@@ -170,13 +170,13 @@ header::before {
        z-index: 1;
     
        &__link{
-          color: $color-violet;
-
-          &:hover {
-             color: $color-coral;
-             transition: all 3s ease 3s;
-          }
+          color: $color-violet; 
        }
+
+       .currant-active {
+         color: $color-coral;
+      }
+       
 
        &__item+&__item {
          margin-left: unset;
@@ -192,7 +192,11 @@ header::before {
 
        &__item-about{
           text-align: justify;
+
        }
+
+       
+
    }
 
    .nav{
