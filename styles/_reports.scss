@@ -106,9 +106,9 @@
    margin-left: 15.38px;
 }
 
-.pagination{
-   display: none;
-}
+// .pagination{
+//    display: none;
+// }
 
 .report-arrow{
    position: absolute;
@@ -384,15 +384,15 @@
          width: 118px;
       }
 
-      &__item:nth-child(7),
-      &__item:nth-child(8),
-      &__item:nth-child(9){
-         display: none;
-      }
+      // &__item:nth-child(7),
+      // &__item:nth-child(8),
+      // &__item:nth-child(9){
+      //    display: none;
+      // }
 
-      &__item-second-section{
-         display: none;
-      }
+      // &__item-second-section{
+      //    display: none;
+      // }
    }
 
    .download-btn {
@@ -422,40 +422,40 @@
      }
 
 
-     .pagination{
-        display: block;
-        margin-bottom: 40px;
+//     .pagination{
+//         display: block;
+//         margin-bottom: 40px;
 
-         &__list{
-            list-style: none;
-            padding-left: 0;
-            display: flex;
-            align-items: center;
-             max-width: 232px;
-             margin: 0 auto;
-         }
+//          &__list{
+//             list-style: none;
+//             padding-left: 0;
+//             display: flex;
+//             align-items: center;
+//              max-width: 232px;
+//              margin: 0 auto;
+//          }
 
-         &__item{
-            font-family: $ff-rubik;
-            font-weight: $fw-medium;
-            border: 1px solid $color-pale-grey;
-            border-radius: 4px;
-            padding: 5px 10.5px;
-         }
+//          &__item{
+//             font-family: $ff-rubik;
+//             font-weight: $fw-medium;
+//             border: 1px solid $color-pale-grey;
+//             border-radius: 4px;
+//             padding: 5px 10.5p x;
+//          }
 
-         &__item +&__item{
-            margin-left: 8px;
-         }
+//          &__item +&__item{
+//             margin-left: 8px;
+//          }
 
 
-         &__item-active{
-            color: $color-dark-violet;
-            border: 1px solid $color-dark-violet;
-         }
-     }
+//          &__item-active{
+//             color: $color-dark-violet;
+//             border: 1px solid $color-dark-violet;
+//          }
+//      }
 
-     .disabled{
-        background-color: $color-light-grey;
-        color: $color-light-grey;
-     }
+//      .disabled{
+//         background-color: $color-light-grey;
+//         color: $color-light-grey;
+//      }
 }
