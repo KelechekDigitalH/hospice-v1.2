@@ -63,7 +63,8 @@
         font-size: 16px;
         font-weight: $fw-bold;
         letter-spacing: 2px;
-        padding: 10px 77px;
+        padding: 10px 36px;
+        text-transform: uppercase;
     }
 
     &_link2 {
@@ -78,6 +79,7 @@
         font-weight: $fw-bold;
         letter-spacing: 2px;
         padding: 10px 77px;
+        text-transform: uppercase;
     }
 
     &_link3 {
@@ -106,6 +108,7 @@
         font-weight: $fw-bold;
         letter-spacing: 2px;
         padding: 10px 38px;
+        text-transform: uppercase;
     }
     // &_link:hover {
     //     background: #9e85c9;
@@ -205,6 +208,10 @@
 
 .phone-number {
     margin-left: 4px;
+
+    &-blc {
+        margin-left: 5px;
+    }
 }
 
 .btn-modal.active {
@@ -763,6 +770,7 @@
             text-transform: uppercase;
             padding: 10px 53px;
             margin-bottom: 40px;
+            padding: 10px 36px;
         }
 
         &_link2 {
