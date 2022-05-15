@@ -17,7 +17,7 @@
         background-size: cover;
         position: absolute;
         right: 55px;
-        top: calc(51% - 16.8rem);
+        top: calc(58% - 16.8rem);
     }
 
 
@@ -74,7 +74,7 @@
 .footer__inner {
     display: flex;
     justify-content: space-between;
-    padding: 65px 0;
+    padding: 65px 0 0 0;
     transform: translateY(-30px);
 
     &-rightside {
@@ -190,7 +190,7 @@
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
     .contacts {
         max-width: 1000px;
         margin: 0 auto;
@@ -216,7 +216,7 @@
             background-size: cover;
             position: absolute;
             right: 53px;
-            top: calc(69% - 17.5rem);
+            top: calc(82% - 17.5rem);
         }
 
         &__logo img {
@@ -369,7 +369,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 999px) {
 
 
     .footer-rightside {
@@ -393,7 +393,7 @@
             background-size: cover;
             position: absolute;
             right: 0px;
-            top: calc(76% - 17.6rem);
+            top: calc(95% - 17.6rem);
         }
 
         &__inner-rightside {
@@ -501,7 +501,7 @@
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .footer__inner {
         display: block;
     }
