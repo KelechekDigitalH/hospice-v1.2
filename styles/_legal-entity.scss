@@ -2,6 +2,7 @@
 
 
 .blc-entity {
+    
     margin-bottom: 40px;
     margin-left: -2px;
     .blc-entity-wrapper {
@@ -23,6 +24,7 @@
 
     // blc-programs-toggle - SECTION
 .blc-programs-toggle {
+    
     width: 1440px;
     height: 699px;
     background-color: $color-blue;
@@ -108,7 +110,7 @@
 .blc-more-info {
     margin-top: 40px;
     line-height: 28px;
-    margin-bottom: 578px;
+    margin-bottom: 91px;
     .blc-info-title {
        .blc-info-subtitleone {
         @include litletext;
@@ -122,48 +124,39 @@
        .blc-info-subtitletree {
         @include litletext;
        }
+
+       .bg-baloon-yellow{
+        position: absolute;
+        left: 84.6%;
+        top: 1181px;
+        z-index: -1;
+       }
+       
+       .bg-legal{
+           display: block;
+           margin: 0 auto; 
+           margin-top: 60px;
+           z-index: -1;
+       }
+       
+       .bg-baloon-pink{
+        position: absolute;
+        left: 4.3%;
+        top: 1473px;
+        z-index: -1;
+       }
+       
+       .bg-finger {
+        position: absolute;
+        left: 84.8%;
+        top: 1575px;
+        z-index: -1;
+       }
     }
 }
-
-.blc-bg {
-    margin: 0 auto;
-
-    .blc-bg-img {
-        .bg-baloonone{
-            position: absolute;
-            left: 84.6%;
-            right: -6.2%;
-            top: 1181px;
-            z-index: -1;
-           }
-           
-           .bg-legal{
-            position: absolute;
-            width: 610px;
-            height: 427px;
-            left: 370px;
-            top: 1373px;
-           }
-           
-           .bg-baloon{
-            position: absolute;
-            left: 4.3%;
-            right: 80.12%;
-            top: 1473px;
-            z-index: -1;
-           }
-           
-           .bg-finger {
-            position: absolute;
-            left: 84.8%;
-            right: -1.36%;
-            top: 1576px;
-            z-index: -1;
-           }
-    }
 
     
-}
+
 
 
 @media (max-width: 1000px) {
@@ -172,12 +165,11 @@
         height: 155px;
         margin-bottom: 40px;
         margin-left: 0px;
-        margin-top: -16px;
         .blc-entity-wrapper {
             .blc-main-title {
                 @include title;
                 margin-bottom: 30px;
-                margin-top: 14px;
+                margin-top: -2px;
             }
                 .blc-sub-title {
                     @include litletext;
@@ -194,6 +186,7 @@
     
         // blc-programs-toggle - SECTION
     .blc-programs-toggle {
+        
         width: 1000px;
         height: 567px;
         background-color: $color-blue;
@@ -201,6 +194,7 @@
         margin: 0 auto;
     
         &__inner {
+           
             margin-left: 0px;
             &__title {
                 @include texts;
@@ -279,11 +273,13 @@
     }
     
     .blc-more-info {
+        position: relative;
+        z-index: -1;
         width: 996px;
         height: 571px;
         margin-top: 33px;
         line-height: 28px;
-        margin-bottom: 78px;
+        margin-bottom: -23px;
         .blc-info-title {
            .blc-info-subtitleone {
             @include litletext;
@@ -297,55 +293,47 @@
            .blc-info-subtitletree {
             @include litletext;
            }
+           .bg-baloon-yellow{
+            position: absolute;
+            width: 107.44px;
+            height: 209.93px;
+            left: 784px;
+            right: 0.16%;
+            top: 146px;
+            z-index: -1;
+           }
+           
+           .bg-legal{
+            position: absolute;
+            width: 500px;
+            height: 350px;
+            left: 250px;
+            top: 167px;
+            z-index: -1;
+           }
+           
+           .bg-baloon-pink{
+            position: absolute;
+           width: 115px;
+           height: 221px;
+            left: 103px;
+            right: 10.3%;
+            top: 329px;
+            z-index: -1;
+           }
+           
+           .bg-finger {
+            position: absolute;
+            width: 92px;
+            height: 93px;
+            left: 786px;
+            right: 4.53%;
+            top: 393px;
+            z-index: -1;
+           }
         }
     }
     
-    .blc-bg {
-        width: 970px;
-        margin-bottom: -11px;
-    
-        .blc-bg-img {
-            .bg-baloonone{
-                position: absolute;
-                width: 107.44px;
-                height: 209.93px;
-                left: 784px;
-                right: 0.16%;
-                top: 1146px;
-                z-index: -1;
-               }
-               
-               .bg-legal{
-                position: absolute;
-                width: 500px;
-                height: 350px;
-                left: 250px;
-                top: 1222px;
-               }
-               
-               .bg-baloon{
-                position: absolute;
-               width: 115px;
-               height: 221px;
-                left: 103px;
-                right: 10.3%;
-                top: 1329px;
-                z-index: -1;
-               }
-               
-               .bg-finger {
-                position: absolute;
-                width: 92px;
-                height: 93px;
-                left: 786px;
-                right: 4.53%;
-                top: 1393px;
-                z-index: -1;
-               }
-        }
-    
-        
-    }
 }
 
 
@@ -353,14 +341,13 @@
     .blc-entity {
         width: 732px;
         margin-bottom: 5px;
-        margin-left: 0px;
-        margin-top: -16px;
+        margin-left: 1px;
         .blc-entity-wrapper {
             .blc-main-title {
                 @include title;
                 font-size: 36px;
                 margin-bottom: 30px;
-                margin-top: 14px;
+                margin-top: -2px;
             }
                 .blc-sub-title {
                     @include litletext;
@@ -466,12 +453,14 @@
     }
     
     .blc-more-info {
+        position: relative;
+        z-index: -1;
         width: 732px;
         height: 249px;
         font-size: 18px;
         margin-top: 29px;
         line-height: 28px;
-        margin-bottom: 78px;
+        margin-bottom: 583px;
         font-size: 18px;
         margin-left: 3px;
         .blc-info-title {
@@ -487,37 +476,27 @@
            .blc-info-subtitletree {
             @include litletext;
            }
+           .bg-baloon-yellow{
+            display: none;
+           }
+           
+           .bg-legal{
+            width: 732px;
+            height: 492px;
+            left: 15px;
+            top: 209px;
+           }
+           
+           .bg-baloon-pink{
+            display: none;
+           }
+           
+           .bg-finger {
+            display: none;
+           }
         }
     }
     
-    .blc-bg {
-        width: 768px;
-        height: 549px;
-        margin-bottom: -42px;
-    
-        .blc-bg-img {
-            .bg-baloonone{
-                display: none;
-               }
-               
-               .bg-legal{
-                width: 732px;
-                height: 492px;
-                left: 18px;
-                top: 1207px;
-               }
-               
-               .bg-baloon{
-                display: none;
-               }
-               
-               .bg-finger {
-                display: none;
-               }
-        }
-    
-        
-    }
 }
 
 
@@ -525,9 +504,9 @@
     .blc-entity {
         width: 450px;
         height: 167px;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
         margin-left: 0px;
-        margin-top: 20px;
+        padding-top: 20px;
         .blc-entity-wrapper {
             .blc-main-title {
                 font-size: 26px;
@@ -639,11 +618,13 @@
     }
     
     .blc-more-info {
+        position: relative;
+        z-index: -1;
         width: 450px;
         font-size: 16px;
         line-height: 24px;
         margin-top: 19px;
-        margin-bottom: 78px;
+        margin-bottom: 356px;
         font-size: 18px;
         margin-left: 0px;
         .blc-info-title {
@@ -665,35 +646,26 @@
             @include litletext;
             letter-spacing: -1px;
            }
+           .bg-baloon-yellow{
+            display: none;
+           }
+           
+           .bg-legal{
+            position: absolute;
+            width: 450px;
+            height: 307px;
+            top: 198px;
+            z-index: -1;
+           }
+           
+           .bg-baloon-pink{
+            display: none;
+           }
+           
+           .bg-finger {
+            display: none;
+           }
         }
-    }
-    
-    .blc-bg {
-        width: 450px;
-        margin-bottom: -270px;
-    
-        .blc-bg-img {
-            .bg-baloonone{
-                display: none;
-               }
-               
-               .bg-legal{
-                width: 450px;
-                height: 307px;
-                left: 18px;
-                top: 1137px;
-               }
-               
-               .bg-baloon{
-                display: none;
-               }
-               
-               .bg-finger {
-                display: none;
-               }
-        }
-    
-        
     }
 }
 

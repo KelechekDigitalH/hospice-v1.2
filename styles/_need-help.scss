@@ -1,32 +1,5 @@
 @import "./vars";
 
-// BREADCRUMBS
-.breadcrumbs-need-help {
-    padding: 24px 0 33px 0;
-    position: relative;
-    z-index: -1;
-
-    &__item {
-        font-family: $ff-rubik;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
-        color: $color-dark-grey;
-    }
-
-    &__item-link {
-        text-decoration: none;
-        cursor: pointer;
-    }
-
-    &__item-currant {
-        font-weight: $fw-medium;
-    }
-}
-// END BREADCRUMBS
-
-
 //  SHAR HEED HELP
 .arrow-need-help {
     width: 106px;
@@ -95,8 +68,6 @@
                 border-radius: 5px;
 
                 letter-spacing: 2px;
-                position: relative;
-                z-index: -1;
             }
         }
     }
@@ -154,8 +125,6 @@
     background-color: $color-yellow-light;
     padding: 35px 0 63px;
     margin: 48px 0 0;
-    position: relative;
-    z-index: -1;
 
     &__inner {
 
@@ -238,7 +207,6 @@
 .important-khow-need-help {
     margin-top: 40px;
     margin-bottom: 82px;
-    z-index: -1;
     position: relative;
     top: 0;
     left: 0;
@@ -250,8 +218,8 @@
 
     &__inner {
         position: absolute;
-        top: 10%;
-        left: 60%;
+        top: 12%;
+        left: 57%;
 
         max-width: 513px;
 
@@ -369,10 +337,6 @@
 
 // MEDIA - 1000PX -----------------------------
 @media screen and (max-width: 1000.98px) {
-
-    .breadcrumbs-need-help {
-        padding: 20px 0 36px 0;
-    }
 
     .finger-need-help {
         display: none;
@@ -609,10 +573,6 @@
 
 // MEDIA - 480PX -----------------------------
 @media screen and (max-width: 480.98px) {
-
-    .breadcrumbs-need-help {
-        display: none;
-    }
 
     .request-help {
         margin-bottom: 30px;
