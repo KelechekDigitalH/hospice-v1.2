@@ -30,7 +30,7 @@ body {
 
 .title{
   @include title;  
-  margin-bottom: 38px;
+  margin-bottom: 40px;
 }
 
 .mission-wrapper{
@@ -59,10 +59,12 @@ body {
        margin-bottom: 95px;
 
       &__img{
-        max-width: 100%;
-        margin-bottom: 68px;
+        width: 820px;
+        height: 497px;
+        margin-bottom: 71px;
       }
 
+      
 
       &__list{
         list-style: none;
@@ -144,17 +146,12 @@ body {
 
    .mission-wrapper{
     gap:30px;
-    margin-bottom: unset;
+    margin-bottom: 60px;
   }
-
-//   .main-bg{
-//     background-color: rgba(22, 21, 21, 0.81);
-//     z-index: 10;
-// }
 
 
   .blc{
-    // max-width: 709px;
+    max-width: 709px;
 
     &__descr{
       font-size: 20px;
@@ -171,8 +168,8 @@ body {
 
    &__img{
      position: relative;
-    //  width: 709px;
-    //  height: 430px;
+     width: 709px;
+     height: 430px;
      margin-bottom: 25px;
      z-index: -1;
    }
@@ -239,10 +236,10 @@ body {
  
    .mission-wrapper{
      gap:0;
-     padding-bottom: 15px;
+     margin-bottom: 56px;
    }
-
-   .blc {
+   .blc{
+     max-width: 732px;
  
      &__descr-first-prg{
        padding-bottom: 6px;
@@ -259,7 +256,9 @@ body {
      margin-bottom: 23px;
  
     &__img{
-      margin-bottom: 17px;
+      width: 732px;
+      height: 456px;
+      margin-bottom: 7px;
       z-index: -1;
     }
  
@@ -305,14 +304,20 @@ body {
        z-index: -1;
     }
 
-   
  }
  
  
 @media (max-width: 767px){
+ 
+   
   
   .breadcrumbs {
      display:none;
+   }
+ 
+   .mission-wrapper{
+      max-width: 450px;
+     margin-bottom: 55px;
    }
    
    .page-title{
@@ -326,27 +331,30 @@ body {
      padding-top: 12px;
     }
  
-  .blc{
+    .blc{
     
  
      &__descr{
        font-size: 16px;
        line-height: 22px;
      }
-
      &__descr-first-prg{
        padding-bottom: 0px;
      }
     
    }
  
-
+ 
+ 
     .blc-mission {
        margin-bottom: 17px;
  
       &__img{
-        margin-bottom: 27px;
-      }
+        width: 450px;
+        height: 291px;
+        margin-bottom: 9px;
+    }
+ 
    }
  
  
@@ -366,21 +374,13 @@ body {
    width: 91px;
    height: 66px;
    position: absolute;
-   top: 130%;
-   left: 50%;
+   top: 85%;
+   left: 70%;
   }
 
   .baloon-bg{
-   display: none;
-  }
-
-  .arrow-bg{
-    display: block;
-    width: 84px;
-    position: absolute;
-    top: 83%;
-    left: 80%;
-    transform: rotate(-25deg);
+     top: 125%;
+     left: 70%;
   }
  
  }
