@@ -147,8 +147,14 @@ body {
     margin-bottom: unset;
   }
 
+  .main-bg{
+    background-color: rgba(22, 21, 21, 0.81);
+    z-index: 10;
+}
+
 
   .blc{
+    // max-width: 709px;
 
     &__descr{
       font-size: 20px;
@@ -165,6 +171,8 @@ body {
 
    &__img{
      position: relative;
+    //  width: 709px;
+    //  height: 430px;
      margin-bottom: 25px;
      z-index: -1;
    }
@@ -231,7 +239,6 @@ body {
  
    .mission-wrapper{
      gap:0;
-     padding-bottom: 15px;
    }
 
    .blc {
@@ -374,7 +381,4 @@ body {
     left: 80%;
     transform: rotate(-25deg);
   }
- 
- }
- 
-
+}
