@@ -4,8 +4,8 @@
   .elements-img {
     position: absolute;
     z-index: -1;
-    left: 86%;
-    top: 34%;
+    left: 86.7%;
+    top: 172px;
     
   }
   
@@ -42,7 +42,7 @@
         width: 43%;
         box-shadow: 6px 6px 6px $color-box;
         border-radius: 15px;
-        padding: 0px 65px 25px 0;
+        padding: 0px 37px 39px 0;
         &__main-title {
             @include litletext;
         }
@@ -206,19 +206,19 @@
               }
               
               &__img-cardone {
-                  content: url("/assets/donate/bank_logotwo.png");
+                  content: url("../assets/donate/bank_logotwo.png");
                   margin-top: 20px;
                   margin-left: 15px;
                   margin-bottom: -12px;
               }
               &__img-cardtwo {
-                content: url("/assets/donate/bank_logotree.png");
+                content: url("../assets/donate/bank_logotree.png");
                   margin-top: 20px;
                   margin-left: 15px;
               }
       
               &__img-cardtree {
-                content: url("/assets/donate/bank_logofor.png");
+                content: url("../assets/donate/bank_logofor.png");
                   margin-top: 26px;
                   margin-left: 15px;
                   margin-bottom: 4px;
@@ -294,7 +294,7 @@
                   }
 
                   .img1001 {
-                    content: url("/assets/donate/megaPay-icon-one.png");
+                    content: url("../assets/donate/megaPay-icon-one.png");
                     width: 36px;
                     height: 39px;
                   }
@@ -342,19 +342,19 @@
             }
             
             &__img-cardone {
-                content: url("/assets/donate/bank_logotwo.png");
+                content: url("../assets/donate/bank_logotwo.png");
                 margin-left: 21px;
                 max-width: 100%;
                 margin-bottom: 1px;
             }
             &__img-cardtwo {
-              content: url("/assets/donate/bank_logotree.png");
+              content: url("../assets/donate/bank_logotree.png");
               // padding: 20px 18px;
               max-width: 100%;
             }
     
             &__img-cardtree {
-              content: url("/assets/donate/bank_logofor.png");
+              content: url("../assets/donate/bank_logofor.png");
               margin-bottom: 11px;
               max-width: 100%;
                 // background-image: url(../assets/donate/Rectangle.png);
@@ -429,13 +429,13 @@
                 }
 
                 .img1000 {
-                  content: url("/assets/donate/balcnceKG-icon.png");
+                  content: url("../assets/donate/balcnceKG-icon.png");
                   width: 44px;
                   height: 38px;
                 }
 
                 .img1001 {
-                  content: url("/assets/donate/balcnceKG-icon.png");
+                  content: url("../assets/donate/balcnceKG-icon.png");
                   width: 44px;
                   height: 38px;
                 }
@@ -490,20 +490,20 @@
             }
             
             &__img-cardone {
-                content: url("/assets/donate/bank_logotwo.png");
+                content: url("../assets/donate/bank_logotwo.png");
                 width: 170px;
                 height: 46px;
                 margin-bottom: 4px;
                 margin-left: 15px;
             }
             &__img-cardtwo {
-              content: url("/assets/donate/bank_logotree.png");
+              content: url("../assets/donate/bank_logotree.png");
               width: 154.81px;
               height: 64px;
             }
     
             &__img-cardtree {
-              content: url("/assets/donate/bank_logofor.png");
+              content: url("../assets/donate/bank_logofor.png");
               width: 196px;
               height: 37px;
                 // background-image: url(../assets/donate/Rectangle.png);
@@ -591,13 +591,13 @@
                 }
 
                 .img1000 {
-                  content: url("/assets/donate/balcnceKG-icon.png");
+                  content: url("../assets/donate/balcnceKG-icon.png");
                   width: 44px;
                   height: 38px;
                 }
 
                 .img1001 {
-                  content: url("/assets/donate/balcnceKG-icon.png");
+                  content: url("../assets/donate/balcnceKG-icon.png");
                   width: 44px;
                   height: 38px;
                 }
@@ -652,19 +652,19 @@
             }
             
             &__img-cardone {
-                content: url("/assets/donate/bank_logotwo.png");
+                content: url("../assets/donate/bank_logotwo.png");
                 width: 170px;
                 height: 46px;
                 margin-bottom: 4px;
             }
             &__img-cardtwo {
-              content: url("/assets/donate/bank_logotree.png");
+              content: url("../assets/donate/bank_logotree.png");
               width: 154.81px;
               height: 64px;
             }
     
             &__img-cardtree {
-              content: url("/assets/donate/bank_logofor.png");
+              content: url("../assets/donate/bank_logofor.png");
               width: 196px;
               height: 37px;
                 // background-image: url(../assets/donate/Rectangle.png);
@@ -751,13 +751,13 @@
                 }
 
                 .img1000 {
-                  content: url("/assets/donate/balcnceKG-icon.png");
+                  content: url("../assets/donate/balcnceKG-icon.png");
                   width: 44px;
                   height: 38px;
                 }
 
                 .img1001 {
-                  content: url("/assets/donate/balcnceKG-icon.png");
+                  content: url("../assets/donate/balcnceKG-icon.png");
                   width: 44px;
                   height: 38px;
                 }
@@ -818,20 +818,20 @@
             }
             
             &__img-cardone {
-                content: url("/assets/donate/bank_logotwo.png");
+                content: url("../assets/donate/bank_logotwo.png");
                 width: 170px;
                 height: 46px;
                 margin-bottom: 4px;
             }
             &__img-cardtwo {
-              content: url("/assets/donate/bank_logotree.png");
+              content: url("../assets/donate/bank_logotree.png");
               width: 154.81px;
               height: 64px;
               margin-bottom: -7px;
             }
     
             &__img-cardtree {
-              content: url("/assets/donate/bank_logofor.png");
+              content: url("../assets/donate/bank_logofor.png");
               width: 196px;
               height: 37px;
               margin-top: 15px;
@@ -928,25 +928,25 @@
                 }
 
                 .balanc-img {
-                  content: url("/assets/donate/balcnceKG-icon.png");
+                  content: url("../assets/donate/balcnceKG-icon.png");
                 }
 
                 .m-bank {
-                  content: url("/assets/donate/M-bank-icon.png");
+                  content: url("../assets/donate/M-bank-icon.png");
                 }
 
                 .o-dengi {
-                  content: url("/assets/donate/O-dengi-icon.png"); 
+                  content: url("../assets/donate/O-dengi-icon.png"); 
                 }
 
                 .img1000 {
-                  content: url("/assets/donate/M-bank-icon.png");
+                  content: url("../assets/donate/M-bank-icon.png");
                   width: 44px;
                   height: 38px;
                 }
 
                 .img1001 {
-                  content: url("/assets/donate/O-dengi-icon480.png");
+                  content: url("../assets/donate/O-dengi-icon480.png");
                   width: 44px;
                   height: 38px;
                 }
@@ -956,4 +956,190 @@
         }
   }
 
+
+  @media (max-width: 360px)  {
+    .breadcrumbs-donation {
+      display: none;
+    }
+  .elements-img {
+      display: none;}
+
+  .donate {
+    margin-bottom: 25px;
+      &__title {
+        display: none;
+          }
+          #title-mobile {
+            display: block;
+            @include texts;
+            font-size: 24px;
+            font-weight: $fw-bold;
+            padding-top: 20px;
+            
+          } 
+        }
+
+      .blc-bank {
+          width: 100%;
+          // height: 327px;
+          margin: 0 auto;
+    
+          // &__block{
+            
+          // }
+          &__block {
+            margin-bottom: -22px;
+          }
+          &__wrapper {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+          }
+          &__card {
+            @include litletext;
+              font-size: 16px;
+              line-height: 30px;
+              padding: 4px 0 24px 15px;
+              width: 100%;
+            &__main-title {
+                display: none;
+            }
+            
+            &__img-cardone {
+                content: url("../assets/donate/bank_logotwo.png");
+                width: 170px;
+                height: 46px;
+                margin-bottom: 4px;
+            }
+            &__img-cardtwo {
+              content: url("../assets/donate/bank_logotree.png");
+              width: 154.81px;
+              height: 64px;
+              margin-bottom: -7px;
+            }
+    
+            &__img-cardtree {
+              content: url("../assets/donate/bank_logofor.png");
+              width: 196px;
+              height: 37px;
+              margin-top: 15px;
+              margin-bottom: 4px;
+                // background-image: url(../assets/donate/Rectangle.png);
+            }
+            &__content {
+              width: 90%;
+              padding: 19px 0px 0 14px;
+
+            }
+            
+           .text-kicbtwo {
+            margin-top: 13px;
+          }
+            &__text-inside {
+              margin-left: 0px;
+              margin-top: 0px;
+            }
+
+            .text-baitushum {
+              margin-top: 37px;
+            }
+
+            .text-kicb {
+              margin-top: -6px;
+            }
+    
+          }
+      }
+
+      .blc-rectangle {
+        width: 100%;
+        height: 321px;
+        background-color: $color-white;
+        box-shadow:none;
+        margin-bottom: 290px;
+          
+          .main-blc {
+            padding-top: 24px;
+            margin-bottom: 25px;
+            margin-left: 10%;
+              &__img {   
+              display: none;
+      
+              } 
+              &__main-title {
+                width: 100%;
+                height: 30px;
+                font-size: 24px;
+                line-height: 26px;
+                margin-left: -15px;
+                margin-top: 8px;
+                
+              } 
+          }
+      
+          .card-purse {
+          display: flex;
+          flex-wrap: wrap;
+          column-gap: 20px;
+          row-gap: 20px;
+          width: 350px;
+          margin-left: -10px;
+         margin-top: -37px;
+              
+              .title-mobile {
+                  display: block;
+                  font-family: $ff-rubik;
+                  font-style: normal;
+                  font-weight: $fw-regular;
+                  font-size: 10px;
+                  line-height: 15px;
+                  text-align: center;
+                  margin-top: -3px;
+              } 
+              &__elc-purse {
+                width: 134px;
+                height: 121px;
+                  &__img {
+                    width: 44.51px;
+                    height: 37.83px;
+                  margin-left: 44px;
+                  margin-top: 25px;
+                }  
+                &__title {
+                  font-weight: 600;
+                  font-size: 11px;
+                  margin-left: 33px;
+                  margin-top: 4px;
+                  
+      
+                }
+
+                .balanc-img {
+                  content: url("../assets/donate/balcnceKG-icon.png");
+                }
+
+                .m-bank {
+                  content: url("../assets/donate/M-bank-icon.png");
+                }
+
+                .o-dengi {
+                  content: url("../assets/donate/O-dengi-icon.png"); 
+                }
+
+                .img1000 {
+                  content: url("../assets/donate/M-bank-icon.png");
+                  width: 44px;
+                  height: 38px;
+                }
+
+                .img1001 {
+                  content: url("../assets/donate/O-dengi-icon480.png");
+                  width: 44px;
+                  height: 38px;
+                }
+
+              } 
+          }
+        }
+  }
   
