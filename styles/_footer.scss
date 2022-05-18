@@ -4,7 +4,7 @@
 
    background-color: $color-violet;
    margin-top: 90px;
-   padding-top: 50px;
+   padding-top: 35px;
    padding-bottom: 40px;
    position: relative;
    justify-content: center;
@@ -40,7 +40,7 @@
    }
 
    .contacts {
-      margin-right: 8px;
+      margin-right: 10px;
    }
 
    &__logo img {
@@ -166,105 +166,13 @@
 
 
 
-
-
-
-// .footer {
-
-
-
-
-   // &__social-item-facebook {
-   //       margin-left: 10.5px !important;
-   //  }
-
-
-//     &__btn {
-//         display: none;
-//     }
-
+// @media (max-width: 1150px){
 
 // }
 
 
 
-// .footer__inner {
-//     display: flex;
-//     justify-content: space-between;
-//     padding: 65px 0 0 0;
-//     transform: translateY(-30px);
-
-//     &-rightside {
-//         display: flex;
-//         transform: translateX(-17px);
-//     }
-
-
-// }
-
-// .footer {
-//  
-
-
-
-
-
-
-
-
-// .requisites__item {
-//     margin-bottom: 5px;
-//     line-height: 15px;
-// }
-
-// .contacts {
-//     margin-left: 86px;
-//     margin-right: -9px;
-// }
-
-// .info {
-//     margin-left: 25px;
-// }
-
-// .info-item {
-//     margin-bottom: 7px;
-// }
-
-// .contact-info {
-//     margin-bottom: 10px;
-
-//     transform: translateY(-15px);
-// }
-
-// .contact-phone a {
-//     display: flex;
-// }
-
-// .footer-geo,
-// .footer-gmail,
-// .footer-phone {
-//     margin-right: 13px;
-//     margin-top: 5px;
-// }
-
-// .footer-phone {
-//     margin-left: -5px;
-// }
-
-// .phone-number {
-//     margin-top: -1px;
-//     margin-left: -1px;
-// }
-
-// .footer-gmail {
-//     position: relative;
-//     top: 8px;
-//     left: 4px;
-//     margin-top: -7px;
-//     margin-left: -7px;
-// }
-
-
+/
 // @media (max-width: 1150px) {
 //     .contacts {
 //         max-width: 1000px;
