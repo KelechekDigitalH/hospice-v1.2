@@ -384,15 +384,6 @@
          width: 118px;
       }
 
-      // &__item:nth-child(7),
-      // &__item:nth-child(8),
-      // &__item:nth-child(9){
-      //    display: none;
-      // }
-
-      // &__item-second-section{
-      //    display: none;
-      // }
    }
 
    .download-btn {
@@ -421,41 +412,25 @@
       left: 43%;
      }
 
+}
 
-//     .pagination{
-//         display: block;
-//         margin-bottom: 40px;
+@media(max-width: 479px){
+   .reports-wrapper{
+      max-width: 330px;
+      margin: 0 auto;
+   }
 
-//          &__list{
-//             list-style: none;
-//             padding-left: 0;
-//             display: flex;
-//             align-items: center;
-//              max-width: 232px;
-//              margin: 0 auto;
-//          }
+   .blc{
+      margin: auto;
+   }
+   .report-cards{
+      grid-template-columns: 140px  140px;
+      gap:20px 15px;
+   }
 
-//          &__item{
-//             font-family: $ff-rubik;
-//             font-weight: $fw-medium;
-//             border: 1px solid $color-pale-grey;
-//             border-radius: 4px;
-//             padding: 5px 10.5p x;
-//          }
-
-//          &__item +&__item{
-//             margin-left: 8px;
-//          }
-
-
-//          &__item-active{
-//             color: $color-dark-violet;
-//             border: 1px solid $color-dark-violet;
-//          }
-//      }
-
-//      .disabled{
-//         background-color: $color-light-grey;
-//         color: $color-light-grey;
-//      }
+   .report-pink-palm{
+      position: absolute;
+      top:20%;
+      left: 43%;
+     }
 }
