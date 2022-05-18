@@ -13,7 +13,7 @@
         }
             .blc-sub-title {
                 @include litletext;
-                width: 1240px;
+                width: 100%;
                 line-height: 28px;
                 margin-left: 2px;
 
@@ -24,11 +24,8 @@
 
     // blc-programs-toggle - SECTION
 .blc-programs-toggle {
-    
-    width: 1440px;
-    height: 699px;
     background-color: $color-blue;
-    padding: 36px 0 63px;
+    padding: 36px 0 480px 63px;
     margin: 0 auto;
 
     &__inner {
@@ -37,13 +34,15 @@
             @include texts;
             font-weight: $fw-bold;
             margin-bottom: 29px;
-            margin-left: 25px;
+            margin-left: 39px;
             letter-spacing: -1.1px;
         }
 
         &__all-accordions {
-            width: 1240px;
+            width: 96.5%;
             height: 126px;
+            margin-left: 14px;
+            
 
             &__accordion {
                 background-color: $color-white;
@@ -110,7 +109,7 @@
 .blc-more-info {
     margin-top: 40px;
     line-height: 28px;
-    margin-bottom: 91px;
+    margin-bottom: -1px;
     .blc-info-title {
        .blc-info-subtitleone {
         @include litletext;
@@ -127,8 +126,8 @@
 
        .bg-baloon-yellow{
         position: absolute;
-        left: 84.6%;
-        top: 1181px;
+        left: 77.7%;
+        top: 1181px;    
         z-index: -1;
        }
        
@@ -141,15 +140,15 @@
        
        .bg-baloon-pink{
         position: absolute;
-        left: 4.3%;
+        left: 13.5%;
         top: 1473px;
         z-index: -1;
        }
        
        .bg-finger {
         position: absolute;
-        left: 84.8%;
-        top: 1575px;
+        left: 77.8%;
+        top: 1575px;    
         z-index: -1;
        }
     }
@@ -161,7 +160,7 @@
 
 @media (max-width: 1000px) {
     .blc-entity {
-        width: 970px;
+        width: 100%;
         height: 155px;
         margin-bottom: 40px;
         margin-left: 0px;
@@ -174,7 +173,7 @@
                 .blc-sub-title {
                     @include litletext;
                     font-size: 20px;
-                    width: 970px;
+                   width: 100%;
                     line-height: 30px;
                     margin-left: 0px;
                     letter-spacing: 0.1px;
@@ -187,7 +186,7 @@
         // blc-programs-toggle - SECTION
     .blc-programs-toggle {
         
-        width: 1000px;
+        width: 100%;
         height: 567px;
         background-color: $color-blue;
         padding: 36px 0 63px;
@@ -207,8 +206,9 @@
             }
     
             &__all-accordions {
-                width: 970px;
+                width: 100%;
                 height: 462px;
+                margin-left: 0px;
     
                 &__accordion {
                     background-color: $color-white;
@@ -275,11 +275,11 @@
     .blc-more-info {
         position: relative;
         z-index: -1;
-        width: 996px;
+       width: 100%;
         height: 571px;
         margin-top: 33px;
         line-height: 28px;
-        margin-bottom: -23px;
+        margin-bottom: 67px;
         .blc-info-title {
            .blc-info-subtitleone {
             @include litletext;
@@ -297,9 +297,8 @@
             position: absolute;
             width: 107.44px;
             height: 209.93px;
-            left: 784px;
-            right: 0.16%;
-            top: 146px;
+            left: 78.5%;
+            top: 26.5%;
             z-index: -1;
            }
            
@@ -309,16 +308,15 @@
             height: 350px;
             left: 250px;
             top: 167px;
-            z-index: -1;
+            
            }
            
            .bg-baloon-pink{
             position: absolute;
            width: 115px;
            height: 221px;
-            left: 103px;
-            right: 10.3%;
-            top: 329px;
+           left: 10.3%;
+            top: 58.6%;
             z-index: -1;
            }
            
@@ -326,9 +324,8 @@
             position: absolute;
             width: 92px;
             height: 93px;
-            left: 786px;
-            right: 4.53%;
-            top: 393px;
+            left: 78.6%;
+            top: 70%;
             z-index: -1;
            }
         }
@@ -339,7 +336,7 @@
 
 @media (max-width: 768px) {
     .blc-entity {
-        width: 732px;
+        width: 100%;
         margin-bottom: 5px;
         margin-left: 1px;
         .blc-entity-wrapper {
@@ -352,7 +349,7 @@
                 .blc-sub-title {
                     @include litletext;
                     font-size: 18px;
-                    width: 742px;
+                    width: 100%;
                     height: 79px;
                     line-height: 30px;
                     margin-left: 3px;
@@ -367,7 +364,7 @@
     
         // blc-programs-toggle - SECTION
     .blc-programs-toggle {
-        width: 768px;
+        width: 100%;
         height: 549px;
         padding: 36px 0 63px;
         margin: 0 auto;
@@ -385,7 +382,7 @@
             }
     
             &__all-accordions {
-                width: 732px;
+                width: 100%;
                 height: 151px;
                 margin-left: 3px;
     
@@ -455,12 +452,12 @@
     .blc-more-info {
         position: relative;
         z-index: -1;
-        width: 732px;
+        width: 100%;
         height: 249px;
         font-size: 18px;
         margin-top: 29px;
         line-height: 28px;
-        margin-bottom: 583px;
+        margin-bottom: 588px;
         font-size: 18px;
         margin-left: 3px;
         .blc-info-title {
@@ -481,7 +478,7 @@
            }
            
            .bg-legal{
-            width: 732px;
+            width: 100%;
             height: 492px;
             left: 15px;
             top: 209px;
@@ -502,7 +499,7 @@
 
 @media (max-width: 480px) {
     .blc-entity {
-        width: 450px;
+        width: 100%;
         height: 167px;
         margin-bottom: 35px;
         margin-left: 0px;
@@ -517,7 +514,7 @@
                     @include litletext;
                     font-size: 16px;
                     line-height: 24px;
-                    width: 450px;
+                   width: 100%;
                     height: 117px;
                     margin-left: 0px;
                     letter-spacing: 0.1px;
@@ -531,9 +528,9 @@
     
         // blc-programs-toggle - SECTION
     .blc-programs-toggle {
-        width: 480px;
+        width: 100%;
         height: 580px;
-        padding: 36px 0 63px;
+        
         margin: 0 auto;
     
         &__inner {
@@ -549,7 +546,7 @@
             }
     
             &__all-accordions {
-                width: 450px;
+                width: 100%;
                 height: 193px;
                 margin-left: 0px;
     
@@ -620,11 +617,11 @@
     .blc-more-info {
         position: relative;
         z-index: -1;
-        width: 450px;
+        width: 100%;
         font-size: 16px;
         line-height: 24px;
         margin-top: 19px;
-        margin-bottom: 356px;
+        margin-bottom: 360px;
         font-size: 18px;
         margin-left: 0px;
         .blc-info-title {
@@ -634,6 +631,7 @@
             font-size: 16px;
             margin-bottom: 28px;
             letter-spacing: -0.5px;
+            text-align: justify
            } 
            .blc-info-subtitletwo {
             @include litletext;
@@ -655,6 +653,176 @@
             width: 450px;
             height: 307px;
             top: 198px;
+            z-index: -1;
+           }
+           
+           .bg-baloon-pink{
+            display: none;
+           }
+           
+           .bg-finger {
+            display: none;
+           }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .blc-entity {
+        width: 100%;
+        height: 167px;
+        margin-bottom: 66px;
+        margin-left: 0px;
+        padding-top: 20px;
+        .blc-entity-wrapper {
+            .blc-main-title {
+                font-size: 26px;
+                margin-bottom: 24px;
+                margin-top: -5px;
+            }
+                .blc-sub-title {
+                    @include litletext;
+                    font-size: 16px;
+                    line-height: 24px;
+                   width: 100%;
+                    height: 117px;
+                    margin-left: 0px;
+                    letter-spacing: 0.1px;
+                    margin-top: -10px;
+                    text-align: justify;
+    
+                }
+            }
+        }
+    
+    
+        // blc-programs-toggle - SECTION
+    .blc-programs-toggle {
+        width: 100%;
+        height: 648px;
+        
+        margin: 0 auto;
+    
+        &__inner {
+            margin-left: 0px;
+            &__title {
+                @include texts;
+                font-weight: $fw-bold;
+                font-size: 16px;
+                margin-bottom: 23px;
+                margin-left: 0px;
+                letter-spacing: 0px;
+                margin-top: -17px;          
+            }
+    
+            &__all-accordions {
+                width: 100%;
+                height: 193px;
+                margin-left: 0px;
+    
+                &__accordion {
+                    background-color: $color-white;
+                    border-radius: 15px;
+                    box-shadow: 0px 4px 4px $color-box;
+                    margin-bottom: 26px;
+    
+    
+                    &__header {
+                        padding: 19.8px 24px;
+    
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+    
+                        position: relative;
+                        cursor: pointer;
+    
+                        font-family: Inter, sans-serif;
+                        font-size: 16px;
+                        font-weight: 700;
+                        font-style: normal;
+                        letter-spacing: 0.2px;
+                        color: $color-black;
+    
+                        &::after {
+                            content: "˃";
+                            transition: 0.3s ease-in-out;
+                            font-weight: 400;
+                        }
+                    }
+    
+                    .active {
+                        &::after {
+                            transform: rotate(90deg);
+                        }
+                    }
+    
+                    &__body {
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: max-height 0.3s ease-in-out;
+    
+                        &__description {
+                            font-family: Inter, sans-serif;
+                            font-weight: 400;
+                            font-style: normal;
+                            font-size: 16px;
+                            line-height: 120%;
+                            color: rgba(60, 60, 67, 0.85);
+                            padding: 0 24px 18px;
+                            letter-spacing: -0.1px;
+                            text-align:justify;
+
+                        }
+                    }
+                }
+    
+                &__accordion+&__accordion {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+    
+    .blc-more-info {
+        position: relative;
+        z-index: -1;
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 19px;
+        margin-bottom: 360px;
+        font-size: 18px;
+        margin-left: 0px;
+        .blc-info-title {
+           .blc-info-subtitleone {
+            @include litletext;
+            line-height: 24px;
+            font-size: 16px;
+            margin-bottom: 28px;
+            letter-spacing: -0.5px;
+            text-align: justify;
+           } 
+           .blc-info-subtitletwo {
+            @include litletext;
+            font-size: 16px;
+            font-weight: $fw-bold;
+            letter-spacing: -0.2px;
+                margin-top: -4px;
+           }
+           .blc-info-subtitletree {
+            @include litletext;
+            letter-spacing: -1px;
+           }
+           .bg-baloon-yellow{
+            display: none;
+           }
+           
+           .bg-legal{
+            position: absolute;
+            width: 350px;
+            height: 230px;
+            top: 261px;
             z-index: -1;
            }
            
