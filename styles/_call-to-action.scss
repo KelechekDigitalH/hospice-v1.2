@@ -18,7 +18,7 @@
    
  
        &__money__item{
-         font-family: 'Rubik';
+         font-family: $ff-rubik;
          font-style: normal;
          font-weight: $fw-regular;
          font-size: 36px;
@@ -32,7 +32,7 @@
  
  
        &__other-money__item{
-         font-family: 'Rubik';
+         font-family: $ff-rubik;
           font-style: normal;
           font-weight: 400;
           font-size: 30px;
@@ -42,7 +42,7 @@
  
  
        &__btn {
-         font-family: 'Rubik';
+         font-family: $ff-rubik;
          font-style: normal;
          font-weight: 700;
          font-size: 20px;
@@ -170,7 +170,7 @@
      }
     
      &__item:nth-child(3):after{
-      content: "\2026";
+      content: url('../assets/common/dots.svg');
       padding-left: 20px;
       font-size: 25px;
     }
@@ -179,8 +179,18 @@
  }
  
 
-//  @media (max-width: 479px) {
-//   .call-to-action-inner__other-money__item{
-//     margin
-//   }
-//  }
+ @media (max-width: 479px) {
+  .call-to-action-inner__money{
+           text-align: center;
+
+        &__item{
+           margin-right: 50px;
+ 
+        }
+
+        &__item:nth-child(3):after{
+          padding-left: 40px;
+       
+        }
+  }
+ }

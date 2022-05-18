@@ -382,3 +382,25 @@ body {
     transform: rotate(-25deg);
   }
 }
+
+
+@media (max-width: 479px){
+  .arrow-bg{
+    display: block;
+    width: 84px;
+    position: absolute;
+    top: 115%;
+    left: 65%;
+    transform: rotate(-25deg);
+  }
+
+  .green-bg{
+    width: 91px;
+    height: 66px;
+    position: absolute;
+    top: 182%;
+    left: 60%;
+   }
+
+
+}

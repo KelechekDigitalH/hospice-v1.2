@@ -280,3 +280,18 @@
    }
  
 }
+
+
+
+@media (max-width:479px){
+
+   .empl-card{
+      grid-template-columns: 330px;
+      gap: 99px;
+      max-width: 330px;
+   }
+   .ballon-design{
+      top:30%;
+      left:70%;
+   }
+}
