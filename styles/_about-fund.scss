@@ -38,7 +38,7 @@
 
 .drop-design{
    position: absolute;
-   top:57%;
+   top:60%;
    left: 57.5%;
    z-index: -1;
 }
@@ -168,7 +168,7 @@
    }
 
    .about-img{
-      width: 450px;
+      width: 440px;
       float: unset;
   }
 
@@ -181,4 +181,21 @@
  .green-palm{
     display: none;
  }
+}
+
+
+@media(max-width: 479px){
+   .about-img{
+      width:  320px;
+  
+  }
+
+   .yellow-palm{
+      top: 15%;
+      left: 66%
+   }
+
+   .green-palm{
+      display: none;
+   }
 }
