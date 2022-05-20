@@ -856,7 +856,7 @@
 
       @media (max-width: 513px) {
          &_item2 {
-            padding: 30px 22px 24px 46px;
+            padding: 30px 12px 30px 31px
          }
       }
 
@@ -1292,6 +1292,11 @@
    }
 
    @media (max-width: 625px) {
+      .slider__item img {
+         max-width: 100%;
+      }
+   }
+   @media (max-width: 400px) {
       .slider__item img {
          max-width: 100%;
       }
