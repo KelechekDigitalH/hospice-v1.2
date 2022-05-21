@@ -10,11 +10,12 @@
    font-size: 1.08rem;
    letter-spacing: 0.03em;
    text-decoration: none;
-   box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
-   transition: 0.2s ease box-shadow;
+   // box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+   transition: 0.3s ease ;
 
    &:hover {
-      box-shadow: 0px 0px 0px rgba(50, 108, 255, 1);
+      // box-shadow: 0px 0px 0px rgba(50, 108, 255, 1);
+   background: #5C428A;
    }
 }
 
@@ -89,11 +90,12 @@
       font-size: 1.08rem;
       letter-spacing: 0.03em;
       text-decoration: none;
-      box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
-      transition: 0.2s ease box-shadow;
+      // box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+      transition: 0.3s ease;
 
       &:hover {
-         box-shadow: 0px 0px 0px rgba(50, 108, 255, 1);
+         // box-shadow: 0px 0px 0px rgba(50, 108, 255, 1);
+         background: #5C428A;
       }
    }
 
@@ -604,13 +606,30 @@
 
          @media (max-width: 424px) {
             &_img {
-               left: 59px;
+               left: 75px;
             }
 
             &_item {
                padding: 130px 38px 27px;
             }
          }
+         @media (max-width: 395px) {
+            &_img {
+               left: 70px;
+            }
+         }
+         @media (max-width: 380px) {
+            &_img {
+               left: 62px;
+            }
+         }
+         @media (max-width: 380px) {
+            &_img {
+               left: 60px;
+            }
+         }
+
+
       }
 
       @media (max-width: 1149px) {
@@ -914,6 +933,11 @@
       &_all {
          background: #FF7272;
          padding: 10px 41px;
+         transition: 0.3 ease;
+
+         &:hover{
+            background: #ED5A5A;
+         }
       }
 
       &_news {
