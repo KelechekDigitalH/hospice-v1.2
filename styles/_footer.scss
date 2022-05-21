@@ -4,7 +4,7 @@
 
    background-color: $color-violet;
    margin-top: 90px;
-   padding-top: 50px;
+   padding-top: 35px;
    padding-bottom: 40px;
    position: relative;
    justify-content: center;
@@ -27,6 +27,7 @@
    @media (max-width: 1160px) {
       &__inner::before {
          top: calc(81% - 16.8rem);
+         right: 31px;
       }
    }
 
@@ -67,7 +68,7 @@
    }
 
    .contacts {
-      margin-right: 8px;
+      margin-right: 10px;
    }
 
    @media (max-width: 1160px) {
@@ -166,6 +167,8 @@
    }
 
    @media (max-width: 1160px) {
+      
+
       &__text {
          font-size: 12px;
       }
@@ -309,10 +312,31 @@
       .contacts {
          margin-right: 0px;
       }
+
+      &__inner::before {
+         content: '';
+         width: 93%;
+         height: 10%;
+         background-image: url("/assets/main/footer-img/beforefooter.svg");
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: absolute;
+         right: 18px;
+         top: calc(46% - 16.8rem);
+         z-index: -1;
+      }
    }
 
 
-
+   @media (max-width: 449px) {
+      &__inner::before {
+         height: 8%;
+         position: absolute;
+         right: 18px;
+         top: calc(47% - 16.8rem);
+         z-index: -1;
+      }
+   }
 
 }
 

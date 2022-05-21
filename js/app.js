@@ -1,20 +1,12 @@
 /*******Burger******/
 
-<<<<<<< HEAD
 document.querySelector('.burger').addEventListener('click', function () {
   document.querySelector('.burger', '.menu').classList.toggle('active');
   document.querySelector('.menu').classList.toggle("open");
 });
 
-=======
-
-
-document.querySelector('.burger').addEventListener('click', function() {
-	document.querySelector('.burger','.menu').classList.toggle('active');
-	document.querySelector('.menu').classList.toggle("open");
- });
->>>>>>> 0da1d3da697d31d938930601983fcef571b6920b
 // END BURGER SCRIPTS
+
 
 
 // NEED HELP PAGE SCRIPTS
@@ -41,27 +33,6 @@ accordionHeader.forEach(accordionHeader => {
 // END NEED HELP PAGE SCRIPTS
 
 
-// LEGAL-ENTITY PAGE SCRIPTS
-// const accordionEntity = document.querySelectorAll('.blc-programs-toggle__inner__all-accordions__accordion__header');
-
-// accordionEntity.forEach(accordionEntity => {
-// 	accordionEntity.addEventListener('click', event => {
-// 		const currentActiveHeader = document.querySelector('.blc-programs-toggle__inner__all-accordions__accordion__header.active');
-// 		if (currentActiveHeader && currentActiveHeader !== accordionEntity) {
-// 			currentActiveHeader.classList.toggle('active');
-// 			currentActiveHeader.nextElementSibling.style.maxHeight = 0;
-// 		}
-
-// 		accordionEntity.classList.toggle('active');
-// 		const accordionBody = accordionEntity.nextElementSibling;
-
-// 		if (accordionEntity.classList.contains('active')) {
-// 			accordionBody.style.maxHeight = accordionBody.scrollHeight + 'px';
-// 		} else {
-// 			accordionBody.style.maxHeight = 0;
-// 		}
-// 	});
-// });
 const accordionEntity = document.querySelectorAll('.blc-programs-toggle__inner__all-accordions__accordion__header');
 
 accordionEntity.forEach(accordionEntitys => {
@@ -204,6 +175,10 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
+
+
+
+
 //slider mainpage our-sponsors
 $(document).ready(function () {
   $('.blc-sponsor_slider').slick({
@@ -312,4 +287,5 @@ $(function () {
     return showPage(currentPage - 1);
   });
 });
+
 
