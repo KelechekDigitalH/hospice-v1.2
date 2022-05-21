@@ -446,7 +446,7 @@
   }
 
   @media (max-width: 698px)  {
-    .breadcrumbs-donation {
+    .breadcrumbs {
       display: none;
     }
   .elements-img {
@@ -608,7 +608,7 @@
   }
 
   @media (max-width: 510px)  {
-    .breadcrumbs-donation {
+    .breadcrumbs {
       display: none;
     }
   .elements-img {
@@ -770,7 +770,7 @@
 
 
   @media (max-width: 480px)  {
-    .breadcrumbs-donation {
+    .breadcrumbs {
       display: none;
     }
   .elements-img {
@@ -848,8 +848,8 @@
             margin-top: 13px;
           }
             &__text-inside {
-              margin-left: 199px;
-              margin-top: -27px;
+              padding-left: 0px;
+            margin-top: -27px;
             }
 
             .text-baitushum {
@@ -957,7 +957,7 @@
   }
 
 
-  @media (max-width: 360px)  {
+  @media (max-width: 469px)  {
     .breadcrumbs-donation {
       display: none;
     }
