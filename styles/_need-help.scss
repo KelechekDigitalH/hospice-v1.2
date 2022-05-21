@@ -636,7 +636,7 @@
 
     .important-khow-need-help {
         margin-top: 16px;
-        margin-bottom: -51px;
+        margin-bottom: 51px;
 
         .bg-img-need-help {
             height: 439px;
@@ -681,3 +681,53 @@
     }
 }
 // END MEDIA - 480PX ------------------------
+
+// MEDIA - 360PX -----------------------------
+@media screen and (max-width: 360.98px) {
+
+    .important-khow-need-help {
+        margin-top: 16px;
+        margin-bottom: 90px;
+
+        .bg-img-need-help {
+            height: 439px;
+            object-fit: cover;
+            object-position: 100% 0;
+        }
+
+        &__inner {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+
+            max-width: 320px;
+            text-align: justify;
+
+            &__title {
+                font-size: 26px;
+            }
+
+            &__subtitle1 {
+                line-height: 20px;
+                font-weight: 400;
+                font-size: 18px;
+
+                margin-top: 15px;
+            }
+
+            &__subtitle2 {
+                line-height: 20px;
+                font-weight: 400;
+                font-size: 18px;
+
+                margin-top: 17px;
+                margin-bottom: 30px;
+            }
+
+            &__link-btn {
+                padding: 12px 38px;
+                font-size: 14px;
+            }
+        }
+    }
+}
