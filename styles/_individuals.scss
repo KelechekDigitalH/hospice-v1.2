@@ -689,8 +689,10 @@
             font-weight: $fw-regular;
             padding: 10px 54px;
             text-transform: uppercase;
-        
-    }}
+
+        }
+    }
+
     /*768px*/
     @media (max-width: 768px) {
         .individuals {
@@ -796,7 +798,7 @@
             font-size: 20px;
             line-height: 20px;
         }
-        
+
         .descr_wrappe {
             margin: 20px 49px 19px;
             max-width: 86%;
@@ -811,5 +813,110 @@
             padding: 11px 43px;
         }
 
+    }
+
+    @media (max-width: 360px) {
+
+        .btn-modal {
+            top: 40%;
+            width: 300px;
+            min-height: 200px;
+        }
+
+        .modal {
+            &__item-blc {
+                font-size: 12px;
+            }
+        }
+
+        .off {
+            width: 12px;
+            height: 12px;
+            font-size: 8px;
+        }
+
+        .individuals_descr-blc {
+            font-size: 13px;
+            margin-left: 17px;
+            margin-bottom: -5px;
+        }
+        .btn-modal2 {
+            top: 40%;
+            width: 300px;
+            min-height: 200px;
+        }
+
+        .modal {
+            &__item-blc2 {
+                font-size: 12px;
+            }
+        }
+
+        .off2 {
+            width: 12px;
+            height: 12px;
+            font-size: 8px;
+        }
+
+        .individuals_descr-blc2 {
+            font-size: 13px;
+            margin-left: 17px;
+            margin-bottom: -5px;
+        }
+
+        // 3
+
+        .btn-modal3 {
+            top: 40%;
+            width: 300px;
+            min-height: 200px;
+        }
+
+        .modal {
+            &__item-blc3 {
+                font-size: 12px;
+            }
+        }
+
+        .off3 {
+            width: 12px;
+            height: 12px;
+            font-size: 8px;
+
+        .individuals {
+            &_descr-blc3 {
+                font-size: 13px;
+                margin-left: 17px;
+                margin-bottom: -5px;
+            }
+        }
+    }
+        ///4
+
+        .btn-modal4 {
+            top: 40%;
+            width: 300px;
+            min-height: 200px;
+        }
+
+        .modal {
+            &__item-blc4 {
+                font-size: 12px;
+            }
+        }
+
+        .off4 {
+            width: 12px;
+            height: 12px;
+            font-size: 8px;
+        }
+
+        .individuals {
+            &_descr-blc4 {
+                font-size: 13px;
+                margin-left: 17px;
+                margin-bottom: -5px;
+            }
+        }
     }
 }
