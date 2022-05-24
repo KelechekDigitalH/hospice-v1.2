@@ -357,6 +357,7 @@
 .swiper-button-next,
 .swiper-button-prev {
    top: 63%;
+   z-index: auto;
 }
 
 .swiper-button-next {
@@ -369,8 +370,12 @@
 
 .swiper-pagination-bullets.swiper-pagination-horizontal {
    bottom: -26px;
+   z-index: auto;
 }
 
+.swiper-pointer-events {
+	z-index: -1;
+}
 @media (max-width: 1362px) {
    .swiper-button-next {
       right: -35px;
@@ -446,7 +451,6 @@
 
    .slider {
       position: relative;
-
 
       &-wrapper {
          position: relative;
