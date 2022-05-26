@@ -189,23 +189,23 @@ $(document).ready(function () {
     speed: 2000,
     autoplaySpeed: 900,
     responsive: [{
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 3
+        }
       }
-    },
-    {
-      breakpoint: 550,
-      settings: {
-        slidesToShow: 2
-      }
-    },
-    {
-      breakpoint: 400,
-      settings: {
-        slidesToShow: 3
-      }
-    }
     ]
   });
 });
@@ -240,9 +240,9 @@ function getPageList(totalPages, page, maxLength) {
 
 $(function () {
   var numberOfItems = $(".list-container .vid-list").length;
-  var limitPerPage = 8;  //How many vid-list items visible per a page
+  var limitPerPage = 8; //How many vid-list items visible per a page
   var totalPages = Math.ceil(numberOfItems / limitPerPage);
-  var paginationSize = 5;  // How many page elements visible in the pagination
+  var paginationSize = 5; // How many page elements visible in the pagination
   var currentPage;
 
 
@@ -269,8 +269,12 @@ $(function () {
 
 
   $(".paginationn").append(
-    $("<li>").addClass("page-item").addClass("previous-page").append($("<a>").addClass("page-link").attr({ href: "javascript:void(0)" }).text("Prev")),
-    $("<li>").addClass("page-item").addClass("next-page").append($("<a>").addClass("page-link").attr({ href: "javascript:void(0)" }).text("Next"))
+    $("<li>").addClass("page-item").addClass("previous-page").append($("<a>").addClass("page-link").attr({
+      href: "javascript:void(0)"
+    }).text("Prev")),
+    $("<li>").addClass("page-item").addClass("next-page").append($("<a>").addClass("page-link").attr({
+      href: "javascript:void(0)"
+    }).text("Next"))
   );
 
   $(".list-container").show();
@@ -289,3 +293,63 @@ $(function () {
 });
 
 
+
+///contact form  mainpage
+const email = document.querySelector("#email");
+const icon1 = document.querySelector(".icon1");
+const icon2 = document.querySelector(".icon2");
+const error = document.querySelector(".error-text");
+let regExp = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+
+function check() {
+  if (email.value.match(regExp)) {
+    email.style.borderColor = "#27ae60";
+    email.style.background = "#eafaf1";
+    icon1.style.display = "none";
+    icon2.style.display = "block";
+    error.style.display = "none";
+  } else {
+    email.style.borderColor = "#e74c3c";
+    email.style.background = "#fceae9";
+    icon1.style.display = "block";
+    icon2.style.display = "none";
+    error.style.display = "block";
+  }
+  if (email.value == "") {
+    email.style.borderColor = "lightgrey";
+    email.style.background = "#fff";
+    icon1.style.display = "none";
+    icon2.style.display = "none";
+    error.style.display = "none";
+  }
+}
+
+
+///main page filter
+const filterItem = document.querySelector(".blc-news_control");
+const filterImg = document.querySelectorAll(".list-container .vid-list");
+
+window.onload = ()=>{ //after window loaded
+  filterItem.onclick = (selectedItem)=>{ //if user click on filterItem div
+    if(selectedItem.target.classList.contains("itemz")){ //if user selected item has .item class
+      filterItem.querySelector(".activez").classList.remove("activez"); //remove the active class which is in first item
+      selectedItem.target.classList.add("activez"); //add that active class on user selected item
+      let filterName = selectedItem.target.getAttribute("data-name"); //getting data-name value of user selected item and store in a filtername variable
+      filterImg.forEach((image) => {
+        let filterImges = image.getAttribute("data-name"); //getting image data-name value
+        //if user selected item data-name value is equal to images data-name value
+        //or user selected item data-name value is equal to "all"
+        if((filterImges == filterName) || (filterName == "all")){
+          image.classList.remove("hide"); //first remove the hide class from the image
+          image.classList.add("show"); //add show class in image
+        }else{
+          image.classList.add("hide"); //add hide class in image
+          image.classList.remove("show"); //remove show class from the image
+        }
+      });
+    }
+  };
+  for (let i = 0; i < filterImg.length; i++) {
+    filterImg[i].setAttribute("onclick", "preview(this)"); //adding onclick attribute in all available images
+  }
+};
