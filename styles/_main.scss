@@ -19,6 +19,8 @@
    }
 }
 
+
+
 .blc-topscr {
    min-height: 825px;
    padding: 93px 0 119px 0;
@@ -117,17 +119,19 @@
 
    .images {
       position: relative;
-
+      display: block;
       &_img {
          position: absolute;
          top: -336px;
          right: 20px;
+        
       }
 
       &_bgimg {
          position: absolute;
          top: -488px;
          right: -100px;
+         display: block;
       }
 
       &_finger1 {
@@ -144,7 +148,9 @@
 
       @media (max-width: 1150px) {
          &_img {
-            width: 537px;
+           max-width: 537px;
+           width: 100%;
+           
          }
 
          &_bgimg {
