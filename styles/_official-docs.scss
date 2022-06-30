@@ -257,3 +257,12 @@
     display: none;
   }
 }
+
+@media (max-width: 390px) {
+  .documents_cards {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    width: 330px;
+    gap: 15px;
+  }
+}
