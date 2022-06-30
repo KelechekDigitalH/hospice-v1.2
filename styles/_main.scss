@@ -19,6 +19,8 @@
    }
 }
 
+
+
 .blc-topscr {
    min-height: 825px;
    padding: 93px 0 119px 0;
@@ -117,7 +119,7 @@
 
    .images {
       position: relative;
-
+      display: block;
       &_img {
          position: absolute;
          top: -336px;
@@ -130,6 +132,7 @@
          position: absolute;
          top: -488px;
          right: -100px;
+         display: block;
       }
 
       &_finger1 {
@@ -374,8 +377,9 @@
 }
 
 .swiper-pointer-events {
-	z-index: -1;
+   z-index: -1;
 }
+
 @media (max-width: 1362px) {
    .swiper-button-next {
       right: -35px;
@@ -447,6 +451,7 @@
 
    &__inner {
       position: relative;
+      z-index: 1 ; 
    }
 
    .slider {
@@ -931,6 +936,43 @@
 }
 
 
+
+.blc-news_control span.activez,
+.blc-news_control span:hover {
+   color: #fff;
+   background: #FF7272;
+   cursor: pointer;
+}
+
+.list-container .vid-list img {
+   width: 100%;
+   vertical-align: middle;
+   transition: all 0.3s ease;
+}
+
+.list-container .vid-list:hover img {
+   transform: scale(1.1);
+}
+
+.list-container .vid-list.hide {
+   display: none;
+}
+
+.list-container .vid-list.show {
+   animation: animate 0.4s ease;
+}
+
+@keyframes animate {
+   0% {
+      transform: scale(0.5);
+   }
+
+   100% {
+      transform: scale(1);
+   }
+}
+
+
 .blc-news {
    margin-top: 116px;
 
@@ -952,13 +994,7 @@
       gap: 30px;
 
       &_all {
-         background: #FF7272;
          padding: 10px 41px;
-         transition: 0.3 ease;
-
-         &:hover {
-            background: #ED5A5A;
-         }
       }
 
       &_news {
@@ -1520,7 +1556,6 @@
 
       &_right {
          padding: 4px 5px 5px 41px;
-         // padding: 25px 40px;
 
          .field {
             width: 100%;
@@ -1530,15 +1565,69 @@
             font-family: $ff-rubik;
             font-size: 14px;
             margin-bottom: 29px;
-            opacity: 0.5;
-            border: 2px solid #000000;
+            border: 2px solid rgba(128, 128, 128, 1);
             border-radius: 5px;
             transition: .3s;
 
             &:hover {
-               background-color: rgba(0, 0, 0, 0.1);
+               background-color: rgba(242, 242, 242, 1);
             }
 
+         }
+
+         .fields {
+            display: flex;
+            position: relative;
+
+            .icons {
+               position: absolute;
+               right: 15px;
+               top: 50%;
+               transform: translateY(-111%);
+
+               span {
+                  height: 25px;
+                  width: 25px;
+                  border: 2px solid;
+                  border-radius: 50%;
+                  line-height: 25px;
+                  display: none;
+               }
+
+               span.icon1 {
+                  color: #e74c3c;
+                  border-color: #e74c3c;
+               }
+
+               span.icon2 {
+                  color: #27ae60;
+                  border-color: #27ae60;
+               }
+
+            }
+         }
+
+         .error-text {
+            position: relative;
+            margin: -20px 0 13px 0;
+            background: #e74c3c;
+            color: #fceae8;
+            font-size: 14px;
+            padding: 8px;
+            border-radius: 5px;
+            user-select: none;
+            display: none;
+         }
+
+         .error-text:before {
+            position: absolute;
+            content: '';
+            height: 15px;
+            width: 15px;
+            background: #e74c3c;
+            right: 20px;
+            top: -7px;
+            transform: rotate(45deg);
          }
 
          textarea {
@@ -1562,6 +1651,9 @@
             border: 2px solid rgba(0, 0, 0, 0.47);
             background-color: #fff;
          }
+
+
+
       }
 
       @media (max-width: 1241px) {

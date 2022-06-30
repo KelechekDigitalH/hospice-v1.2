@@ -16,6 +16,7 @@
    <link rel="stylesheet" href="libs/slick/slick.css">
    <link rel="stylesheet" href="css/styles.min.css">
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
 <body>
@@ -264,13 +265,13 @@
          </div>
 
          <div class="blc-news_control">
-            <a class="main_btn blc-news_control_all" href="">все новости</a>
-            <a class="main_btn blc-news_control_news" href="">новости хосписа</a>
-            <a class="main_btn blc-news_control_about" href="">СМИ о нас</a>
+            <span class="itemz activez  main_btn blc-news_control_all" data-name="all">все новости</span>
+            <span class="itemz  main_btn blc-news_control_news" data-name="news_hospice">новости хосписа</span>
+            <span class="itemz main_btn blc-news_control_about" data-name="smi_our">СМИ о нас</span>
          </div>
 
          <div class="list-container" style="display: none">
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href="#"><img src="./assets/main/img/newsimg1.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -280,7 +281,7 @@
                </div>
             </div>
 
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href="cartoon.html"><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -290,7 +291,7 @@
                </div>
             </div>
 
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg3.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -299,7 +300,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg4.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -308,7 +309,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg1.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -317,7 +318,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -326,7 +327,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg3.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -335,7 +336,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg4.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -346,7 +347,7 @@
             </div>
 
 
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href="#"><img src="./assets/main/img/newsimg4.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -356,7 +357,7 @@
                </div>
             </div>
 
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href="cartoon.html"><img src="./assets/main/img/newsimg3.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -366,7 +367,7 @@
                </div>
             </div>
 
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -375,7 +376,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg1.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -384,7 +385,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg4.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -393,7 +394,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -402,7 +403,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg3.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -411,7 +412,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -420,7 +421,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -429,7 +430,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -438,7 +439,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -447,7 +448,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -456,7 +457,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -465,7 +466,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -474,7 +475,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -483,7 +484,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -492,7 +493,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -501,7 +502,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -510,7 +511,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -519,7 +520,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -528,7 +529,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -537,7 +538,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -546,7 +547,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -555,7 +556,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -564,7 +565,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -573,7 +574,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -582,7 +583,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -591,7 +592,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -600,7 +601,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -609,7 +610,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -618,7 +619,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -627,7 +628,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -636,7 +637,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -645,7 +646,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -654,7 +655,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -663,7 +664,16 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
+               <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
+               <div class="flex-div">
+                  <div class="vid-info">
+                     <a href="">News Title Lorem Ipsum Dolor Sit Amet </a>
+                     <p>14 декабря 2021</p>
+                  </div>
+               </div>
+            </div> 
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -672,7 +682,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="news_hospice">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -681,16 +691,7 @@
                   </div>
                </div>
             </div>
-            <div class="vid-list">
-               <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
-               <div class="flex-div">
-                  <div class="vid-info">
-                     <a href="">News Title Lorem Ipsum Dolor Sit Amet </a>
-                     <p>14 декабря 2021</p>
-                  </div>
-               </div>
-            </div>
-            <div class="vid-list">
+            <div class="vid-list" data-name="smi_our">
                <a class="hover" href=""><img src="./assets/main/img/newsimg2.svg" class="thumbnail"></a>
                <div class="flex-div">
                   <div class="vid-info">
@@ -771,8 +772,19 @@
             </div>
             <div class="contact-box_right">
                <input type="text" class="field" placeholder="ФИО">
-               <input type="text" class="field" placeholder="Email">
-               <textarea placeholder="Сообщение" class="field"></textarea>
+
+               <div class="fields">
+                  <input onkeyup="check()" class="field" id="email" type="text" placeholder="Email" pattern=".+@globex\.com" 
+                     required>
+                  <div class="icons">
+                     <span class="icon1 fas fa-exclamation"></span>
+                     <span class="icon2 fas fa-check"></span>
+                  </div>
+               </div>
+               <div class="error-text">
+                  Пожалуйста, введите действующий адрес электронной почты
+               </div>
+               <textarea placeholder="Сообщение" class="field" required></textarea>
                <button class="main_btn btn">отправить</button>
             </div>
          </div>
